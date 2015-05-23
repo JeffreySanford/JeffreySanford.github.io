@@ -1,0 +1,32 @@
+# Site settings
+title: "Collection of Random Thoughts"
+email: jeffreysanford@gmail.com
+description: "A blog for different development ideas, technologies and principle procedures."
+baseurl: ""
+url: "http://mctdev.us/collections"
+title_description: "A blog for different development ideas, technologies and principle procedures."
+title_image: "/assets/images/chinese-symbol-logic.png"
+google_analytics: "UA-61985153-2"
+disqus_account: jeffrey_sanford
+github_repository: https://github.com/JeffreySanford/collections-blog
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: jeffrey_sanford
+github_username:  JeffreySanford
+linkedin_link: https://www.linkedin.com/in/sanfordjeffrey/
+google_plus_link: http://mctdev.us/
+stackoverflow_link: http://stackoverflow.com/users/4789976/jeffrey-sanford/
+
+# Footer
+footer_left: '"Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/jeffrey_sanford\">Jeffrey Sanford</a>"'
+footer_right: '"Based on the brilliant work of Jacob Tomlinson at <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+ on <a href="https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"'
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
