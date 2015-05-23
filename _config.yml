@@ -3,12 +3,12 @@ title: "Collection of Random Thoughts"
 email: jeffreysanford@gmail.com
 description: "A blog for different development ideas, technologies and principle procedures."
 baseurl: ""
-url: "http://mctdev.us/collections"
+url: "http://jeffreysanford.github.io"
 title_description: "A blog for different development ideas, technologies and principle procedures."
 title_image: "/assets/images/chinese-symbol-logic.png"
 google_analytics: "UA-61985153-2"
 disqus_account: jeffrey_sanford
-github_repository: https://github.com/JeffreySanford/collections-blog
+github_repository: https://github.com/JeffreySanford/jeffreysanford.github.io
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
