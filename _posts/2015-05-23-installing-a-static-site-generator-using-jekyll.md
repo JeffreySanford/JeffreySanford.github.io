@@ -23,4 +23,6 @@ Now browse to http://localhost:4000 and viola! Instant blog site!
 
 This installs the most basic jekyll enviroment with the basic default template.
 
+There are templates available that are quite well done.  This blog is using <a href="https://github.com/jacobtomlinson/carte-noire">Carte Noire</a> by Jacob Tomlinson (<a href="http://www.twitter.com/_jacobtomlinson">>Twitter.  Other themes can be found at <a href="http://jekyllthemes.org/">Jekyll Themes</a>.
+
 
