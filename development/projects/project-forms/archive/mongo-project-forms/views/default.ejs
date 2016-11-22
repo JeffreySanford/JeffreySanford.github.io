@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section>
+		<header>
+			<div class="row">
+				<h1>Project Forms</h1>
+			</div> <!--  End class row -->
+			<div class="row">
+				<div class="col-md-4">
+					<p style="font-size: 1.1em;">Jeffrey Sanford</p>
+				</div>
+				<div class="col-md-5">
+					<p style="font-size: 1.4em;"><b>Institute for Environmental Health</b></p>
+				</div>
+				<div class="col-md-3">
+					<p style="font-size: 1.1em; text-align: right;">POC: Joseph Mullins</p>
+				</div>
+			</div>
+			<br> <!--  Style these breakdowns -->
+			<hr>
+		</header>
+		<div class="container">
+			<div id="user-identification">
+				<p style="font-size: 1.2em">Thank you for taking the time to improve our website.  Your name and e-mail will not be used to send unsolicited e-mails; they are only used here for identification purposes.</p>
+				
+				<!-- The e-mail address is being used a unique indentified so only one survey per address can be used.  The real name will be use in the administrative model.  This owould be a good place to allow the uses to register and also to chooseto ecieve a newsletter. -->
+				<br> <!--  Style these breakdowns -->
+
+	<!-- User identification -->	
+			<form class="form-inline" id="quality-form" method="post" action="form" data-confirm="Ready to submit?" name="submitThisForm">
+				<fieldset>
+					<div class="row">
+						<div class="col-md-4 offset-md-2">
+							<div class="form-group">
+								<label for="realName">Name</label>
+								<input type="text" class="form-control" name="realName" id="realName" placeholder="Jane Doe">
+							</div>
+						</div> <!-- end class col2 -->
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="jane.doe@example.com">
+							</div>
+						</div> <!-- end class col2 -->
+						<div class="col-md-2">
+							<label class="checkbox-inline">
+								  <input disabled type="checkbox" name="anonymousCheckBox" id="anonymousCheckBox" value=""> Allow Anonymous
+								</label>
+						</div> <!-- end class col2 -->
+					</div> <!-- end row -->
+				</div> <!-- end user identification section -->
+				<br>  <!--  Style these breakdowns -->
+		<!--  Quality Section -->
+				<div id="quality-report">
+					<p style="font-size: 1.2em;">For the following items, please rank the website you just visited between the values of 1 and 5.  A value of 1 being poor and a value of 5 being great.</p>
+					<br>
+					<div id="quality-readability" class="row">
+						<div class="col-md-3">
+							<p style="font-size: 1.4em;" data-toggle="tooltip" data-placement="right" title="By readability, is everything clear, is the text large enough and can you read it?">Readability</p>
+						</div>
+						<div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+							<label class="radio-inline">
+				  				<input type="radio" name="inlineRadioReadability" id="readability1" value="option1"> 1
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioReadability" id="readability2" value="option2"> 2
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioReadability" id="readability3" value="option3"> 3
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioReadability" id="readability4" value="option3"> 4
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioReadability" id="readability5" value="option3"> 5
+							</label>
+						</div> <!-- end radio class -->
+					</div> <!-- end quality section -->
+
+					<div id="quality-usability" class="row">
+						<div class="col-md-3">
+							<p style="font-size: 1.4em;" data-toggle="tooltip" data-placement="right" title="By usabity, does the website do what you need it to do?">Usability</p>
+						</div>
+						<div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+							<label class="radio-inline">
+				  				<input type="radio" name="inlineRadioUsability" id="usability1" value="option1"> 1
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioUsability" id="usability2" value="option2"> 2
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioUsability" id="usability3" value="option3"> 3
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioUsability" id="usability4" value="option4"> 4
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioUsability" id="usability5" value="option5"> 5
+							</label>
+						</div> <!-- end radio class -->
+					</div> <!-- end quality section -->
+
+					<div id="quality-readability" class="row">
+						<div class="col-md-3">
+							<p style="font-size: 1.4em;" data-toggle="tooltip" data-placement="right" title="By functionality, we mean does the website operate as you expected it to?">Functionality</p>
+						</div>
+						<div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+							<label class="radio-inline">
+				  				<input type="radio" name="inlineRadioFunctionality" id="functionality1" value="option1"> 1
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioFunctionality" id="functionality2" value="option2"> 2
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioFunctionality" id="functionality3" value="option3"> 3
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioFunctionality" id="functionality4" value="option4"> 4
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioFunctionality" id="functionality5" value="option5"> 5
+							</label>
+						</div> <!-- end radio class -->
+					</div> <!-- end quality section -->
+				</div> <!-- end #quality report -->
+				</div>
+				<br>  <!--  Style these breakdowns -->
+
+				<div class="row">
+					<label for="comments" style="font-size: 1.2em;">Please leave your comments here...</label>
+					<textarea rows="4" id="comments" name="commentText" style="width:100%;"></textarea>
+				</div>
+
+				<br>  <!--  Style these breakdowns -->
+				<br>  <!--  Style these breakdowns -->
+				<button type="reset" class="btn btn-primary">Clear Information</button>
+				<button type="submit" class="btn btn-primary">Submit Information</button>
+			</fieldset>
+		</form>
+		<hr>
+	</div> <!--  End container class -->
+
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="js/vendor/tether.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+		<script src="js/javascript.js"></script>
+</body>
+</html>

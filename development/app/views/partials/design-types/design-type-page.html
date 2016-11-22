@@ -1,22 +1,20 @@
 <h2>Design Page</h2>
 <p class="description">These are design patterns and samples, from previous work in mockup, prototypes and proof of concepts.  I have broken them up into sub-sections to try to focus on the major methods that are being used in the designs.</p>
 <div class="project-wrapper">
-  <div class="row-fluid">
-    <div ng-repeat="project in designProjects | filter:params.design_type" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="well well-lg project individual-project">
-        <img ng-src="{{ project.imageURL }}" alt="placeholder image">
-          <p class="title">{{ project.title }}</p>
-          <p class="subtitle">{{ project.subtitle }}</p>
-          <p class="teaser">{{ project.teaser }}</p>
-          <div class="project-button">
-            <span style="position:absolute; margin-top: -45px;">
-              <a href='{{ project.git }}' target="_blank"><button>github</button></a>
-            </span>
-            <span style="position:absolute; margin-top: -45px;right:-50px;">
-              <a href='{{ project.url }}' target="_blank"><button>web</button></a>
-            </span>
-        </div><!-- ends the buttom row -->
-      </div> <!-- ends boostrap well -->
-    </div> <!-- ends angular repeat -->
-  </div> <!-- end boostrap row -->
-</div> <!-- end project wrapper -->
+  <div ng-repeat="project in developmentProjects | filter:params.development_type" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+    <div class="well well-lg project individual-project">
+      <img ng-src="{{ project.imageURL }}" alt="placeholder image">
+	    <p class="title">{{ project.title }}</p>
+	    <p class="subtitle">{{ project.subtitle }}</p>
+	    <p class="teaser">{{ project.teaser }}</p>
+	    <div class="project-buttons">
+        <span style="position: relative;top: 83px;;background-color: blue;">
+          <a href='{{ project.git }}' target="_blank"><button>github</button></a>
+	      </span>
+        <span style="position: relative;right: -144px;top: 83px; background-color: blue;";>
+          <a href='{{ project.url }}' target="_blank"><button>web</button></a>
+        </span>
+	    </div><!-- ends the buttom row -->
+	  </div> <!-- ends boostrap well -->
+  </div> <!-- ends angular repeat -->
+</div> <!-- end project-wrapper -->
