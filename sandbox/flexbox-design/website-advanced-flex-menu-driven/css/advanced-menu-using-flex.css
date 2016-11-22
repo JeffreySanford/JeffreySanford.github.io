@@ -1,0 +1,39 @@
+/* Styles for Advanced Menu */
+.advanced-nav {
+    width: 100%;
+}
+
+.advanced-nav li a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icon {
+    flex: 0 0 1.5em;
+    font-size: 2em;
+}
+
+.button-text {
+    font-size: 1.6em;
+}
+
+.button-text span {
+    display: block;
+    font-size: 60%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media screen and (min-width: 842px) {
+    
+    .advanced-nav ul {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .advanced-nav li {
+        display: flex;
+    }
+    
+}

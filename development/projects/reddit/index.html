@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reddit Business</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="wrapper" class="container-fluid">
+            <header>
+                <div class="row masthead">
+                    <div id="header-title" style="float:left; text-align: left;">
+                        <h3><b>Reddit Feed</b></h3>
+                        <h4>Angular2</h4>
+                    </div>
+                    <div class="query-size">
+                        <div id="query-range-title" style="margin-bottom: 5px;">Query Range: <span id="query-range"></span></div>
+                        <span>1 </span><input id="query-range-selector" type="range" min="2" max="26" step="1"><span> 25</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row text-center">
+                <i class="fa fa-refresh fa-2x lightBlue" id="newerPosts"></i>
+            </div>
+            <br>
+
+            <div id="content-wrapper">  <!--  Placeholder for the cards -->
+            </div> <!--  End Placeholder for the cards -->
+        </div>
+
+<!--    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+ -->
+        <script src="js/javascript.js"></script>
+    </body>
+</html>

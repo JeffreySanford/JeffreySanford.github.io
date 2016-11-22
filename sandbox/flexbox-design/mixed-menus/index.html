@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/nav-single-level.css">
+        <link rel="stylesheet" href="css/nav-social.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="menu-section">
+            <h2 class="menu-heading">Mixed Menus (drop-down &#43; social)</h2>
+            <div class="nav-mixed menu">
+                <nav id="multi-level-nav-mixed" class="multi-level-nav" role="navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li class="has-children">
+                        <a href="#">Food<button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span></button></a>
+                            <ul class="sub-menu">
+                            <li><a href="#">Chef for Hire</a></li>
+                            <li><a href="#">Catering</a></li>
+                            <li><a href="#">Restaurant</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Classes<button class="dropdown-toggle" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span></button></a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Class Schedule</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#">About</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Meet the Team</a></li>
+                                <li><a href="#">Our Vendors</a></li>
+                                <li><a href="#">Legal</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav><!-- #multi-level-nav .multi-level-nav -->
+
+                <nav id="social-menu-mixed" class="social-menu" role="navigation">
+                    <ul>
+                    <li><a href="http://twitter.com"><span class="screen-reader-text">Twitter</span></a></li>
+                    <li><a href="http://facebook.com"><span class="screen-reader-text">Facebook</span></a></li>
+                    <li><a href="http://linkedin.com"><span class="screen-reader-text">LinkedIn</span></a></li>
+                    <li><a href="http://youtube.com"><span class="screen-reader-text">YouTube</span></a></li>
+                    <li><a href="http://instagram.com"><span class="screen-reader-text">Instagram</span></a></li>
+                </ul>
+            </nav><!-- .social-menu -->
+            </div><!-- .mixed-menu -->
+        </section><!-- .menu-section -->
+    </body>
+</html>

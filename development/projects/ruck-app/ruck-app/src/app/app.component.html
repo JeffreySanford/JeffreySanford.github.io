@@ -1,0 +1,74 @@
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js'></script>
+      <script src="mapbox-definition.js"></script>
+    <h1>{{title}}</h1>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <div id="map-container">
+      <div id='map' style="">
+        <input id='range' class='range' type='range' min='0' max='1.0' step='any' />
+        <div id="status" style="" >
+          <div id="info"></div>
+        </div>
+      </div>
+
+    <!--<div id='menu' style='text-align: center; margin-top: 1em;'>
+      <input id='basic' type='radio' name='rtoggle' value='basic' checked='checked'>
+      <label for='basic'>basic</label>
+      <input id='streets' type='radio' name='rtoggle' value='streets'>
+      <label for='streets'>streets</label>
+      <input id='bright' type='radio' name='rtoggle' value='bright'>
+      <label for='bright'>bright</label>
+      <input id='light' type='radio' name='rtoggle' value='light'>
+      <label for='light'>light</label>
+      <input id='dark' type='radio' name='rtoggle' value='dark'>
+      <label for='dark'>dark</label>
+      <input id='satellite' type='radio' name='rtoggle' value='satellite'>
+      <label for='satellite'>satellite</label>
+    </div>-->
+
+    <script>
+    // var map = new mapboxgl.Map({
+    //     container: 'map',
+    //     style: 'mapbox://styles/mapbox/basic-v9',
+    //     zoom: 13,
+    //     center: [4.899, 52.372]
+    // });
+
+    var layerList = document.getElementById('menu');
+    var inputs = layerList.getElementsByTagName('input');
+
+    function switchLayer(layer) {
+        var layerId = layer.target.id;
+        map.setStyle('mapbox://styles/mapbox/' + layerId + '-v9');
+    }
+
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].onclick = switchLayer;
+    }
+    </script>
+
+    </div>
+    <div id="information" style="">
+      <h3>Information</h3>
+      <p>latitude: <span id='latitude' style=''></span></p>
+      <p>longitude: <span id='longitude'></span></p>
+    </div>
+    <div id="controls">Controls
+      <p>Current location **current_location**
+      <p>Waypoint A **waypoint.geo-location**</p>
+      <p>Waypoint B **waypoint.geo-location**</p>
+      <p>Waypoint C **waypoint.geo-location**</p>
+      <!--<div id="compass">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+        <script src="https://ai.github.io/compass.js/compass.js">
+        <script src="local-compass.js">
+        Compass.init(function (method) {
+          console.log('Compass heading by ' + method);
+          });
+        </script>
+      </div>-->
+
+
+    </div>

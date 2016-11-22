@@ -1,0 +1,103 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Space</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<img src="img/medium-gears-work.png">
+			<div id="titleSection">
+				<h1>'Boots' on the ground</h1>
+				<h3>Sample working in Bootstrap 3</h3>
+				<p>These are just samples to define the usage of bootstrap in creating a responsive website from the mobile aspect up.<br /><br /></p>
+			</div>
+			<br /><br />
+	<section id="main" class="spacer">
+	<!-- row 1 - header logo and desciption items -->
+		 	<article id="articleOne" class="row col-md-3 col-sm-6 col-xs-12">
+		<!-- image floated left with heading 2 and paragraph text
+		img
+		h2
+		p
+		-->
+			<img src="img/earth_from_space_art_wallpaper.jpg">
+			<h2>Earth From Space Art Wallpaper</h2>
+			<div class="spacer">&nbsp;</div>
+			<p>Home » Space » Earth From Space Art Wallpaper Earth From Space Art Wallpaper.  Located at <a href="http://www.aiowallpaper.com/5049/earth-from-space-art-wallpaper/">Space Pictures</a></p>
+			<p>Bacon ipsum dolor sit amet capicola doner drumstick tail shankle fatback. Ham t-bone shoulder, jerky swine drumstick frankfurter sirloin jowl fatback chuck bresaola pork loin. Sirloin porchetta capicola, cow corned beef ground round jowl drumstick turducken turkey swine spare ribs tenderloin.</p>
+		</article>
+
+		<!-- row 2  -->
+		<article id="articleTwo" class="row col-md-3 col-sm-6 col-xs-12">
+			<img src="img/potw1345a.jpg">
+			<h2>Earth From Space Art Wallpaper</h2>
+			<div class="spacer">&nbsp;</div>
+			<p>Home » Space » Earth From Space Art Wallpaper Earth From Space Art Wallpaper.  Located at <a href="http://www.aiowallpaper.com/5049/earth-from-space-art-wallpaper/">Space Pictures</a></p>
+			<p>Bacon ipsum dolor sit amet capicola doner drumstick tail shankle fatback. Ham t-bone shoulder, jerky swine drumstick frankfurter sirloin jowl fatback chuck bresaola pork loin. Sirloin porchetta capicola, cow corned beef ground round jowl drumstick turducken turkey swine spare ribs tenderloin.</p>
+		</article>
+
+		<!-- row 3  -->
+		<article id="articleThree" class="row col-md-3 col-sm-6 col-xs-12">
+			<img src="img/earth_from_space_art_wallpaper.jpg">
+			<h2>Earth From Space Art Wallpaper</h2>
+			<div class="spacer">&nbsp;</div>
+			<p>Home » Space » Earth From Space Art Wallpaper Earth From Space Art Wallpaper.  Located at <a href="http://www.aiowallpaper.com/5049/earth-from-space-art-wallpaper/">Space Pictures</a></p>
+			<p>Bacon ipsum dolor sit amet capicola doner drumstick tail shankle fatback. Ham t-bone shoulder, jerky swine drumstick frankfurter sirloin jowl fatback chuck bresaola pork loin. Sirloin porchetta capicola, cow corned beef ground round jowl drumstick turducken turkey swine spare ribs tenderloin.</p>
+		</article>
+
+		<!-- row 4  -->
+		<article id="articleFour" class="row col-md-3 col-sm-6 col-xs-12">
+			<img src="img/Space-space-584336_1600_1200.jpg">
+			<h2>Earth From Space Art Wallpaper</h2>
+			<div class="spacer">&nbsp;</div>
+			<p>Home » Space » Earth From Space Art Wallpaper Earth From Space Art Wallpaper.  Located at <a href="http://www.aiowallpaper.com/5049/earth-from-space-art-wallpaper/">Space Pictures</a></p>
+			<p>Bacon ipsum dolor sit amet capicola doner drumstick tail shankle fatback. Ham t-bone shoulder, jerky swine drumstick frankfurter sirloin jowl fatback chuck bresaola pork loin. Sirloin porchetta capicola, cow corned beef ground round jowl drumstick turducken turkey swine spare ribs tenderloin.</p>
+		</article>
+		<div class="spacer">&nbsp;</div>
+	</section>	
+	<!-- row 5  -->
+	<footer class="col-md-12 spacer">
+		<p><span class="copyright">&copy;</span> 2014 Jeffrey Sanford</p>
+		<div id="sizer">
+			<p>The following class files will show at that particular media sizes.  A nice technical usage to prove it is working.</p>
+				<p class="visible-lg"><strong>lg</strong> inidcates that the large grid systems is being displayed.  The grid stacks horizontally &lt; <strong>1200px</strong>. </p>
+				<p class="visible-md"><strong>md</strong> inidcates that the medium grid systems is being displayed.  The grid stacks horizontally &lt; <strong>992px</strong>. </p>
+				<p class="visible-sm"><strong>sm</strong> inidcates that the small grid systems is being displayed.  The grid stacks horizontally &lt; <strong>768px</strong>. </p>
+				<p class="visible-xs"><strong>xs</strong> inidcates that the extra small grid systems is being displayed.  TheThis grid system is <strong>always</strong> horizonal. </p>
+				<!--  Check out some of the Bootstrap responsive utilities at:
+						http://www.tutorialspoint.com/bootstrap/bootstrap_responsive_utilities.htm
+				-->
+
+				<div class="container">
+	   				<div class="row visible-on">
+	      				<div class="col-xs-6 col-sm-3">
+	         				<span class="hidden-xs">Extra small</span>
+	         				<span class="visible-xs">✔ Visible on x-small</span>
+	      				</div>
+			      		<div class="col-xs-6 col-sm-3">
+					         <span class="hidden-sm">Small</span>
+					         <span class="visible-sm">✔ Visible on small</span>
+			      		</div>
+			      		<div class="clearfix visible-xs"></div>
+			      			<div class="col-xs-6 col-sm-3">
+					         <span class="hidden-md">Medium</span>
+					         <span class="visible-md">✔ Visible on medium</span>
+			      		</div>
+			      		<div class="col-xs-6 col-sm-3" >
+					         <span class="hidden-lg">Large</span>
+					         <span class="visible-lg">✔ Visible on large</span>
+			      		</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<!-- javascript -->
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/respond.min.js"></script>
+	<!-- javascript included here to give the impression of loading the webpage faster -->
+	</body>
+</html>

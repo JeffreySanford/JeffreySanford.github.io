@@ -1,0 +1,22 @@
+{
+  "name": "post-functions",
+  "description": "Simple web application to collect survey information from users and display a quality assurance report to an admin.  Uses express as the framework, bodyparser as the middleware for the POST request.",
+  "version": "1.0.0",
+  "author": "Jeffrey Sanford",
+  "email": "jeffreysanford@gmail.com",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "http": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

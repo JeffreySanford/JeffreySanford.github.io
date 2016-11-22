@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sumerian Collection</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<div class="row">
+				<nav class="nav navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-type="#collapse">
+							<span class="sr-only">Toggle Navigation</span>  <!--This is for screen readers only -->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand"><img src="img/geskigti.png" alt="logo" data-toggle="tooltip" data-placement="bottom" title="Craft Workshop"> Ges.Kin.Ti </a>
+					</div>
+					<div class="collapse navbar-collapse" id="collapse">
+						<ul class="nav navbar-nav ">
+							<li class="active"><a href="#">Home</a></li>
+							<li class="dropdown"><a href="#" data-toggle="dropdown">Reference<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Naratives</a></li>
+									<li><a href="#">Location</a></li>
+									<li><a href="#">Mythology</a></li>
+								</ul>
+							</li>
+							<li><a href="#">History</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<ol class="breadcrumb"> 
+			<!-- This needs to be reworked so that it specifies the actual page that the user is on -->
+				<li class="active"><a href="#">Home </a><span class="glyphicon glyphicon-circle-arrow-right"></span></li>
+				<li><a href="#">Reference </a><span class="glyphicon glyphicon-circle-arrow-right"></span></li>
+				<li><a href="#">History </a><span class="glyphicon glyphicon-circle-arrow-right"></span></li>
+				<li><a href="#">Contact</a></li>
+			</ol>
+		</div>
+		<section>
+			<!-- row 2 -->
+		    <div class="jumbotron hidden-xs pull-right" id="jumbotron">
+		    	<img src="img/flower8.png" alt="large flower for jumbotron" class="img-responsive pull-right">
+		        <h1>Jumbotron section</h1>
+		        <p>The jumbotron section will be used to display inforamtion for the sections groups below it.</p>
+		    </div>
+			<article>
+				<h4>Article Heading</h4>
+				<p>Bacon ipsum dolor sit amet ham hock voluptate est eu in commodo. Jerky elit pig est short loin. Incididunt cow qui magna, dolore dolore culpa. Officia strip steak labore sunt et jerky ribeye ad reprehenderit.</p>
+
+				<p>Prosciutto excepteur nostrud, laborum sirloin ribeye sunt pariatur deserunt. Officia culpa et doner ham chicken. Est meatloaf ribeye cillum bacon. Drumstick beef reprehenderit corned beef occaecat fatback.</p>
+
+				<p>Prosciutto excepteur nostrud, laborum sirloin ribeye sunt pariatur deserunt. Officia culpa et doner ham chicken. Est meatloaf ribeye cillum bacon. Drumstick beef reprehenderit corned beef occaecat fatback.</p>
+
+<!--Accordion Styling -->
+				<div class="panel-group" id="accordion">
+<!--First Accordian Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title"> 
+								<a href="#stories" class="accordion-toggle" data-toggle="collapse" data-parent="accordion">
+									<span class="glyphicon glyphicon-tree-deciduous"></span>
+										Sub Article One - Stories
+								</a>
+							</h4>
+						</div>
+						<div id="stories" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>Deserunt flank swine corned beef fugiat aliqua, cillum irure. Pork chop ham hock shoulder enim, qui occaecat exercitation pancetta ribeye tempor capicola tenderloin venison cow consectetur. Prosciutto in eiusmod turducken biltong pork belly, sint doner chicken sausage elit ut. Ut spare ribs tail, fatback ea aliquip non.</p>
+
+								<p>Shankle laborum magna rump kielbasa tempor labore shoulder hamburger fugiat culpa. Spare ribs culpa in kevin boudin leberkas aliqua. Aliqua quis tri-tip eu voluptate andouille. Jowl magna beef ribs do dolore drumstick hamburger reprehenderit enim in fugiat pig commodo.</p>
+
+								<p>Pork loin shoulder est dolor boudin turkey excepteur corned beef tenderloin shank officia frankfurter. Et officia frankfurter esse nulla ribeye tongue qui kevin pastrami occaecat. Pork id fugiat consequat non. Aliqua doner dolore anim excepteur tail, sirloin tri-tip pig kielbasa pancetta tongue velit short ribs beef ribs. Veniam laboris ball tip ham hamburger esse magna chuck dolore sed culpa kevin cupidatat occaecat venison.</p>
+								<p><a href="#" class="btn btn-info">read more >></a></p>
+							</div>
+						</div>
+					</div>
+
+<!--Second Accordian Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a href="#history" class="accordion-toggle" data-toggle="collapse" data-parent="accordion"> 
+									<span class="glyphicon glyphicon-header"></span>
+										Sub Article Two - History
+								</a>
+							</h4>
+						</div>
+						<div id="history" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Deserunt flank swine corned beef fugiat aliqua, cillum irure. Pork chop ham hock shoulder enim, qui occaecat exercitation pancetta ribeye tempor capicola tenderloin venison cow consectetur. Prosciutto in eiusmod turducken biltong pork belly, sint doner chicken sausage elit ut. Ut spare ribs tail, fatback ea aliquip non.</p>
+
+								<p>Shankle laborum magna rump kielbasa tempor labore shoulder hamburger fugiat culpa. Spare ribs culpa in kevin boudin leberkas aliqua. Aliqua quis tri-tip eu voluptate andouille. Jowl magna beef ribs do dolore drumstick hamburger reprehenderit enim in fugiat pig commodo.</p>
+
+								<p>Pork loin shoulder est dolor boudin turkey excepteur corned beef tenderloin shank officia frankfurter. Et officia frankfurter esse nulla ribeye tongue qui kevin pastrami occaecat. Pork id fugiat consequat non. Aliqua doner dolore anim excepteur tail, sirloin tri-tip pig kielbasa pancetta tongue velit short ribs beef ribs. Veniam laboris ball tip ham hamburger esse magna chuck dolore sed culpa kevin cupidatat occaecat venison.</p>
+								<p><a href="#" class="btn btn-info">read more >></a></p>
+							</div>
+						</div>
+					</div>						
+
+<!--Third Accordian Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a href="#locations" class="accordion-toggle" data-toggle="collapse" data-parent="accordion"> 
+									<span class="glyphicon glyphicon-plane"></span>
+										Sub Article Two - Locations
+								</a>
+							</h4>
+						</div>
+						<div id="locations" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Deserunt flank swine corned beef fugiat aliqua, cillum irure. Pork chop ham hock shoulder enim, qui occaecat exercitation pancetta ribeye tempor capicola tenderloin venison cow consectetur. Prosciutto in eiusmod turducken biltong pork belly, sint doner chicken sausage elit ut. Ut spare ribs tail, fatback ea aliquip non.</p>
+
+								<p>Shankle laborum magna rump kielbasa tempor labore shoulder hamburger fugiat culpa. Spare ribs culpa in kevin boudin leberkas aliqua. Aliqua quis tri-tip eu voluptate andouille. Jowl magna beef ribs do dolore drumstick hamburger reprehenderit enim in fugiat pig commodo.</p>
+
+								<p>Pork loin shoulder est dolor boudin turkey excepteur corned beef tenderloin shank officia frankfurter. Et officia frankfurter esse nulla ribeye tongue qui kevin pastrami occaecat. Pork id fugiat consequat non. Aliqua doner dolore anim excepteur tail, sirloin tri-tip pig kielbasa pancetta tongue velit short ribs beef ribs. Veniam laboris ball tip ham hamburger esse magna chuck dolore sed culpa kevin cupidatat occaecat venison.</p>
+								<p><a href="#" class="btn btn-info">read more >></a></p>
+							</div> <!-- End Panel Body -->
+						</div><!-- End locations class -->
+					</div> <!--End Panel -->		
+				</div> <!-- End panel group class with ID of accordion -->
+<!-- End of Accordion Panels -->
+
+<!--row three -->
+
+<!-- lists for navigation tabs -->
+
+				<ul class="nav nav-tabs" role="tablist" data-tabs="tabs">
+					<li class="active"><a href="#tabOne" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span> Tab One </a></li>
+					<li><a href="#tabTwo" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span> Tab Two </a></li>
+					<li><a href="#tabThree" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span> Tab Three </a></li>
+					<li><a href="#tabFour" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span> Tab Four </a></li>
+					<li><a href="#tabFive" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span> Tab Five </a></li>
+				</ul>
+
+<!--text for callouts -->
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="tabOne">
+	<!--callout one for tabs -->
+						<p>Bacon ipsum dolor sit amet ham hock voluptate est eu in commodo. Jerky elit pig est short loin. Incididunt cow qui magna, dolore dolore culpa. Officia strip steak labore sunt et jerky ribeye ad reprehenderit.</p>
+
+						<p>Prosciutto excepteur nostrud, laborum sirloin ribeye sunt pariatur deserunt. Officia culpa et doner ham chicken. Est meatloaf ribeye cillum bacon. Drumstick beef reprehenderit corned beef occaecat fatback.</p>
+					</div>
+	<!--callout two for tabs -->
+					<div class="tab-pane fade" id="tabTwo">
+						<p>Deserunt flank swine corned beef fugiat aliqua, cillum irure. Pork chop ham hock shoulder enim, qui occaecat exercitation pancetta ribeye tempor capicola tenderloin venison cow consectetur. Prosciutto in eiusmod turducken biltong pork belly, sint doner chicken sausage elit ut. Ut spare ribs tail, fatback ea aliquip non.</p>
+
+						<p>Shankle laborum magna rump kielbasa tempor labore shoulder hamburger fugiat culpa. Spare ribs culpa in kevin boudin leberkas aliqua. Aliqua quis tri-tip eu voluptate andouille. Jowl magna beef ribs do dolore drumstick hamburger reprehenderit enim in fugiat pig commodo.</p>
+					</div>
+	<!--callout three for tabs -->
+					<div class="tab-pane fade" id="tabThree">
+						<p>Pork loin shoulder est dolor boudin turkey excepteur corned beef tenderloin shank officia frankfurter. Et officia frankfurter esse nulla ribeye tongue qui kevin pastrami occaecat. Pork id fugiat consequat non. Aliqua doner dolore anim excepteur tail, sirloin tri-tip pig kielbasa pancetta tongue velit short ribs beef ribs. Veniam laboris ball tip ham hamburger esse magna chuck dolore sed culpa kevin cupidatat occaecat venison.</p>
+
+						<p>Bacon ipsum dolor sit amet ham hock voluptate est eu in commodo. Jerky elit pig est short loin. Incididunt cow qui magna, dolore dolore culpa. Officia strip steak labore sunt et jerky ribeye ad reprehenderit.</p>
+					</div>
+	<!--callout four for tabs -->
+					<div class="tab-pane fade" id="tabFour">
+						<p>Prosciutto excepteur nostrud, laborum sirloin ribeye sunt pariatur deserunt. Officia culpa et doner ham chicken. Est meatloaf ribeye cillum bacon. Drumstick beef reprehenderit corned beef occaecat fatback.</p>
+
+						<p>Deserunt flank swine corned beef fugiat aliqua, cillum irure. Pork chop ham hock shoulder enim, qui occaecat exercitation pancetta ribeye tempor capicola tenderloin venison cow consectetur. Prosciutto in eiusmod turducken biltong pork belly, sint doner chicken sausage elit ut. Ut spare ribs tail, fatback ea aliquip non.</p>
+					</div>
+	<!--callout fice for tabs -->
+					<div class="tab-pane fade" id="tabFive">
+						<p>Shankle laborum magna rump kielbasa tempor labore shoulder hamburger fugiat culpa. Spare ribs culpa in kevin boudin leberkas aliqua. Aliqua quis tri-tip eu voluptate andouille. Jowl magna beef ribs do dolore drumstick hamburger reprehenderit enim in fugiat pig commodo.</p>
+
+						<p>Pork loin shoulder est dolor boudin turkey excepteur corned beef tenderloin shank officia frankfurter. Et officia frankfurter esse nulla ribeye tongue qui kevin pastrami occaecat. Pork id fugiat consequat non. Aliqua doner dolore anim excepteur tail, sirloin tri-tip pig kielbasa pancetta tongue velit short ribs beef ribs. Veniam laboris ball tip ham hamburger esse magna chuck dolore sed culpa kevin cupidatat occaecat venison.</p>
+					</div>
+				</div>
+			</article>
+		</section>
+		<hr>
+		<footer>
+			<p>Footer Information is Displayed here - &copy; <script>document.write(new Date().getFullYear());</script> Some copyright message </p>
+		</footer>
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function () {
+				$('.nav-tabs a:first').tab('show');
+			});
+		</script>
+	</body>
+</html>

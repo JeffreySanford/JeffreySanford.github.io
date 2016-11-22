@@ -1,0 +1,14 @@
+body {
+	width: 90%;
+	background-color: whitesmoke;
+	margin: 2em auto;
+}
+
+.text-center, .input-group {
+	text-align: center;
+}
+
+#reversedTextBox {
+	margin: .5em;
+	font-size: 2em;
+}

@@ -1,0 +1,197 @@
+* {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;;
+}
+
+h1 {
+	font-size: 2em;
+	text-shadow: 2px 2px 10px blue;
+	padding-left: 50px;
+}
+
+#features {
+	float: right;
+	background-color: blue;
+	border: 1px solid black;
+	padding: 10px;
+	color: white;
+	margin-right: 100px;
+	box-shadow: 10px 10px 5px black;
+}
+
+#btnAdd {
+	position: absolute;
+	background-color: red;
+	padding: 5px;
+	border: 0;
+	color: white;
+	margin: 23px 50px 10px 25px;
+	margin-top: 23px;
+}
+
+#btnAdd:hover {
+	border: 0;
+	cursor: pointer;
+	color: #000;
+	background-color: yellow;
+}
+
+table, th, td {
+	position: relative;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	float: left;
+	width: 400px;
+	margin-left: 50px;
+}
+
+thead {
+	background-color:  blue;
+	color: white;
+}
+
+td {
+	width: 33%;
+}
+
+delstripe1 {
+	background-color:rgba(204,0,204,0.1);
+	color: black;
+}
+
+.stripe2 {
+	background-color:rgba(0,255,0,0.1);
+	color: black;
+}
+
+.highlight {
+	background-color: yellow;
+	color: black;
+	font-weight: normal;
+}
+
+caption {
+	font-style: italic;
+	color: blue;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#tableStyledInJavascript{
+	box-shadow: 5px 5px 10px grey;
+	float: left;
+	margin-top: 20px;
+}
+
+#tableStyledInJavascript th {
+	border-style: none;
+	background-color: rgba(0,255,0,0.4);
+
+}
+
+#colorPanel {
+	display: none;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 1.5em;
+	width: 100px;
+	height: 60px;
+	background-color: yellow;
+	color: white;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;	
+}
+
+#addRowPanel {
+	display: none;
+	background: green;
+	color: white;
+	padding: 0 10px 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 36px;
+	line-height: 1.9;
+	box-shadow: 5px 5px 10px grey;
+}
+
+#addRowPanel h3 {
+	margin-top: 0;
+}
+
+#addRowPanel label {
+	float: left;
+}
+
+#addRowPanel input, #addRowPanel select {
+	float: right;
+}
+
+#addRowPanelControl {
+	clear: both;
+	width: 90%;
+	padding: 0 20px;
+	position: relative;
+}
+
+#addRowPanelControl input {
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+}
+
+#btnClearRow {
+	float: left;
+	left: 10px;
+}
+
+#btnAddRow {
+	float: right;
+	right: 10px;
+}
+
+.deleteRow {
+	width: 80px;
+	background-color: rgba(0,255,0,0.4);
+}
+
+.deleteRow button{
+	color: white;
+	background-color: green;
+	float: right;
+}
+
+#picturesPanel {
+	clear: both;;
+	position: relative;
+	display: inline-block;
+	width: 81%;
+	height: 210px;
+	margin: 50px 0 0 50px;
+	padding-left: 4%;
+}
+
+#picturesPanel div {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#picturesPanel img {
+	float: left;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+#picturesPanel p {
+	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.spacer {
+	clear:both;
+}

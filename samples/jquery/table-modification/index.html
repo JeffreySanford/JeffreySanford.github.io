@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>JQuery Table Modification</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-dev.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.10.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+	</head>
+	<body>
+		<h1>JQuery Table Modification</h1>
+		<div id= "features">
+			<h2>JQuerys Main Features</h2>
+			<ul>
+				<li>Core Functionality</li>
+				<li>Selection and Traversal</li>
+				<li>Mainpulation and CSS</li>
+				<li>Events</li>
+				<li>Effections</li>
+				<li>AJAX</li>
+			</ul>
+		</div>
+		<div>
+			<table id= "tableStyledInJavascript">
+				<caption>Table Styled In JQuery</caption>
+				<p id="btnAdd">add</p>
+				<thead><th>color</th><th>cost</th><th>availability</th><th></th></thead>
+				<tr><td class="choosenColor">red</td><td>1.24</td><td>backordered</td></tr>	
+				<tr><td class="choosenColor fontColorWhite">black</td><td>1.32</td><td>on-hand</td></tr>
+				<tr><td class="choosenColor">green</td><td>1.53</td><td>on-hand</td></tr>
+				<tr><td class="choosenColor fontColorWhite">purple</td><td>1.01</td><td>on-hand</td></tr>
+				<tr><td class="choosenColor fontColorWhite">blue</td><td>1.24</td><td>backordered</td></tr>
+				<tr><td class="choosenColor">magenta</td><td>1.16</td><td>on-hand</td></tr>
+			</table>
+		<div>
+		<div id="colorPanel">&nbsp;</div>
+			
+		<div id="addRowPanel">
+			<h3>Add a new row</h3>
+			
+			<div>
+				<label for="inpColor">Color:  </label>
+				<input type="text" id="inpColor" required />
+			</div><br />
+			
+			<div>
+				<label for="inpCost">Cost:  </label>
+				<input type="number" id="inpCost" required />
+			</div><br />
+			
+			<div>
+				<label for="inpAvailability">Availability:</label>
+				<select id="inpAvailability" required /><br />
+					<option value="on-hand">on-hand</option>
+					<option value="on-hand">backordered</option>
+					<option value="on-hand">not on order</option>
+					<option value="on-hand">on-order</option>
+				</select>
+			</div>
+		
+			<div id="addRowPanelControl">
+				<input type="submit" value="add row" id="btnAddRow">
+				<input type="reset" value="clear" id="btnClearRow">
+			</div>
+		</div>
+
+		<div id="picturesPanel">
+			<div>
+				<a href="img/beautiful_space.jpg" alt="one" /><img src="img/beautiful_space.jpg" alt="picture" /><p>Item One</p></a>
+			</div>
+			
+			<div>
+				<a href="img/flower.jpg" alt="one" /><img src="img/flower.jpg" alt="one" /><p>Item Two</p></a>
+			</div>
+			
+			<div>
+				<a href="img/rainbow.jpg" alt="one" /><img src="img/rainbow.jpg" alt="one" /><p>Item Three</p></a>
+			</div>
+
+			<div>
+				<a href="img/sunset.jpg" alt="one" /><img src="img/sunset.jpg" alt="one" /><p>Item Four</p></a>
+			</div>
+			
+			<div>
+				<a href="img/swan.jpg" alt="one" /><img src="img/swan.jpg" alt="one" /><p>Item Five</p></a>
+			</div>
+		</div>
+			
+		<div class="spacer">&nbsp;</div>
+	</body>
+</html>
