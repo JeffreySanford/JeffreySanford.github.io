@@ -1,0 +1,98 @@
+<?php
+include "./configs/config.php" ; 
+$user_files_path = "./user_files/"
+?>
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>FindInterview - a video says it all</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	 <!-- jQuery Version 1.11.0 -->
+	 <script src="js/jquery-1.11.0.js"></script>
+    
+        <link href="http://www.findinterview.com/fi/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/resources/fontello/fontello.css">
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/css/animation.css">
+        <link href="./includes/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <link type="text/css" href="http://www.findinterview.com/fi/vendors/MEplayer/mediaelementplayer.min.css" rel="stylesheet" />
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" type="text/css" href="http://www.findinterview.com/fi/vendors/rs-plugin/css/settings.css" media="screen" />
+        <link href="./vendors/smoothdivscroll/smoothDivScroll.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/vendors/magnific-popup/magnific-popup.css">
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/css/aspect.css">
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/css/style.css">
+        <link rel="stylesheet" href="http://www.findinterview.com/fi/css/responsive.css">
+
+        <script type="text/javascript" src="http://www.findinterview.com/fi/includes/modernizr/modernizr.custom.27667.js"></script>
+                    <!--[if lt IE 9]>
+                                <script type="text/javascript" src="http://www.findinterview.com/fi/includes/html5shiv/html5shiv.js"></script>
+                                <script type="text/javascript" src="http://www.findinterview.com/fi/includes/respond/respond.min.js"></script>
+                                <![endif]-->
+                                
+        	<link rel="stylesheet" type="text/css" href="./includes/DateTimePicker/jquery.datetimepicker.css"/>
+    </head>
+
+
+
+    <body data-spy="scroll" data-target="#section-nav">
+       
+
+            <header class="custom-4">
+                <div class="container menu-bar" role="navigation">
+                    <div class="large-header">
+                        <div class="logo-wrapper">
+                            <a class="logo-box main-bg-color" href="#">
+                             <img class="img-responsive" alt="find interview logo" src="./imaxges/metro-logo.png">
+                            </a>
+                        </div>
+
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown closed">
+                                <a class="active v-al-container over" data-toggle="dropdown" data-target="#" href="./index.php">
+                                    <div class="v-al">
+                                        <i class="fa fa-home"></i>
+                                        <div class="text">Home</div>
+                                    </div>
+                                </a>
+
+                              
+                            </li>
+                            <li class="uber-dropdown dropdown">
+                                <a class="active v-al-container"  href="./jobs.php">
+                                    <div class="v-al">
+                                        <i class="fa fa-th-list"></i>
+                                        <div class="text">Jobs</div>
+                                    </div>
+                                </a>
+                               
+                            </li>
+                            <li class="uber-dropdown dropdown">
+                                <a class="active v-al-container" data-target="#testimonials-3">
+                                    <div class="v-al">
+                                        <i class="icon icon-thumbs-up"></i>
+                                        <div class="text">
+                              Testimonials</div>
+                                    </div>
+                                </a>
+                              
+                            </li>
+                            
+                            <li class="dropdown closed">
+                                <a class="active v-al-container"  data-target="./auth.php" href="./auth.php">
+                                    <div class="v-al">
+                                        <i class="fa fa-user"></i>
+                                        <div class="text">My Dashboard</div>
+                                    </div>
+                                </a>
+                               
+                    </div>
+
+                   
+            </header>

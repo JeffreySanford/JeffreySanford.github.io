@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Flex Box Magic</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/single-level-menu-example.css" />
+		<link rel="stylesheet" href="css/advanced-menu-example.css" />
+	</head>
+	<body>
+		<section>
+			<h1>Single Level Menu Example</h1>
+			<header>
+				<nav id="single-level" class="single-level-menu" role="navigation">
+					<ul>
+						<li><a href="#">One</a></li>
+						<li><a href="#">Two</a></li>
+						<li><a href="#">Three</a></li>
+						<li><a href="#">Four</a></li>
+						<li><a href="#">Five</a></li>
+						<li><a href="#">Six</a></li>
+					</ul>
+				</nav>
+			</header>
+			<article>
+				<p>Instead of using the normal float left methods of 
+				the past, we can use flex box to properly format a 
+				horizonal menu.  This is simply done with <span style="font-family: sans-serif;">display: flex;</span> targetting the class of the flex element.</p>
+
+				<p>Aligning the menu can be done very quickly with the property <span style="font-family: sans-serif;">justify-content: flex-start;</span> for left justification and  <span style="font-family: sans-serif;">justify-content: flex-end;</span> for right alignment. Other justify-content properties include center, space-around and space-between.</p>  
+			</article>
+		</section>
+		<section>
+			<h1>Advanced Flex Menu</h1>
+			<nav id="advanced-nav" class="advanced-nav menu" role="navigation">
+				<ul>
+					<li>
+						<a href="#">
+							<div class="icon">
+								<i class="fa fa-home"></i>
+							</div>
+							<div class="button-text">
+								Home
+								<span>is where the heart is</span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="icon">
+								<i class="fa fa-cutlery"></i>
+							</div>
+							<div class="button-text">
+								Food
+								<span>is nourishment for the soul</span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="icon">
+							<i class="fa fa-file-text"></i>
+							</div>
+							<div class="button-text">
+								Recipes
+								<span>guide you on your journey</span>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="icon">
+								<i class="fa fa-paper-plane"></i>
+							</div>
+							<div class="button-text">
+								News
+								<span>brings new things</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<article>
+				<p>Using the same techinques as those above, we can create a self contained div of the icon, the title and the subtitles of the menu selection and the apply the flex attributes to the menu.
+			</article>
+		</section>
+	</body>
+</html> 

@@ -1,0 +1,66 @@
+/* The Magic */
+/*  This is code from:  http://codepen.io/uniqname/pen/gKmpz
+    Created with:  https://coderwall.com/p/oxyn2g/all-css-hover-activated-accordion-with-default-state
+ */
+
+.accordian {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+#title {
+  font-size: 1.2em;
+  font-style: bolder;
+  margin: 0 0 0 10px;
+  text-align: left;
+}
+
+#author {
+  font-size: 1em;
+  font-style: normal;
+  margin: 0 10px 0 0;
+  text-align: right;
+}
+
+#date {
+  font-size: 1em;
+  font-style: normal;
+  margin: 0 10px 0 0;
+  text-align: right;
+}
+
+.accordion article > .accordion_content {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+
+.accordion article:hover > .accordion_content {
+  height: 9em;
+  margin: 0 10px 1em 10px;
+  text-align: left;
+  font-size: .9em;
+  font-style: italic;
+}
+
+.accordion:hover > .accordion_content {
+  height: 0;
+}
+
+.accordion:hover > .accordion_content:hover {
+  height: 9em;
+  margin-bottom: 2em;
+}
+
+.accordion:hover article:hover > .accordion_content,
+.accordion article.default > .accordion_content {
+  height: 9em;
+  margin-bottom: 2em;
+}
+
+.accordion article > .accordion_content,
+.accordion:hover article > .accordion_content {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}

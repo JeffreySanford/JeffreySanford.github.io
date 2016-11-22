@@ -1,0 +1,59 @@
+<h3 ng-if="params.catagory">{{ params }}</h3>
+<div class="mobile">
+	<div class="content-wrapper">
+		<div class="row">
+			<div class="col-md-8" style="text-align: center; margin-top: 10px">
+				<img id="mobile-main-image"src="img/sample-shaman.jpg" alt="picture">
+				<div id="mobile-description">
+						<p id="mobile-main-image-title" style="text-align: left; margin: 0;">Title goes here</p>
+						<p id="mobile-main-image-sub" style="font-size: .8em; text-align: left; margin: 0;">description goes here.  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div> <!-- end overlay box -->
+			</div> <!-- end middle column -->
+		</div>
+		<div class="row" style="margin-top: 50px; text-align: center;">
+			<div class="col-xs-3">
+				<img src="img/sample-shaman.jpg" alt="picture" style="width: 90%; text-align: center;" >
+			</div>
+			<div class="col-xs-3">
+				<img src="img/sample-shaman.jpg" alt="picture" style="width: 90%; text-align: center;">
+			</div>
+			<div class="col-xs-3">
+				<img src="img/sample-shaman.jpg" alt="picture" style="width: 90%; text-align: center;">
+			</div>
+			<div class="col-xs-3">
+				<img src="img/sample-shaman.jpg" alt="picture" style="width: 90%; text-align: center;">
+			</div>
+		</div> <!-- end row -->
+	</div> <!-- end content-wrapper -->
+</div> <!-- end mobile container -->
+<div class="desktop" style="width: 100%;">
+	<div class="content-wrapper">
+		<div class="row">
+			<div class="col-sm-2 col-md-2" style="text-align: right;">
+				<img id="thumbnail1" class="thumbnail" ng-src="{{ thumbOne }}" alt="picture" style="margin-top: 29px;">
+				<img id="thumbnail2" class="thumbnail" ng-src="{{ thumbTwo }}" alt="picture">
+				<img id="thumbnail3" class="thumbnail" ng-src="{{ thumbThree }}" alt="picture">
+
+			</div> <!-- end left column -->
+
+			<div id="main-image-wrapper" class="col-sm-8 col-md-8">
+				<div >
+					<img id="main-image" src="" alt="picture" style="margin: 0 auto;">
+					<div id="main-image-description">
+						<p id="main-image-title"></p>
+						<p id="main-image-sub"></p>
+					</div> <!-- end overlay box -->
+				</div><!-- end main-image container -->
+			</div> <!-- end middle column -->
+			
+			<div class="col-sm-2 col-md-2" style="text-align: left;">
+				<img id="thumbnail4" class="thumbnail" ng-src="{{ thumbFour }}" style="margin-top:20px;"  alt="picture">
+				<img id="thumbnail5" class="thumbnail" ng-src="{{ thumbFive }}" alt="picture">
+				<img id="thumbnail6" class="thumbnail" ng-src="{{ thumbSix }}" alt="picture">
+				<br>
+
+			</div> <!-- end right column -->
+		</div> <!-- end content-wrapper -->
+	</div> <!--end row -->
+	{{ art }}
+</div> <!-- end desktop wrapper -->

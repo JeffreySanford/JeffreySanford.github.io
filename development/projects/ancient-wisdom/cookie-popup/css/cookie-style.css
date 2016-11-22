@@ -1,0 +1,31 @@
+#container {
+	background-color: whitesmoke;
+	width: 90%;
+	margin: 0 auto;
+}
+#header-image {
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer {
+	bottom: 50px;
+}
+
+#targetContentFirst {
+	margin: 50px auto;
+	font-size: 1.5em;
+	color: blue;
+}
+
+#targetContentAnswers {
+	margin: 50px auto;
+	font-size: 3em;
+	color: red;
+}
+
+#targetContentFirst {
+	margin: 50px auto;
+	font-size: 1.5em;
+	color: green;
+}

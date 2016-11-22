@@ -1,0 +1,26 @@
+{
+	"countries" : [
+		{
+			"country" : "United States",
+			"responses" : "19770"
+		},
+		{
+			"country" : "Canada",
+			"responses" : "2436"
+		},
+		{
+			"country" : "India",
+			"responses" : "1966"
+		},
+		{
+			"country" : "United Kingdom",
+			"responses" : "1885"
+		},
+		{
+			"country" : "Germany",
+			"responses" : "1487"
+		}
+	],
+	"error" : false,
+	"status" : 200
+}

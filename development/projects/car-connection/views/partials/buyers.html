@@ -1,0 +1,36 @@
+<h3>Buyer Page</h3>
+<h4><i>Show Resources for Buyers</i></h4>
+<hr />
+<article>
+    <table id="buyersList" class="table-striped">
+        <tr>
+            <th>Buyer ID</th><th>Name</th><th>Address</th><th>City</th>
+            <th>State</th><th>Zipcode</th><th>Email Address</th>
+        </tr>
+        <tr data-ng-repeat="buyer in buyers">
+            <td>{{ buyer.id }}</td>
+            <td>{{ buyer.name }}</td>
+            <td>{{ buyer.address }}</td>
+            <td>{{ buyer.city }}</td>
+            <td>{{ buyer.state }}</td>
+            <td>{{ buyer.zipcode }}</td>
+            <td>{{ buyer.emailAddr }}</td>
+        </tr>
+    </table>
+</article>
+<aside>
+   <ol>
+       <li>Complete the the bindings</li>
+       <li>filter the data bindings to the input fields</li>
+       <li>clean up the HTML</li>
+   </ol>
+    <p>Users that arrive here are buyers for the production company wanting
+     to rent cars for their film.</p>
+
+    <p>This will collect data on their location, type of car, color of car,
+     etc and filter the results set from the owners database and show them here.</p>
+
+    <p>These search results should be able to be save as a log.  Individual id
+     should be able to be saved and linked beteen the current user and the UID
+     of the owners that they save.</p>
+</aside>

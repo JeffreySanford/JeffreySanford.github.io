@@ -1,0 +1,13 @@
+body {
+	background: white;
+	width: 90%;
+	margin: 2em auto;
+	color: darkBlue;
+}
+
+h1, p {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin-before: 0em;
+    margin-after: 0em;
+}

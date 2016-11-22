@@ -1,0 +1,33 @@
+
+26Jun2015:
+
+(a)  focus on creating an iframe object for each page
+(b)  create a design element to hide the views
+(c)  create a design element to display the array of errors.
+
+(a)  Focus on Creating an iFrame object for Each Page
+    Instead of calling two separate methods to get the information associated with the webpage
+    that we are loading, which should be able to refer to the single webpage as an object.
+
+     The code has been stripped down to a simple loop, for four of the pages.
+
+     Implement this code into the loop to attempt to identify one of the javascript files.
+
+     "If your iframe is in the same domain as your parent
+     page you can access the elements using document.frames
+     collection.
+
+         // replace myIFrame with your iFrame id
+         // replace myIFrameElemId with your iFrame's element id
+         // you can work on document.frames['myIFrame'].document like you are working on
+         // normal document object in JS
+         window.frames['myIFrame'].document.getElementById('myIFrameElemId')
+
+    "If your iframe is not in the same domain the browser should prevent such access for security reasons."
+     -- http://stackoverflow.com/questions/1451208/access-iframe-elements-in-javascript
+
+
+Use a prototpye for the webpage object:
+    http://www.w3schools.com/js/js_object_prototypes.asp
+
+

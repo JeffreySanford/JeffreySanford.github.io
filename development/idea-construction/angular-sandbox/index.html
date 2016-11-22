@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>ng - bootstrap - ui-router</title>
+        <!-- Bootstrap CSS -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--  angular requires -->
+        <script src="js/vendor/angular/angular.min.js"></script>
+        <script src="js/vendor/angular/angular-ui-router.min.js"></script>
+
+
+    </head>
+
+    <body class="container" ng-app="myapp">
+      <p><i>Template for the UI-Router under AngularJS</i></p>
+        <p><i>styled with bootstrap</i></p>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="#">Quick Start</a>
+          <ul class="nav">
+            <li><a ui-sref="route1">Page One</a></li>
+            <li><a ui-sref="route2">Page Two</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <div class="well" ui-view></div>        
+        </div>
+      </div>  
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<h3>Buyer Page</h3>
+<h4><i>Show Resources for Buyer</i></h4>
+<hr />
+
+<!--  Float right -->
+<a ng-href="img/{{username}}.jpg">Hello {{user.name}}!</a>
+
+<!--Float left -->
+
+<h2>{{ user.name }}</h2>
+<tr><td>{{ user.emailAddr }}</td></tr>
+<tr><td>{{ user.address }}</td><td>{{ user.city }}</td><td>{{ user.state }}</td><td>{{ user.zipcode }}</td></tr>
+<hr />
+Owners:
+<div ng-repeat="owner in owners">
+    {{owner.id }}
+    {{ owner.name }}
+</div>
+<br /><br />
+
+Buyers:
+<div ng-repeat="buyer in buyers">
+    {{ buyer.name }}:<br />
+    <div ng-repeat="resource in buyer.savedResources">
+        {{ resource.itemID }}
+        {{ resource.name }}
+        {{ resource.desc }}
+    </div>
+</div>
+
+<!--  User saved searches section -->
+
+    <!--  repeat the element array in savedResources for the UserID  -->
+
+<!--  Filtering section -->
+
+    <!-- Range Filter for location - location within x number of miles of city -->
+    <!-- Range Filter for Year  -->
+    <!-- Filter for color  -->
+    <!-- Filter for make  -->
+    <!-- Filter for model  -->
+    
+<!--  Search results section -->
+
+<div ng-repeat="seller in sellers">
+    <div id="itemDisplayBlock">
+        <div id="itemPicture">
+            <a ng-href="img/items/{{ itemID }}.png">Image for Item {{ itemID }}</a>
+            <!-- Float left top -->
+        </div>
+        <div id="itemDetails">
+           <!-- Float left top -->
+            {{ item.year }} <br />
+            {{ item.color }} <br />
+            {{ item.model }} <br />
+            {{ item.make }} <br />
+        </div>
+        <div id="programDetails">
+           <!--  Float right top -->
+            {{ user.userID }}   // User ID attached to the Item
+            {{ item.itemID }}   // Item ID attached to the Item  
+        </div>
+        <div id="itemDescriptionBlock">
+            <!--  Display below the rest of the items for a description of the item -->
+            Description: {{ item.desc }}
+        </div>
+    </div>
+</div>
+
+
+
+
+

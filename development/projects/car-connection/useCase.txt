@@ -1,0 +1,22 @@
+
+
+Load the user page (http://name/#/page/:variable)
+	Example is http://carconnection/#/buyer/:buyerID
+
+	I want to call a specific function in the Controller
+	that will be used for the variable specific page load.
+
+
+app.js will:
+   loads the controller
+	buyerID is being passed to the controller as a variable
+
+	make this decision {
+	   foreach (buyers.json) {
+		if buyersID = data.buyers.json {
+		   name = data.name
+		   address = data.address
+		}
+	   end foreach
+
+   loads the view

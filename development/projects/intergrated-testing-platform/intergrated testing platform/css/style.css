@@ -1,0 +1,34 @@
+
+body {
+    background: whitesmoke;
+    width: 90%;
+    border: 1px solid black;
+    font-family: 'Inconsolata', ;
+    padding: 0 20px;
+    margin: 10px auto;
+}
+#displayErrorsHere {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 10px 0 0;
+}
+
+#displayWebPagesHere{
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 10px 0 0;
+}
+
+#displayJSFilesHere {
+    border: 1px solid green;
+    padding: 20px;
+    margin: 10px 0 0;
+}
+
+iframe {
+    border:0;
+    width: 400px;
+    height: 350px;
+    margin: 2em;
+    box-shadow: 5px 5px 10px #999999;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title> - jsFiddle demo</title>
+  
+  
+  <script type="text/javascript" src="dummy.js"></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="result-light.css">
+  
+  <style type="text/css">
+    
+  </style>
+  
+
+
+
+<script type="text/javascript">//<![CDATA[
+window.onload=function(){
+function* generator() {
+  console.log("Hello");
+  yield null;
+  console.log("World");
+  yield null;
+  console.log("This will never be called.");
+  yield null;
+}
+
+var doThis = generator();
+doThis.next();
+doThis.next();
+
+}//]]> 
+
+</script>
+
+</head>
+<body>
+  
+  
+
+
+
+
+</body></html>

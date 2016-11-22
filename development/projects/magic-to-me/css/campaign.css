@@ -1,0 +1,120 @@
+#campaign-display {
+  margin-top: 150px;
+}
+.navbar-static-top {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.navbar-static-top a {
+  color: black;
+  font-size: 1.3em;
+  color: black;
+  font-weight: bolder;
+}
+
+/* make our pages be full width and full height */
+/* positioned absolutely so that the pages can overlap each other as they enter and leave */
+/* PAGES (specific colors for each page) */
+
+.page {
+  color:black;
+  color: green;
+}
+
+.jumbotron {
+  min-height:600px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.page h3 {
+color: black;
+}
+
+.page p {
+  margin-top: 0;
+  color: black;
+}
+
+.social-logo {
+  float: left;
+  width: 19%;
+  margin: 0 20px;
+}
+
+/*Page specific CSS */
+.page-main { }
+
+.page-facebook { }
+
+.page-twitter { }
+
+.page-instagram { }
+
+.page-instagram .instafeed img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    float:left;
+}
+
+.at-view-slide-in-left.ng-enter {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(-100%, 0px);
+    -moz-transform: translate(-100%, 0px);
+    -ms-transform: translate(-100%, 0px);
+    -o-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.at-view-slide-in-left.ng-enter-active {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    position: absolute;
+}
+
+.at-view-slide-out-right.ng-leave {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    z-index: 3;
+    position: absolute;
+}
+
+.at-view-slide-out-right.ng-leave-active {
+    -webkit-transform: translate(100%, 0px);
+    -moz-transform: translate(100%, 0px);
+    -ms-transform: translate(100%, 0px);
+    -o-transform: translate(100%, 0px);
+    transform: translate(100%, 0px);
+    opacity: 0;
+}

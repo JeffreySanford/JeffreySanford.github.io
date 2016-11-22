@@ -1,0 +1,27 @@
+<h3><span style="color:red">Sellers Page</span></h3>
+<h4><i>Show Resources for Authenticated</i></h4>
+<hr />
+<article>
+    <table id="OwnerList" class="table-striped">
+        <tr><th>year</th><th>color</th><th>car</th><th>City</th><th>State</th></tr>
+        <tr data-ng-repeat="owner in owners | filter:owner.model">
+            <td>{{ owner.year }}</td>
+            <td>{{ owner.color }}</td>
+            <td>{{ owner.car }}</td>
+            <td>{{ owner.locationCity }}</td>
+            <td>{{ owner.locationState }}</td>
+        </tr>
+    </table>
+</article>
+<aside>
+    <ol>
+        <li>Give user the ability to modify profile</li>
+        <li>Show list of current seller;s information</li>
+        <li>Create CRUD system to enable create, update and deletion of resources</li>
+   </ol>
+    <p>Here the user will be display his or her information about their profile; contact email address, name, telephone number, city, state.  This will be a per user screen</p>
+
+    <p>The user will be able to list and make public or private resources that they currently want to have available.</p>
+
+    <p>This should build trust with the user that their inforamtion will not be displayed to the public and that contact will be made through the host site.  This way robberies will not be attempted on classic cars, etc.</p>
+</aside>

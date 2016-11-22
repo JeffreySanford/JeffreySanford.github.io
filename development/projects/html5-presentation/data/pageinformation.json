@@ -1,0 +1,13 @@
+{
+    "mp4": "video/haynes-astronauts.mp4",
+    "ogg": "video/haynes-astronauts.ogg",
+    "webm": "video/haynes-astronauts.webm",
+    "audioOgg": "music/space-conspiracy.ogg",
+    "audioMp3": "music/space-conspiracy.mp3",
+    "background": "../images/MS-background.jpg",
+    "mainPageTitle": "Exciting news just discover!",
+    "mainPageLeftColumn": "This is the left column text.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quam eveniet tempora inventore quos quibusdam vitae libero assumenda nobis explicabo, laudantium in illo, ad ut vel doloribus vero temporibus voluptatum!</p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, beatae! Optio odit deleniti id, temporibus numquam, magnam quod modi eum ullam voluptatum. Molestias quos quisquam numquam quis ut, similique maxime.</p><p>Explicabo quasi molestiae laudantium adipisci, maxime odio voluptate enim facilis in tempora iste, vitae, maiores quod accusantium ut nobis repellendus minus temporibus dolorum quam ratione. This ends the left column text.",
+    "mainPageRightColumn": "This is right column text.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatum facilis ipsam deleniti culpa autem quaerat amet quo, est, commodi esse vitae nobis qui cumque. Ullam, quaerat perspiciatis suscipit labore.  This ends the right column text.",
+    "modalTitle": "Terms and Conditions",
+    "modalContent":  "This is the beggining of terms and conditions.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim praesentium, obcaecati! Nobis totam ad vel cumque, magnam voluptatibus quasi voluptates expedita est corporis ab distinctio pariatur sint facilis, illum perspiciatis.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur quaerat beatae, ullam impedit odit, aspernatur sapiente officia eligendi explicabo quod aliquam exercitationem recusandae dolorem esse inventore aperiam dignissimos! Officia.  This is the end of terms and conditions."
+}

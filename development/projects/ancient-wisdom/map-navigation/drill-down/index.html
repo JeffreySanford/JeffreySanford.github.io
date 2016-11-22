@@ -1,0 +1,88 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Google Visualization API Sample</title>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load('visualization', '1', {packages: ['geochart']});
+
+    var width, height, selectedRegion, resolution;
+
+    window.onload = function(){
+      width = 556;
+      height = 400;
+      selectedRegion = 'world';
+      resolution = 'subcontinents';
+    };
+
+    function drawVisualization() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Region');
+      data.addColumn('number', 'Value');
+      data.addRows([
+        [{v:"005", f:"South America"}, 978.7],
+        [{v:"011", f:"Western Africa"}, 46],
+        [{v:"013", f:"Central America"}, 299],
+        [{v:"014", f:"Eastern Africa"}, 63.9],
+        [{v:"015", f:"Northern Africa"}, 255.7],
+        [{v:"017", f:"Middle Africa"}, 21.4],
+        [{v:"018", f:"Southern Africa"}, 244.5],
+        [{v:"029", f:"Caribbean"}, 76.5],
+        [{v:"030", f:"Eastern Asia"}, 5712.9],
+        [{v:"034", f:"Southern Asia"}, 1275.1],
+        [{v:"035", f:"South-Eastern Asia"}, 639.2],
+        [{v:"039", f:"Southern Europe"}, 777.8],
+        [{v:"053", f:"Australia and New Zealand"}, 272],
+        [{v:"054", f:"Melanesia"}, 6.3],
+        [{v:"057", f:"Micronesia"}, 1.8],
+        [{v:"061", f:"Polynesia"}, 1],
+        [{v:"143", f:"Central Asia"}, 170.3],
+        [{v:"145", f:"Western Asia"}, 834.1],
+        [{v:"151", f:"Eastern Europe"}, 1587.6],
+        [{v:"154", f:"Northern Europe"}, 801.5],
+        [{v:"155", f:"Western Europe"}, 1456.2],
+        [{v:"021", f:"Northern America"}, 4704.1]
+      ]);
+
+      var options = {
+        displayMode: 'regions',
+        enableRegionInteractivity: 'true',
+        resolution: resolution,
+        region: selectedRegion,
+        height: height,
+        width: width
+      };
+
+      var geochart = new google.visualization.GeoChart(
+          document.getElementById('visualization'));
+
+      google.visualization.events.addListener(geochart, 'select', function() {
+        var selection = geochart.getSelection();
+
+        if (selection.length == 1) {
+          var selectedRow = selection[0].row;
+          selectedRegion = data.getValue(selectedRow, 0);
+          resolution = "countries";
+          options.region = selectedRegion;
+          options.resolution = resolution;
+          //alert(resolution);
+          geochart.draw(data, options);
+          }
+      });
+
+      geochart.draw(data, options);
+    }
+
+    google.setOnLoadCallback(drawVisualization);
+  </script>
+</head>
+<body style="font-family: Arial;border: 0 none;">
+<div id="visualization"></div>
+</body>
+</html>

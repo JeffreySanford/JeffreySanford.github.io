@@ -1,0 +1,86 @@
+/*  Page Styling */
+body {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white;
+
+  /* fallback */
+  background-color: #2F2727;
+  background-image: url(images/allseeingeye-radial-background.jpg);
+  background-position: 80% 20%;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, 80% 20%, 0, 80% 40%, 100, from(#1a82f7), to(#2F2727));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(80% 20%, closest-corner, #1a82f7, #2F2727);
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(80% 20%, closest-corner, #1a82f7, #2F2727);
+  /* IE 10 */
+  background: -ms-radial-gradient(80% 20%, closest-corner, #1a82f7, #2F2727);
+  /* Opera cannot do radial gradients yet */
+}
+
+#map {
+  z-index: 1;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 450px;
+  border: 5px solid green;
+  border-radius: 25px;
+}
+
+#status {
+  position: absolute;
+  bottom: 2em;
+  z-index: 10;
+  color: white;
+  font-size: 1.5em;
+  width: 70%;
+  height: 1.8em;
+  margin: 1em;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 25px; 
+}
+
+#information   { 
+  width: 86%; 
+  color: white; 
+  font-size: 1.2em; 
+  margin: 1em 2em 1em 6.25%; 
+  padding: 10px; 
+  border: 1px solid blue; 
+  border-radius: 25px;
+}
+
+#controls { 
+  width: 86%; 
+  color: white; 
+  font-size: 1.2em; 
+  margin: 1em 2em 1em 6.25%; 
+  padding: 10px; 
+  border: 1px solid purple;
+  border-radius: 25px;
+}
+
+.range { 
+  position: absolute; 
+  width: 100%; 
+  margin: 0 auto 10px;
+  bottom: 5px;
+  z-index: 10; 
+}
+
+.leaflet-top .leaflet-control-zoom { 
+  top:20px; 
+}
+
+#latitude { 
+  position: relative; 
+  right:0; 
+  top:0;
+}

@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+html, body {
+	background-color: #000000;
+	font-family: 'Slabo 27px', serif;
+}
+
+video {  
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    min-width: 100%; 
+    min-height: 90%; 
+    width: 100%;
+    margin: 0 auto;
+    height: auto;   
+}
+
+.video-content {
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.video-content button {
+	position: fixed;
+	z-index: 1; 
+	bottom: 65px;
+	right: 30px;
+	background-color: black; 
+	color: white; 
+	padding: 2px;
+	border: 1px solid #FFFFFF;
+	background: none;
+}
+
+.video-content button:hover {
+	background-color: blue;
+}
+
+#page-template { 
+	background-repeat: no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: black;
+
+	/* Set rules to fill background */
+	min-height: 100%;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#mainpage-container {
+	font-family: 'Slabo 27px', serif;
+	color: #FFFFFF;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#mainpage-container h2 {
+	font-size: 1.8em;
+}
+
+#mainpage-container p {
+	font-size: 1.5em;
+}
+
+#navigation {
+	position: fixed;
+	z-index: 1;
+	bottom: 50px;
+	width: 100%;
+}
+
+#navigation a {
+	padding: 5px; 
+	border-radius: 5px; 
+	border: 2px solid blue; 
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1.4em;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	-webkit-transition: opacity 1000ms ease-in;
+	-moz-transition: opacity 1000ms ease-in;
+	transition: opacity 1000ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog h2 {
+	font-size: 1.8em;
+}
+
+.modalDialog p {
+	font-size: 1.5em;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	font-family: 'Slabo 27px', serif;
+	width: 50%;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: rgb(122,188,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+
+.close {
+	background: #0000FF;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 6px;
+	text-align: center;
+	top: 6px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }

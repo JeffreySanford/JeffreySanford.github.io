@@ -1,0 +1,24 @@
+<!--Instagram Template -->
+<script src="js/instafeed.min.js"></script>
+<div class="jumbotron">
+  <img class="social-logo" src="images/instagram.png" alt="">
+  <h3>{{heading}}</h3>
+  <p>Page class is set to {{pageClass}}</p>
+  <p>{{message}}</p>
+  <p><a class="btn btn-lg btn-primary" href="https://instagram.com/magiccoffeetruck/" role="button"><i class="fa fa-instagram">&nbsp;MagicCoffeeTruck</i></a></p>
+  <div id="magic-to-me-additonal">
+    <div id="instagram">
+      <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            tagName: 'magiccoffeetruck',
+            clientId: 'c735b35f286a4bd89d97c13ce446c508',
+            template: '<div style="min-width: 150px; height: 375px;border: 1px solid black; margin: 1em; float: left; width: 25%; padding: .5em;"><a href="{{link}}"><img src="{{image}}" style="width: 90%;" /></a><p style="font-size: 14px; margin-top: 1em;">{{caption}}</p></div>'
+        });
+        feed.run();
+      </script>
+      <div id="instafeed"></div>
+    </div>
+  </div>
+  <p  style="clear: both;"></p>
+</div>

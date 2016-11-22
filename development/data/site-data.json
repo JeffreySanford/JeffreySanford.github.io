@@ -1,0 +1,181 @@
+{
+   "designTypes": [
+      {
+       "title":"html5/css3",
+       "subtitle":"designs in html5",
+       "teaser":"Designs in HTML5 and CSS3",
+       "git":"github:JeffreySanford",
+       "url":"#/design/:html",
+       "imageURL": "img/html5css3-logo.png"
+      },
+      {
+       "title":"javascript",
+       "subtitle":"designs in javascript",
+       "teaser":"Design work focused on javascript operations in the browser.",
+       "git":"github:JeffreySanford",
+       "url":"#/design/:javascript",
+       "imageURL": "img/javascript-logo.png"
+      },
+      {
+       "title":"bootstrap",
+       "subtitle":"designs in boostrap",
+       "teaser":"Designs that focus on using bootstrap",
+       "git":"github:JeffreySanford",
+       "url":"#/design/:bootstrap",
+       "imageURL": "img/bootstrap-logo.png"
+      }
+   ],
+   "designProjects": [
+      {
+       "title":"Space Video",
+       "subtitle":"HTML5 audio and video",
+       "teaser":"This is using the HTML5 video and audio elements.",
+       "git":"https://github.com/JeffreySanford/html5-presentation",
+       "url":"projects/html5-presentation",
+       "samples":":html",
+       "imageURL": "img/html5css3-logo.png"
+      },
+      {
+       "title":"Reddit",
+       "subtitle":"Displays Reddit articles",
+       "teaser":"This collects articles from the business reddit section and displays them.",
+       "git":"https://github.com/JeffreySanford/development/tree/master/assessments/reddit",
+       "url":"../development/projects/reddit",
+       "samples":":html",
+       "imageURL": "img/html5css3-logo.png"
+      },
+      {
+       "title":"Tables",
+       "subtitle":"Table Modification",
+       "teaser":"HTML5 design using JQuery.",
+       "git":"https://github.com/JeffreySanford/samples/tree/master/jquery/table-modification",
+       "url":"../samples/jquery/table-modification/",
+       "samples":":bootstrap",
+       "imageURL": "img/bootstrap-logo.png"
+      },
+      {
+       "title":"Sort",
+       "subtitle":"CS Sort Algorithms",
+       "teaser":"Using bootstrap, display some higher level search engine algorithms results.",
+       "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
+       "url":"../development/projects/sort-functions/",
+       "samples":":bootstrap",
+       "imageURL": "img/bootstrap-logo.png"
+      },
+      {
+       "title":"Layouts",
+       "subtitle":"Basic Layout using HTML5 and Jquery",
+       "teaser":"These are some samples in Jquery",
+       "git":"https://github.com/JeffreySanford/development/tree/master/assessments/sort-functions",
+       "url":"../samples/jquery/basic/",
+       "samples":":javascript",
+       "imageURL": "img/html5css3-logo.png"
+      }
+   ],
+   "developmentTypes": [
+      {
+       "title":"expressJS",
+       "subtitle":"development in the Express/NodeJS",
+       "teaser":"Server sided scripting and routing built with ExpressJS and NodeJS.",
+       "imageURL": "img/expressjs-logo.png",
+       "url":"#/development/:express"
+      },
+      {
+       "title":"angularJS",
+       "subtitle":"development in AngularJS",
+       "teaser":"Prototypes and applications using the AngularJS framework.",
+       "imageURL": "img/angularjs-logo.png",
+       "url":"#/development/:angular"
+      },
+      {
+       "title":"JavaScript",
+       "subtitle":"JavaScript projects",
+       "teaser":"Webpage driven application using some of the more advanced features of javascript.",
+       "imageURL": "img/html5css3-logo.png",
+       "url":"#/development/:javascript"
+      }
+   ],
+   "developmentProjects": [
+      {
+       "title":"Artist Site",
+       "subtitle":"Mockup for an idea for an artist site.",
+       "teaser":"These are develpment projects done in ExpressJS and Angular.",
+       "git":"https://github.com/JeffreySanford/ravenwoodstudios",
+       "url":"http://ravenwoodstudios.herokuapp.com/",
+       "samples":":express",
+       "imageURL": "img/expressjs-logo.png"
+      },
+      {
+       "title":"Survey Site",
+       "subtitle":"Simple restful service for collecting surveys.",
+       "teaser":"This is a expressJS application for collecting surveys.",
+       "git":"https://github.com/JeffreySanford/sandbox-designs/tree/master/express/project-forms",
+       "url":"https://project-forms.herokuapp.com/",
+       "samples":":express",
+       "imageURL": "img/expressjs-logo.png"
+      },
+      {
+       "title":"Car Connect",
+       "subtitle":"Artist Site",
+       "teaser":"This is a angular mockup application for a business idea that a start-up had.",
+       "git":"https://github.com/JeffreySanford/development/tree/master/projects/car-connection/app",
+       "url":"../development/projects/car-connection",
+       "samples":":angular",
+       "imageURL": "img/angularjs-logo.png"
+      },
+      {
+    	"title": "D3JS",
+    	"subtitle": "Data Visualizations",
+    	"teaser": "The D3JS framework represents your data on the front-end with engaging animations, transitions and methods.",
+    	"url":  "../development/projects/D3JS",
+    	"samples": ":angular",
+        "git": "https://github.com/JeffreySanford/development/tree/master/projects/D3JS",
+    	"imageURL": "img/angularjs-logo.png"
+      },
+      {
+    	"title": "Angular Hero",
+    	"subtitle": "Angular front-end ideas",
+    	"teaser": "Angular/Material design creates a front-end app that involves the user in the navigation process.",
+    	"url":  "../development/projects/ng-hero-app/",
+    	"samples":  ":angular",
+        "git":"github:JeffreySanford",
+    	"imageURL":  "img/angularjs-logo.png"
+      },
+      {
+    	"title": "Native Girl",
+    	"subtitle": "Angular artist portfolio",
+    	"teaser": "This will give an artist the ability to cycle through their portfolio work in different catagories.",
+    	"url":  "../development/projects/native-girl/",
+    	"samples":  ":angular",
+        "git":"github:JeffreySanford",
+    	"imageURL":  "img/angularjs-logo.png"
+      },
+      {
+       "title":"Kitchen Table",
+       "subtitle":"Recipe Articles",
+       "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
+       "git":"https://github.com/JeffreySanford/development/tree/master/projects/kitchen-table",
+       "url":"../development/projects/kitchen-table",
+       "samples":":angular",
+       "imageURL": "img/angularjs-logo.png"
+      },
+      {
+       "title":"Purchasing",
+       "subtitle":"Proof of Concept",
+       "teaser":"A site for a front end e-commerence package that will charge to Swipe and Paypal APIs.",
+       "git":"https://github.com/JeffreySanford/subscription-project",
+       "url":"../development/projects/rest-express",
+       "samples":":angular",
+       "imageURL": "img/angularjs-logo.png"
+      },
+      {
+       "title":"Weather",
+       "subtitle":"Display weather statistics",
+       "teaser":"Using restful services and external API's pull weather data about a specified city.",
+       "git":"https://github.com/JeffreySanford/development/tree/master/assessments/async-weather-reverserisk",
+       "url":"../development/projects/async-weather/",
+       "samples":":javascript",
+       "imageURL": "img/html5css3-logo.png"
+      }
+   ]
+}

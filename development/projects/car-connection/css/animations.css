@@ -1,0 +1,31 @@
+.main-content.ng-enter, .main-content.ng-leave {
+    -webkit-transition: 0.2s linear all;
+    -moz-transition: 0.2s linear all;
+    -o-transition: 0.2s linear all;
+    transition: 0.2s linear all;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.main-content.ng-enter {
+    z-index: 1000;
+    left: 240px;
+    opacity: 0;
+}
+
+.main-content.ng-enter.ng-enter-active {
+    left: 0;
+    opacity: 1;
+}
+
+.main-content.ng-leave {
+    z-index: 1001;
+    left: 0;
+    opacity: 1;
+}
+
+.main-content.ng-leave.ng-leave-active {
+    left: -240px;
+    opacity: 0;
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Form Validator Sample</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/form.css">
+		<script rel="javascript" src="js/javascript.js"></script>
+		<script rel="javascript" src="js/modernizr.formValidation.js"></script> 
+	</head>
+	<body>
+		<div id="pageSeconds">&nbsp;</div>
+		<header>
+			<hgroup id="headerGroup">
+				<img src="img/best_service.png" alt="Logo">
+				<h1>Company Name</h1>
+				<h2>TagLine</h2>
+			 	<nav>
+				 	<ol>
+			 			<li><a href="#">Home</a></li>
+			 			<li><a href="#">Sevices</a></li>
+			 			<li><a href="#">About</a></li>
+			 			<li><a href="#">Contact</a></li>
+			 		</ol>
+				 </nav>
+			</hgroup>
+		</header>
+		<div id="content">
+			<section id="formValidation">
+					<div id="mainBody">
+					<form id="theForm" name="theForm" class="group" action="#" method="POST"> 
+						<h2>Form Validation</h2>
+						<fieldset id="userInformation" title="User Information">
+							<legend>This section contains information about yourself</legend>
+							<span id="formerror" class="error"></span>
+							<span id="patternError" class="error"></span>
+							<ol>
+								<li><label for="realName">Name:</label><span id="realNameHint" class="hint"></span>
+								<input type="text" name="realNameName" id="realName" title="Please enter your name" pattern="[A-Za-z ]+, [A-Za-z ]+" placeholder="Last, First" autofocus required  /></li>
+								<li><label for="emailAddress">Email:</label>
+								<input type="email" name="emailAddress" id="emailAddress" title="Please enter your email address" autocomplete="off" required></li>
+								<li><label for="mypassword">Password</label>
+								<input type="password" name="mypassword" id="mypassword" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" /></li>
+							</ol>
+						</fieldset>
+						<fieldset id="otherInfromation" title="Other Revelant Information">
+							<legend>Useful Information</legend>
+							<ol>
+								<li><label for="userUrl">Website</label>
+								<input type="url" name="myurl" id="userUrl" /></li>
+								
+								<li><label for="mytelephone">Telephone</label>
+								<input type="tel" name="mytelephone" id="mytelephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="xxx-xxx-xxxx"/>
+								</li>
+								<li class="singleLine">
+								<input type="checkbox" id="subscribeitem" name="subscribe" CHECKED value="yes" />
+								<label for="subscribeitem">Subscribe to our mailing list?</label>
+								</li>
+								<li>
+								<label for="reference">How did you hear about us?</label>
+								<select name="reference" id="reference">
+									<option>Choose...</option>
+									<option value="friend">A friend</option>
+									<option value="facebook">Facebook</option>
+									<option value="twitter">Twitter</option>
+								</select></li>
+							</ol>
+						</fieldset>
+						<button type="submit" id="submitButton">send</button>
+						<button type="reset" id="resetButton">reset</button>
+					</form>
+				</div>
+			</section>
+			<aside id="sidebar">
+				<h2>Interesting Facts</h2>
+				<span id="topAsideHint" class="hint"></span>
+				<blockquote>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				</blockquote>
+				<span id="middleAsideHint" class="hint"></span>
+				<blockquote>	
+					<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+				</blockquote>
+				<span id="bottomAsideHint" class="hint"></span>
+			</aside>
+			<div class="spacer"></div>
+		</div>
+		<footer>
+			<nav>
+				<ol>
+		 			<li><a href="#">Home</a></li>
+		 			<li><a href="#">Sevices</a></li>
+		 			<li><a href="#">About</a></li>
+		 			<li><a href="#">Contact</a></li>
+				 </ol>
+			</nav>
+	</body>
+</html>

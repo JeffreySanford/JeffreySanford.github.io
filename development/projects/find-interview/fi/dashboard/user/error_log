@@ -1,0 +1,24 @@
+[17-Aug-2015 23:32:07 UTC] PHP Fatal error:  Call to undefined method user::GetUserInfoByID() in /home/ahmedbash/public_html/fi/dashboard/user/job.php on line 10
+[20-Aug-2015 15:47:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 116
+[20-Aug-2015 15:47:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 116
+[20-Aug-2015 15:47:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 116
+[20-Aug-2015 15:47:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 116
+[20-Aug-2015 16:10:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 75
+[20-Aug-2015 17:12:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 146
+[20-Aug-2015 17:45:42 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 150
+[20-Aug-2015 18:08:58 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[20-Aug-2015 18:09:03 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[20-Aug-2015 18:09:08 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[20-Aug-2015 18:09:13 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[20-Aug-2015 18:09:18 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[22-Oct-2015 08:02:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 232
+[22-Oct-2015 08:02:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 232
+[22-Oct-2015 08:02:52 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:02:54 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:02:54 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:06 UTC] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:06 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:14 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:14 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:25 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[22-Oct-2015 08:03:26 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27

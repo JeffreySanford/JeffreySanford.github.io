@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link  href="css/base.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row">
+          <div class="col-md-4">
+            <h1>D3JS Sample Project</h1>
+          </div>
+          <div class="col-md-8 text-right"><h3>Jeffrey Sanford</h3></div>
+        </div>
+      </header>
+      
+      <section style="margin-top: 20px;">
+        <div class="row center-block">
+          <article id="totalsProject">
+            <div id ="projectOne" class="col-md-6">
+              <p class="text-left" style='font-size: 20px'>Total Responses</p>
+            </div>
+          </article>
+          
+          <article id="top5CountiesProject" >
+            <div id ="projectTwo" class="col-md-6">
+              <p class="text-left" style='font-size: 20px'>Top Five Country Responses</p>
+              <table class="table table-striped table-condensed table-bordered table-hover" id="top5Table">
+                <tbody></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+                
+        <div class="row center-block" style="margin-top: 20px;">
+          <article id="firstMonthProject">
+            <div id="projectThree" class="col-md-6">
+              <p class="text-left" style='font-size: 20px'>Month Responses</p>
+              <div id="firstMonthChart">
+              </div>
+            </div>
+          </article>
+          
+          <article id="occupationProject">
+            <div id="projectFour" class="col-md-6">
+              <p class="text-left" style='font-size: 20px'>Occupation Responses</p>
+              <div id="occupationChart">
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+    </section>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

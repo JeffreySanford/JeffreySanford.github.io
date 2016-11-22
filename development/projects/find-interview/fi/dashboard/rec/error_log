@@ -1,0 +1,16 @@
+[19-Aug-2015 11:56:30 UTC] PHP Fatal error:  Call to undefined method Jobs::GetApplies() in /home/ahmedbash/public_html/fi/dashboard/rec/job.php on line 92
+[20-Aug-2015 15:46:36 UTC] PHP Fatal error:  Call to undefined method Jobs::GetAppliesForRec() in /home/ahmedbash/public_html/fi/dashboard/rec/job_seekers.php on line 27
+[20-Aug-2015 15:47:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 116
+[20-Aug-2015 17:05:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 121
+[20-Aug-2015 18:09:01 UTC] PHP Parse error:  syntax error, unexpected ''" class="button sm solid icon' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/includes/classes/jobs_class.php on line 143
+[18-Sep-2015 00:22:35 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[18-Sep-2015 00:22:38 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[18-Sep-2015 00:22:43 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/ahmedbash/public_html/fi/configs/config.php on line 27
+[30-Oct-2015 14:59:40 UTC] PHP Parse error:  syntax error, unexpected '$activites' (T_VARIABLE) in /home/ahmedbash/public_html/fi/dashboard/rec/search.php on line 12
+[30-Oct-2015 16:51:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 296
+[30-Oct-2015 16:53:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ahmedbash/public_html/fi/dashboard/rec/search.php on line 9
+[30-Oct-2015 18:26:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 313
+[01-Nov-2015 20:57:03 UTC] PHP Parse error:  syntax error, unexpected '$return' (T_VARIABLE) in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 317
+[01-Nov-2015 20:57:25 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 318
+[02-Nov-2015 17:18:52 UTC] PHP Parse error:  syntax error, unexpected '") ; ' (T_CONSTANT_ENCAPSED_STRING) in /home/ahmedbash/public_html/fi/dashboard/rec/profile.php on line 9
+[02-Nov-2015 17:19:04 UTC] PHP Catchable fatal error:  Object of class user could not be converted to string in /home/ahmedbash/public_html/fi/dashboard/rec/profile.php on line 5

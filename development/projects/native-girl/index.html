@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+		<link rel="stylesheet" href="css/vendor/angular/ng-animation.css">
+		<link rel="stylesheet" href="css/angular-animations.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body ng-app="portfolioModule">
+	    <header>
+	        <nav class="navbar navbar-inverse" role="navigation">
+	            <div class="container">
+	                <!-- The button that shows when the width is too short -->
+	                <div class="navbar-header">                            
+	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                    </button>
+
+	                    <a class="navbar-brand" ><span class="subhead" style="font-size: 1.5em;">B.S. Native Girl</span></a>
+	                </div>                   
+	                <!-- The navigation menu. It collapses when the width is too short -->
+	                <div id="collapse" class="collapse navbar-collapse">
+	                    <ul class="nav navbar-nav navbar-right">
+	                        <li><a href="#/home">home</a></li>
+	                        <li><a href="#/art">artwork</a></li>
+	                        <li><a href="#/about">about</a></li>                                    
+	                    </ul>
+	                </div>
+	            </div>
+	        </nav>
+	</header>
+	<div class="container content-wrapper" ng-view></div>
+	<footer style="margin-top: 5em;>
+		<p>&copy;2016 Raven's Reflection</p>
+		<p>Design and Development by <a href="http://mctdev.us">Jeffrey Sanford</a></p>
+	</footer>
+		<script src="js/vendor/jquery-2.2.0.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+
+		<!--  Using last stable version 1.4.8 -->
+		<script src="js/vendor/angular/1.4.8/angular.js"></script>
+		<script src="js/vendor/angular/1.4.8/angular-route.js"></script>
+	    <script src="js/vendor/angular/1.4.8/angular-resource.js"></script>
+		<script src="js/vendor/angular/1.4.8/angular-animate.js"></script>
+
+		<script src="app/app.js"></script>
+		<script src="js/javascript.js"></script>
+	</body>
+</html>

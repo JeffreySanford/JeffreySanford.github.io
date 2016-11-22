@@ -1,0 +1,2 @@
+[03-Aug-2015 17:38:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ahmedbash/public_html/fi/includes/classes/user_class.php on line 92
+[03-Aug-2015 18:01:22 UTC] PHP Fatal error:  Class 'user' not found in /home/ahmedbash/public_html/fi/configs/config.php on line 55

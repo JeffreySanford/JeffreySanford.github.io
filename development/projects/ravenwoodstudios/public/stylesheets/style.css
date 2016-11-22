@@ -1,0 +1,121 @@
+body {
+  	padding: 50px;
+	font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+
+}
+
+#brand {
+	float:left;
+}
+header img {
+	width: 150px;
+	float:left;
+}
+
+header p {
+	font-size: 1.5em;
+	top:50px;
+	margin-top: 30px; 
+	margin-left: 0;
+	float:left;
+}
+
+#topnav {
+	float:right;
+}
+
+#top-nav ul, ul {
+	text-decoration: none;
+	font-size: 1.5em;
+	list-style-type: none;
+	text-align:right;
+}
+
+#top-nav li {
+	display: inline;
+}
+
+#top-nav a {
+	color: black;
+}
+
+#top-nav a:hover {
+	color: #C8A165;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.content {
+    margin-bottom: 2em;
+}
+
+.objects-insert {
+
+}
+
+#product-box {
+
+}
+
+#product-box:hover {
+
+}
+
+.row-centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+	margin-top: 2em;
+	font-variant: small-caps;
+	font-size: .6em;
+}
+
+footer i {
+	margin: 0 .1em;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: #C8A165;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}

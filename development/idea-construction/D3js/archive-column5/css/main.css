@@ -1,0 +1,58 @@
+body {
+    width: 95%;
+    margin: 5px auto;
+    background-color: lightBlue;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+
+.box {
+    width: 45%;
+    border: 1px solid darkGreen;
+}
+
+.row-centered {
+    margin: 10px auto;
+    width: 90%;
+}
+table {
+  width: 300px;
+}
+
+th { 
+  text-align: left; 
+}
+th, td { 
+  padding: 0 1em 0.5ex 0;
+}
+th.center, td.center { 
+  text-align: center; 
+}
+th.num, td.num { 
+  text-align: right;
+}
+
+#firstMonthProject .axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#firstMonthProject.area {
+  fill: steelblue;
+}

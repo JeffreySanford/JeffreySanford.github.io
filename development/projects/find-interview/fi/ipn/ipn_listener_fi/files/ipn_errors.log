@@ -1,0 +1,8 @@
+[03-Aug-2015 20:49:29 UTC] Invalid HTTP request method.
+[03-Aug-2015 20:49:46 UTC] Invalid HTTP request method.
+[03-Aug-2015 20:50:13 UTC] Invalid HTTP request method.
+[03-Aug-2015 21:26:32 UTC] Invalid HTTP request method.
+[03-Aug-2015 21:43:03 UTC] Invalid HTTP request method.
+[03-Aug-2015 21:44:07 UTC] Invalid HTTP request method.
+[03-Aug-2015 21:55:17 UTC] Invalid response status: 302
+[03-Aug-2015 21:57:52 UTC] cURL error: [35] error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure

@@ -1,0 +1,52 @@
+NaverTrustAnyoneOverThirty:
+var data = '[{"name":"John Smith","birthdate":"1973-02-18"},{"name":"Martha Washington","birthdate":"1823-07-11"},{"name":"Some Kid","birthdate":"2002-12-02"}]';
+
+function getAge(dateString) {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+} 
+
+function findByAge(records) {
+    var age;
+    for (i = 0; i < records.length; i++) {
+	age = getAge(records[i].birthday);
+    	if (getAge(records[i].birthdate) >= 30) {
+		found.push record[i]; 
+		console.log(records[i].name + " is " + 
+    	}
+	conole.log("not " + records[i].name;
+    }
+return found;
+}
+
+
+
+Sum of n arguments:
+function add() {
+    var numSum = 0;
+    for (var i = 0; i < arguments.length; i++) {
+        numSum += arguments[i];
+    }
+    return numSum;
+}
+
+Sum of n arguments curried:
+http://javascript.info/tutorial/closures
+
+function sum(a) {
+  var sum = a
+  function fn(b) {
+    sum += b
+    return fn
+  }
+  fn.toString = function() { 
+    return sum
+  }
+  return fn
+}

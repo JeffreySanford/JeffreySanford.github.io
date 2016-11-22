@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	width: 95%;
+	margin: 1em auto;
+    background: rgba(171,189,242,1);
+    background: -moz-linear-gradient(top, rgba(171,189,242,1) 0%, rgba(208,216,242,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(171,189,242,1)), color-stop(100%, rgba(208,216,242,1)));
+    background: -webkit-linear-gradient(top, rgba(171,189,242,1) 0%, rgba(208,216,242,1) 100%);
+    background: -o-linear-gradient(top, rgba(171,189,242,1) 0%, rgba(208,216,242,1) 100%);
+    background: -ms-linear-gradient(top, rgba(171,189,242,1) 0%, rgba(208,216,242,1) 100%);
+    background: linear-gradient(to bottom, rgba(171,189,242,1) 0%, rgba(208,216,242,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	color: darkBlue;
+    font-family: 'Lora', serif;
+    font-weight: normal;
+}
+
+.header-style {
+    background-color: #B2D7FD;
+    padding: 1em;
+    color: black;
+    border-radius: 6px;
+}
+
+#header-column-left {
+    text-align: left;
+}
+
+#header-column-right {
+    text-align: right;
+}
+
+header .social {
+    font-size: 2em; 
+    margin-right: .01em;
+}
+
+header .social i {
+    color: #337ab7;
+}
+
+header .social i:hover {
+    color: black;
+}
+
+header h1, header p {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin-before: 0em;
+    margin-after: 0em;
+}
+
+header p {
+    font-size: 1.6em;
+    margin-top: .3em;
+}
+
+header button {
+    float: right;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+header button:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+#page-image {
+    width:80%;
+    text-align: right;
+}
+
+div.tooltip-inner {
+	width: 400px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    background-color: #505050;
+    font-size: 14px;
+}
+
+.content {
+    /*This content wrapper applies to all pages */
+    width: 95%;
+    margin: 0 auto;
+/*    background-color: #B2FDFC; */
+
+}
+
+.content h3 {
+    padding: 10px 0 0 10px;
+}
+.content button {
+    margin: 0 2em 1em;
+}
+
+.content p {
+    font-size: 1.5em;
+}
+
+.content input, .content textarea {
+    background-color: #B2FDFC;
+    box-shadow: 1px 1px 3px #A9A9A9;
+    color: black;
+    border: 1px solid black;
+}
+
+input[type="radio"] {
+
+    box-shadow: none;
+    border: 0px !important;
+    background-color: transparent;
+}
+
+.user-identification label {
+    margin-left: 2em;
+    font-size: 1.4em;
+}
+.user-identification input {
+    margin-left: 2em;
+    width: 80%;
+    border: 1px solid black;
+}
+
+#quality-report {
+    margin-left: 2em;
+}
+
+#comments {
+    width: 85%;
+    margin-left: 30px;
+}
+#comments-label {
+    margin-left: 30px;
+    font-size:1.5em;
+    font-weight: normal;
+}
+.report p {
+    font-size: 1.2em;
+ }
+
+ #report-wrapper {
+    margin: 10px 0;
+    padding:5px;
+ }
+
+ #report-wrapper:hover {
+    border: 1px solid teal;
+ }
+
+.rankings p {
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.submit-record {
+    margin-left: 1em;
+    font-size: 1.4em;
+}
+
+.submit-record-text {
+    margin-left: 1em;
+    font-size: 1em;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block-inline;
+}
+
+#reiterator-seperator {
+    border-color: #A0A0A0;
+}
+
+#footer-seperator {
+    border-color: #000000;
+}
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 1em auto 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}

@@ -1,0 +1,38 @@
+<h3>Display All Current Surveys</h3>
+<div style="width:95%; margin: 0 auto;">
+	<% if (data != "valid" ) { %>
+		<div>
+			<p style="text-align: center; color: red;">No records were found.  Please enter a comment.</p>
+		</div>
+	<% } else { %>
+
+		<% for (var i=0; i<surveyData.length; i++) { %>
+			<% objSurveyData = surveyData[i] %>
+			<div class="row" id="report-wrapper">
+				<div id="left-column" class="col-md-9">
+					<div class="row report" style="margin-left: -30px;">
+						<div class="col-md-6" style="text-align:left;">
+							<p><b>Name:</b> <%= objSurveyData.name %></p>
+						</div>
+						<div class="col-md-6 report">
+							<p><b>e-mail address:</b> <%= objSurveyData.email %></p>
+						</div>
+					</div>
+					<div class="row report">
+						<p><b>Comments:</b> <%= objSurveyData.comment %></p>
+						<% var date = new Date(objSurveyData.time); %>
+						<p><b>Date:</b> <%= date %></p>
+					</div>
+				</div>
+				<div id="right-column" class="col-md-3 rankings">
+					<p>Functionality: <%= objSurveyData.funct %></p>
+					<p>Usability: <%= objSurveyData.usage %></p>
+					<p>Readability: <%= objSurveyData.read %></p>
+				</div>
+			</div> <!-- end report wrapper -->
+			<% if ( (i + 1) != surveyData.length ) { %> 
+				<hr id="reiterator-seperator">
+			<% } %>
+		<% } %>
+	<% } %>
+</div>

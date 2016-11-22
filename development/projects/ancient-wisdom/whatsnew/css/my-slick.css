@@ -1,0 +1,40 @@
+#slick {
+  width: 50%;
+  float: left;
+  margin-left: 58px;
+  margin-top:20px;
+}
+#slick .title {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+#slick .teasher{
+  font-style: italic;
+}
+
+#slick .author {
+  color: green;
+}
+
+#slick img {
+  width: 300px;
+  height: 300px;
+  float:left;
+  margin-right: 20px;
+}
+
+.fade button {
+  color: darkGreen;
+  background=color: lightGreen;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}

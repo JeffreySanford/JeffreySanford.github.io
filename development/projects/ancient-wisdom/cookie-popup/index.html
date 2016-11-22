@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sample Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Badass Landing Page</h1>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="node_modules/js-cookie/src/js.cookie.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var COOKIE_NAME = 'splash-page-cookie';
+        $go = $.cookie(COOKIE_NAME);
+          if ($go == null) {
+            $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 0 });
+              window.location = "splash.php"
+          }
+          else {
+          }
+      });
+    </script>
+  </body>
+</html>

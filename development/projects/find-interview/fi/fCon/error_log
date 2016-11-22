@@ -1,0 +1,18 @@
+[17-Oct-2015 21:00:17 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahmedbash/public_html/fi/fCon/includes/classes/admin_class.php on line 16
+[17-Oct-2015 21:11:15 UTC] PHP Fatal error:  Call to undefined method user::GetUsers() in /home/ahmedbash/public_html/fi/fCon/users.php on line 43
+[17-Oct-2015 21:18:54 UTC] PHP Fatal error:  Call to undefined method user::EditUserProfile() in /home/ahmedbash/public_html/fi/fCon/users.php on line 52
+[17-Oct-2015 21:19:48 UTC] PHP Fatal error:  Call to undefined method user::EditUserProfile() in /home/ahmedbash/public_html/fi/fCon/users.php on line 52
+[20-Oct-2015 17:33:26 UTC] PHP Fatal error:  Call to undefined method user::GetJobs() in /home/ahmedbash/public_html/fi/fCon/jobs.php on line 43
+[20-Oct-2015 17:36:02 UTC] PHP Fatal error:  Call to undefined method Jobs::EditJob() in /home/ahmedbash/public_html/fi/fCon/jobs.php on line 52
+[20-Oct-2015 17:36:07 UTC] PHP Fatal error:  Call to undefined method Jobs::EditJob() in /home/ahmedbash/public_html/fi/fCon/jobs.php on line 52
+[20-Oct-2015 18:18:01 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/chat_sessions.php on line 45
+[20-Oct-2015 18:20:49 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/chat_sessions.php on line 45
+[20-Oct-2015 18:20:51 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/process.php on line 147
+[20-Oct-2015 18:23:06 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/chat_sessions.php on line 45
+[20-Oct-2015 18:23:10 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/process.php on line 147
+[20-Oct-2015 18:23:12 UTC] PHP Fatal error:  Call to undefined method Jobs::GetChatSessions() in /home/ahmedbash/public_html/fi/fCon/chat_sessions.php on line 45
+[20-Oct-2015 18:34:34 UTC] PHP Fatal error:  Call to undefined method Jobs::RemoveChat() in /home/ahmedbash/public_html/fi/fCon/process.php on line 297
+[21-Oct-2015 17:28:57 UTC] PHP Fatal error:  Call to undefined method Jobs::GetAV() in /home/ahmedbash/public_html/fi/fCon/apply_videos.php on line 45
+[21-Oct-2015 17:31:25 UTC] PHP Fatal error:  Call to undefined method Jobs::GetAV() in /home/ahmedbash/public_html/fi/fCon/apply_videos.php on line 45
+[21-Oct-2015 17:47:32 UTC] PHP Fatal error:  Call to undefined method Jobs::GetAV() in /home/ahmedbash/public_html/fi/fCon/process.php on line 157
+[21-Oct-2015 17:47:37 UTC] PHP Fatal error:  Call to undefined method Jobs::GetAV() in /home/ahmedbash/public_html/fi/fCon/apply_videos.php on line 45

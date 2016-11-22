@@ -1,0 +1,16 @@
+<h2>{{ title }} Page</h2>
+<p class="description">These are design patterns and samples, from previous work in mockup, prototypes and proof of concepts.  I have broken them up into sub-sections to try to focus on the major methods that are being used in the designs.</p>
+<div class="project-wrapper">
+	<div class="row">
+		<div ng-repeat="project in designTypes" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<a href="{{ project.url }}" style="text-decoration: none;">
+				<div class="well well-lg project">
+					<img ng-src="{{ project.imageURL }}" alt="placeholder image">
+					<p class="title">{{ project.title }}</p>
+					<p class="subtitle">{{ project.subtitle }}</p>
+					<p class="teaser">{{ project.teaser }}</p>
+				</div> <!-- ends boostrap well -->
+			</a>
+		</div> <!-- ends angular repeat -->
+	</div> <!-- end boostrap row -->
+</div> <!-- end project-wrapper -->

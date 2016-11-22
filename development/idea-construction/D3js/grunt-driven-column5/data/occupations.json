@@ -1,0 +1,70 @@
+{
+	"occupations" : [
+		{
+			"occupation" : "Computers\/Software\/IT",
+			"responses" : "9736"
+		},
+		{
+			"occupation" : "Marketing\/Advertising",
+			"responses" : "5598"
+		},
+		{
+			"occupation" : "Creative\/Arts\/Design",
+			"responses" : "5372"
+		},
+		{
+			"occupation" : "Student",
+			"responses" : "5312"
+		},
+		{
+			"occupation" : "Other",
+			"responses" : "2276"
+		},
+		{
+			"occupation" : "Education\/Academia",
+			"responses" : "2257"
+		},
+		{
+			"occupation" : "Media\/Entertainment",
+			"responses" : "1768"
+		},
+		{
+			"occupation" : "Engineering",
+			"responses" : "1722"
+		},
+		{
+			"occupation" : "Sales\/Business Development",
+			"responses" : "1540"
+		},
+		{
+			"occupation" : "Health",
+			"responses" : "1160"
+		},
+		{
+			"occupation" : "Non-Profit or Public Sector",
+			"responses" : "1155"
+		},
+		{
+			"occupation" : "Finance\/Insurance",
+			"responses" : "1076"
+		},
+		{
+			"occupation" : "Unemployed\/Homemaker",
+			"responses" : "1047"
+		},
+		{
+			"occupation" : "Legal",
+			"responses" : "700"
+		},
+		{
+			"occupation" : "Hospitality\/Travel\/Tourism",
+			"responses" : "584"
+		},
+		{
+			"occupation" : "Manufacturing\/Construction",
+			"responses" : "469"
+		}
+	],
+	"error" : false,
+	"status" : 200
+}

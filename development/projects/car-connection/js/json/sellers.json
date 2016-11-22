@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Bob Smith",
+    "car": "Tesla",
+    "color": "Silver",
+    "year": "2014",
+    "locationCity": "San Fransisco",
+    "locationState": "California"
+  },
+  {
+    "id": 2,
+    "name": "Fred Jones",
+    "car": "Mustang",
+    "color": "Red",
+    "year": "1967",
+    "locationCity": "Atlanta",
+    "locationState": "Georgia"
+  },
+  {
+    "id": 3,
+    "name": "Sam Fakename",
+    "car": "Porsche",
+    "color": "Puke Green",
+    "year": "1991",
+    "locationCity": "Los Angeles",
+    "locationState": "California"
+  },
+  {
+    "id": 4,
+    "name": "Shirley Hamden",
+    "car": "Lamborghini",
+    "color": "Yellow",
+    "year": "2013",
+    "locationCity": "Portland",
+    "locationState": "Oregon"
+  },
+  {
+    "id": 5,
+    "name": "Janet Freisen",
+    "car": "Truck",
+    "color": "Rust",
+    "year": "1973",
+    "locationCity": "Saint Jospeph",
+    "locationState": "Missouri"
+  }
+]

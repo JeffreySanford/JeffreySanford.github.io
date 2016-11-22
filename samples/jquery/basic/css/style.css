@@ -1,0 +1,178 @@
+* {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;;
+}
+h1 {
+	font-size: 2em;
+	text-shadow: 2px 2px 10px blue;
+	padding-left: 50px;
+}
+#features {
+	float: right;
+	background-color: blue;
+	border: 1px solid black;
+	padding: 10px;
+	color: white;
+	margin-right: 50px;
+	box-shadow: 10px 10px 5px black;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+table {
+	float: left;
+	width: 350px;
+	margin-left: 50px;
+}
+
+td{
+	width: 33%;
+}
+
+.stripe1 {
+	background-color: #90EE90;
+	color: black;
+}
+
+.stripe2 {
+	background-color: #6F116F;
+	color: white;
+}
+
+.highlight {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+caption{
+	font-style: italic;
+	color: blue;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#tableStyledInJavascript{
+	box-shadow: 5px 5px 10px grey;
+	float: left;
+	margin-top: 20px;
+}
+
+#colorPanel {
+	display: none;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 1.5em;
+	width: 100px;
+	height: 60px;
+	background-color: yellow;
+	color: white;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;	
+}
+
+#tableStyledInHTML5 {
+	box-shadow: 5px 5px 10px grey;
+	float: left;
+	margin-top: 20px;
+}
+
+#tableStyledInHTML5 th {
+	background-color: darkGreen;
+	color: white;
+	font-weight: bold;
+}
+
+#tableStyledInHTML5 tr:nth-child(even) {
+	background-color: #6F116F;
+	color: white;
+}
+
+#tableStyledInHTML5 tr:nth-child(odd) {
+	background-color: #90EE90;
+	color: black;
+}
+
+#tableStyledInHTML5 tr:hover {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+#displayTextWithExpand {
+	float: left;
+	text-align: justify;
+	width: 60%;
+	margin: 10px auto;
+	margin-left: 100px;
+}
+
+#displayTextWithExpand h3 {
+	width: 150px;
+	color: blue;
+}
+
+#displayTextWithExpand h3:hover {
+	color: #CCCC00;
+}
+#changeImages {
+	float: left;
+	position: relative;
+	top: 50px;
+	margin: -20px auto 30px;
+}
+
+#changeImages img {
+	display: none;
+}
+
+#changeImages img.active {
+	display: absolute;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	left: 50px;
+}
+#items {
+	width: 69%;
+	clear: both;
+	display: block;
+	position: relative;
+	margin: 10px auto 10px;
+	height: 100px;
+}
+
+#items div {
+	width: 90px;
+	float: left;
+	padding: 0 10px;
+	margin-left: 20px;
+}
+#items div:first{
+	margin-left: 0;
+}
+
+#items img {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	padding-left: 5px;
+}
+
+#items p {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#items div:hover {
+	border: 1px solid blue;
+	background-color: lightBlue;
+}
+
+.selected {
+	background: lightBlue;
+	border: 1px solid black;
+}

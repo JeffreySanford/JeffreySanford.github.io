@@ -1,0 +1,18 @@
+<h2>{{ title }} Page</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque expedita esse animi maxime voluptate tempore, at sunt labore, incidunt nulla dignissimos iusto ad similique inventore distinctio quam repellendus itaque minus!</p>
+<div class="content-wrapper">
+	<div class="row">
+		<div ng-repeat="project in developmentTypes">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<a href="{{ project.url }}" style="text-decoration: none;">
+					<div class="well well-lg project">
+						<img ng-src="{{ project.imageURL }}" alt="placeholder image">
+						<p class="title">{{ project.title }}</p>
+						<p class="subtitle">{{ project.subtitle }}</p>
+						<p class="teaser">{{ project.teaser }}</p>
+					</div> <!-- ends boostrap well -->
+				</div> <!-- end boostrap column class -->
+			</a>
+		</div> <!-- ends angular repeat -->
+	</div> <!-- end boostrap row -->
+</div> <!-- end content wrapper -->

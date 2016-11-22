@@ -1,0 +1,180 @@
+Current Notes:
+
+Table Page:
+
+1.  Continue styling
+1a.   Start mobile, responsive styling ideas
+      -- Perhaps use a div based table system onthe mobile site and import it on media query ---
+1b.   Use media query ~= 700? to start reducing the amount of data being displayed
+      
+2.  The date on the table page under day is showing a month off as 5-12 instead of 6-12
+
+3.  The popup box needs styling work
+  3a.   Maybe use a transition on popup load and update
+  3b.   Fade and brief flash temp on update
+  3c  **** The update rime is not a local time but it Epoch
+
+4.  Need for Celcius to Farenheit conversion.  Site data is sent in Kelvin.  
+    Look in code for function.
+
+
+Striped in code notes:
+
+  /*  Data comes from the openWeather project:  http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
+      Access the cool images here:  http://openweathermap.org/img/w/10d.png 
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************  wrapping opening notes on 12 Jun 2015
+
+I invited you to a Cloud9 project. 
+
+Requirements:
+
+If you take a look in "hello-world.html", in the <script> tag I put an object called "oWeather" 
+that has the 7-day forecast for London. What I'd like you to do is think of a way to present 
+that data in some sort of table (with a row for each day), using only native JavaScript. 
+
+Steps:
+
+Text Page (finished - maybe styling work - leave in root for possible high performance mobile insert)
+1. HTML create table structure and id fields
+
+JavaScript (almost finished - strucutre the date object)
+1. Pull city name and set to current object for scalabily
+2. Read javascript date object and create a day of the week and date variable (day and date)
+  2a.  new Date (315532800000) 
+  2b.  Create a Day of the Week  
+3.  List the Temperature, Humidity and Pressure
+4.  List the Other Data
+5.  Saved as Text-showForecast.js
+
+Hybrid Table Javascript (transient project finished - moved to archive)
+
+1. Creating the table information along with the text
+
+I used a method I found on stackoverflow:
+http://stackove rflow.com/questions/15553540/javascript-html-table-not-showing
+
+It seems to be more elegant and concise than using innerHTML.  Other ideas would be greatly 
+appreciated.  Old methods are saved under HYBRID-TABLE-showForecast-OLD.js.
+
+
+Table Javascript (almost finished)
+
+1.  Create the table only page (finished)
+
+2.  Stylize with css  
+3. Optimize for mobile devices with meedia queries
+
+
+***Perhaps modeling in flexbox instead of tables. ****
+Tables always bite me when I move to mobile, responsive design.  Perhaps I can use specific 
+tables ofr the mobile device, but I might create a seperate script file for using the flexbox 
+model in div instead of throwing everything into a table.
+
+*** Popup is a cool idea ***
+By checking the current date and finding the various variables within the temperature objects, 
+display the current forecast for the time of day (morning, evening, etc).  Use that cool Twitter-style
+animation in mctdev.us/samples/bootstrap?
+
+Testing for Performance
+
+1.   remove the console log(throw everything intot he console)
+???
+
+
+
+
+
+
+
+
+oWeater JSON Object Strcture:
+
+oWeather = {
+  "cod":"200",
+  "message":0.0251,
+  "city":{
+    "id":2643743,
+    "name":"London",          oWeather.city.name
+    "coord":{
+      "lon":-0.12574,
+      "lat":51.50853},
+      "country":"GB",
+      "population":0,
+      "sys":{
+        "population":0
+      }
+    },
+    "cnt":7,
+    "list":
+      [
+        {
+          "dt":1434020400,           oWeather.list.dt
+          "temp":{
+            "day":16.19,
+            "min":13.55,
+            "max":16.19,
+            "night":13.55,
+            "eve":16.19,
+            "morn":16.19
+          },
+          "pressure":1022.91,
+          "humidity":55,
+          "weather":
+            [
+              {
+                "id":800,
+                "main":"Clear",
+                "description":"sky is clear",
+                "icon":"01n"
+              }
+            ],
+          "speed":4.81,
+          "deg":76,
+          "clouds":0
+        },
+        {
+          "dt":1434106800,
+          "temp":{
+            "day":19.97,
+            "min":14.79,
+            "max":22.72,
+            "night":16.79,
+            "eve":21.11,
+            "morn":14.79
+          },
+          "pressure":1015.96,
+          "humidity":86,
+          "weather":[
+            {
+              "id":501,
+              "main":"Rain",
+              "description":"moderate rain",
+              "icon":"10d"
+            }
+          ],
+          "speed":5.47,
+          "deg":104,
+          "clouds":92,
+          "rain":7.21
+        },
+        {"dt":1434196800,"temp":{"day":18.36,"min":11.77,"max":18.36,"night":11.77,"eve":13.1,"morn":16.98},"pressure":1010.68,"humidity":88,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":10.07,"deg":232,"clouds":48,"rain":0.76},{"dt":1434283200,"temp":{"day":13.93,"min":7.62,"max":13.93,"night":7.62,"eve":11.36,"morn":11.35},"pressure":1020.3,"humidity":88,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.96,"deg":91,"clouds":100,"rain":2.9},{"dt":1434369600,"temp":{"day":14.68,"min":7.74,"max":14.94,"night":9.68,"eve":14.94,"morn":7.74},"pressure":1030.33,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.54,"deg":342,"clouds":25,"rain":1.93},{"dt":1434456000,"temp":{"day":14.69,"min":10.54,"max":16.3,"night":14.33,"eve":16.3,"morn":10.54},"pressure":1025.35,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":6.55,"deg":239,"clouds":58,"rain":0.85},{"dt":1434542400,"temp":{"day":14.6,"min":9.81,"max":14.93,"night":9.81,"eve":14.93,"morn":11.28},"pressure":1029.04,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":7.55,"deg":340,"clouds":15,"rain":0.4}]};
+
+
+
+
+
+Bonus points if you can think of a way to create some sort of popup that shows temperatures throughout the day.

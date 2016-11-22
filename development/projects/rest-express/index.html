@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sample Business Services</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/ng-animate.css">
+        <link rel="stylesheet" href="css/transitions.css">
+        <!--  Using last stable version 1.4.8 -->
+        <script src="js/vendor/angular/1.4.8/angular.js"></script>
+        <script src="js/vendor/angular/1.4.8/angular-route.js"></script>
+        <script src="js/vendor/angular/1.4.8/angular-resource.js"></script>
+        <script src="js/vendor/angular/1.4.8/angular-animate.js"></script>
+	</head>
+	<body ng-app="purchaseModule" ng-controller="mainController">
+    <div ng-include src='"app/views/page/inserts/header.html"'></div>
+
+		<div class="container slide-animation page-template" id="page-view" ng-view></div>
+
+		<div ng-include src="'app/views/page/inserts/footer.html'"></div>
+        
+
+        <script src="app/app.js"></script>
+	</body>
+</html>

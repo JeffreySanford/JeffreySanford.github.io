@@ -1,0 +1,13 @@
+<h3>Find Page</h3>
+<h4><i>Show Resources by Context</i></h4>
+<br />
+<table id="OwnerList" class="table-striped">
+    <tr><th>ID</th><th>name</th><th>year</th><th>color</th><th>car</th></tr>
+    <tr data-ng-repeat="owner in owners">
+        <td>{{ owner.id }}</td>
+        <td>{{ owner.name }}</td>
+        <td>{{ owner.year }}</td>
+        <td>{{ owner.color }}</td>
+        <td>{{ owner.car }}</td>
+    </tr>
+</table>

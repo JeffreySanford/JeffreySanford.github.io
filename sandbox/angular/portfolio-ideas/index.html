@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio workup</title>
+		<link rel="stylesheet" href="css/vendor/bootstrap.min.css"> <!-- version 3.3.6 -->
+		<link rel="stylesheet" href="css/vendor/angular/ng-animation.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body ng-app="portfolioModule">
+		<div id="container">
+			<header>
+				<div id="masthead">
+					<nav>
+						<ul>
+							<h1>Portfolio</h1>
+							<li class="grow"><a href="#/about">about</a></li>
+							<li class="grow"><a href="#/development">development</a></li>
+							<li class="grow"><a href="#/design">design</a></li>
+							<li class="grow"><a href="#/">home</a></li>
+						</ul>
+					</nav>
+					<div id="video-container">
+						<video loop="loop" preload="auto" id="code-video" class="video-playing" autoplay="autoplay">
+							<source src="img/video/html-code.mp4" type="video/mp4">
+							<source src="img/video/html-code.ogg" type="video/ogg">
+							<source src="img/video/html-code.webm" type="video/webm">
+						</video>
+					</div>
+				</div>
+			</header>
+			<section>
+				<article>
+					<div class="container" id="page-view" ng-view></div>
+				</article>
+			</section>
+			<div id="last-element"></div>
+			<footer><p>&copy;2016 Jeffrey Sanford</p></footer>
+		</div> <!-- end container div -->
+		<!--  Using last stable version 1.4.8 -->
+		<script src="js/vendor/angular/1.4.8/angular.js"></script>
+		<script src="js/vendor/angular/1.4.8/angular-route.js"></script>
+        <script src="js/vendor/angular/1.4.8/angular-resource.js"></script>
+		<script src="js/vendor/angular/1.4.8/angular-animate.js"></script>
+		<script src="app/app.js"></script>
+
+		<script src="js/javascript.js"></script>
+	</body>
+</html>

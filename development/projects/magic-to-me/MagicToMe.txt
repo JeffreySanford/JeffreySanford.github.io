@@ -1,0 +1,41 @@
+
+#Magic To Me
+
+Resources:
+
+http://instafeedjs.com/  Instafeed is a javascript feed displayer for instagram.
+
+Description:  Share what is �Magic to Me� on social media with photos and stories. Goal is to increase awareness of Magic Coffee Truck and exposure on Instagram, Facebook, and Twitter. Also to enjoy participant�s ideas and community creation.
+
+Social Platforms:
+
+2)	Using your social media platform of choice, either follow us on Instagram, like us on Facebook, or follow us on Twitter (or do all 3). If you are already doing all that, hooray and thank you!
+
+Variables:
+
+3)	Post your photo, story, or combination and tag it with #MagicToMe and #MagicCoffeeTruck so we know where to find it.
+
+Development Page:
+http://www.magiccoffeetruck.com/development/magictome/magictome.html
+
+4)	Your submissions that follow the rules will be featured on the #MagicToMe contest page on the Magic Coffee Truck website (URL TBD) separated by day. One submission will be chosen daily by the #MagicToMe judges to be regrammed and featured on the Magic Coffee Truck Instagram and Facebook pages (and tweeted with links).
+
+Sort By:
+		Post per day
+other:
+		The Most Posts
+		Recent Posts
+		Posts by User
+		Post By Tagline
+
+Reference:
+
+Twitter for websites 	https://dev.twitter.com/web/embedded-tweets
+Facebook for websites	https://developers.facebook.com/docs/plugins/embedded-posts
+Instagram for websites 	https://instagram.com/developer/embedding/
+
+
+Styling and templates:
+<!--  template stylying and transition is done with:
+			https://scotch.io/tutorials/animating-angularjs-apps-ngview
+-->

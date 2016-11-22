@@ -1,0 +1,13 @@
+<!--h1>{{title}}</h1>
+<p>{{page}}</p>
+<p>{{pageDescription}}</p>
+<p>The variable recipe.id is {{recipe.id}}</p>
+<p>Something about recipe details will show up here.</p>
+<p>The page titled, {{recipe.title}} is located at:  {{ recipe.url }}</p-->
+<div class="recipeArticle" ng-include src="concatURL"></div>
+<div id="data-display">
+  <p>Data used:  Recipe Array</p>
+  <div id="data-display-data">
+    <p>{{recipe}}</p>
+  </div>
+</div>

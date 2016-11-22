@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Fred Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        },
+        {   "itemID": "24",
+            "name":   "Frank Smith",
+            "desc": "This is a second item description."
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Allan Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "James Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tim Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bob Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "George Smith",
+    "address": "100 Main Street",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "zipcode": "30123",
+    "emailAddr": "user@domain.com",
+    "savedResources": [
+        {   "itemID": "23",
+            "name":   "Bob Smith",
+            "desc": "This is a description."
+        }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#topOfPage {
+    width: 40%;
+}
+
+header {
+    width: 40%;
+    float: right;
+}
+
+nav {
+    float: right;
+    width: 100%;
+}
+
+nav img {
+    float: right;
+    height: 30%; 
+    width: 30%;
+    border: 0 solid white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0 20px;
+    text-transform: right;
+    float: right;
+    font-size: 20px;
+}
+
+nav li {
+    color: black;
+    display: inline;
+    transition: all 1s ease;
+    margin-left: 5px;
+    padding: 2px;
+    background-color: #F0F8FA;  //very light blue
+}
+
+nav li a {
+    color: black;
+    text-transform: underline;
+    text-decoration-color: black;
+}
+
+nav li:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transform:scale(1.10);
+}
+
+aside {
+    float: right;
+    width: 30%;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+article {
+    width: 68%;
+    float: left;
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid grey;
+}
+
+table {
+    width: 100%;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0 5px;
+}
+
+#filteringSection {
+    float: left;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.sliderWidth150 {
+    width: 150px;
+}
+
+
+/* Buyers Page */
+
+#buyersList table {
+    width: 100%;
+}
+
+#buyersList tr:hover {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}

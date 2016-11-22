@@ -1,0 +1,21 @@
+1. Create a new page for the landing social page
+	- link the page to the #magictome menu
+	http://localhost/sandbox/Magic%20Coffee%20Truck/MagicToMe/magictome-campaign.html
+
+2.a Create Instagram recent posts page
+	https://instagram.com/developer/authentication/
+2.b Create Twitter recent posts page
+	https://dev.twitter.com/rest/public/search
+2.c Create Facebook recent posts page
+	http://stackoverflow.com/questions/19034754/facebook-api-search-for-hashtag
+
+3. Create a recent posts page all all the feeds
+
+
+Reference:
+
+Create a Page swipe for each of the pages?
+http://jsfiddle.net/9VttC/
+
+Create A Single Page Application Using Templates With Angularjs And Bootstrap
+http://www.phpro.org/tutorials/Create-A-Single-Page-Application-Using-Templates-With-Angularjs-And-Bootstrap.html

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en" ng-app="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Initial Car Connection</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+    </head>
+    <body ng-init="owners = [
+    {id: '1', name: 'Bob Smith', car: 'Tesla', color: 'Silver', year: '2014'},
+    {id: '2', name: 'Fred Jones', car: 'Mustang', color: 'Red', year: '1967'},
+    {id: '3', name: 'Sam Fakename', car: 'Porsche', color: 'Puke Green', year: '1991'},
+    {id: '4', name: 'Shirley Hamden', car: 'Lamborghini', color: 'Yellow', year: '2013'},
+    {id: '5', name: 'Janet Freisen', car: 'Truck', color: 'Rust', year: '1973'}
+    ]">
+    <header>
+        <nav>
+            <img src="img/car.png" alt="menu logo"></img><br />
+            <ul>
+                <li>home</li>
+                <li>find</li>
+                <li>about</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+        <h3>Combined Owner Views</h3>
+        <h4><i>List of All Owners</i></h4>
+        
+        <table id="OwnerList" class="table-striped">
+            <tr><th>ID</th><th>name</th><th>year</th><th>color</th><th>car</th></tr>
+            <tr data-ng-repeat="owner in owners">
+                <td>{{ owner.id }}</li></td>
+                <td>{{ owner.name }}</td>
+                <td>{{ owner.year }}</td>
+                <td>{{ owner.color }}</td>
+                <td>{{ owner.car }}</td>
+            </tr>
+        </table>
+        </article>
+        <br />
+        <div id="filteringSection">
+            <p>Location: <input type="text" ng-model="location" /></p>
+                <p>Within: 
+                <input id="rangeOfSearch" class="sliderWidth150" type="range" min="0" max="500" step="50" value="100" ng-model="rangeOfSearch" />
+                <b>{{ rangeOfSearch }} miles </b></p><br />
+                    <p>Within {{ rangeOfSearch }} miles of {{ location }} we have the                         following records:</p>
+        </div>
+
+        </section>
+    <script>
+        
+    </script>    
+    </body>
+</html>

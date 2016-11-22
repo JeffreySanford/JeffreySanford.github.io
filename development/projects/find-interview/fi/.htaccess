@@ -1,0 +1,2 @@
+AuthName "XXX"
+AuthUserFile "/home/ahmedbash/.htpasswds/public_html/fi/passwd"

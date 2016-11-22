@@ -1,0 +1,37 @@
+{
+  "recipes": [
+    {
+      "id": "vietnamese-pho",
+      "title": "Vietnamese Pho",
+      "author": "Jeffrey Sanford",
+      "featuredImage": "articles/recipes/vietnamese-pho/images/bowl-of-pho.jpg",
+      "teaser": "This is the vietnamese pho teaser line.",
+      "url": "vietnamese-pho/vietnamese-pho.html"
+    },
+    {
+      "id": "jamacian-jerk",
+      "title": "Jamacian Jerk",
+      "author": "Jeffrey Sanford",
+      "featuredImage": "articles/recipes/jamacian-jerk/images/jerked-chicken.jpg",
+      "teaser": "This is the jamacian jerk teaser line.",
+      "url": "jamacian-jerk/jamacian-jerk.html"
+    },
+    {
+      "id": "bacon-jam",
+      "title": "Bacon Jam",
+      "author": "Jeffrey Sanford",
+      "featuredImage": "articles/recipes/bacon-jam/images/bacon-jam-presenation.jpg",
+      "teaser": "This is the bacon jam teaser line.",
+      "url": "bacon-jam/bacon-jam.html",
+      "reference-url": "realhousemoms.com/crock-pot-bacon-jam/"
+    },
+    {
+      "id": "german-speatzle-dumplings",
+      "title": "German Spaetzle",
+      "author": "Jeffrey Sanford",
+      "featuredImage": "articles/recipes/german-speatzle-dumplings/images/german-speatzle.jpg",
+      "teaser": "This is the german-speatzle teaser line.",
+      "url": "german-speatzle-dumplings/german-speatzle-dumplings.html"
+    }
+  ]
+}

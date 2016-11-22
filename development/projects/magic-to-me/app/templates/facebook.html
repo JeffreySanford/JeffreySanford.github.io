@@ -1,0 +1,48 @@
+<div class="jumbotron">
+  <!--  To search Facebook by #hashag values:
+  http://stackoverflow.com/questions/19034754/facebook-api-search-for-hashtag
+-->
+
+  <!--
+    Setup the Facebook SDK for JavaScript
+    The following snippet of code will give the basic version of the SDK where
+    the options are set to their most common defaults. You should insert it
+    directly after the opening <body> tag on each page you want to load it:
+  -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1424006631228011',
+        xfbml      : true,
+        version    : 'v2.2'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <img class="social-logo" src="images/transparent-facebook-logo-icon.png" alt="">
+  <h3>{{heading}}</h3>
+  <p>Page class is set to {{pageClass}}</p>
+  <p>{{message}}</p>
+  <p><a class="btn btn-lg btn-primary" href="https://www.facebook.com/magiccoffeetruck" role="button"><i class="fa fa-facebook">&nbsp;MagicCoffeeTruck</i></a></p>
+
+  <p>Here is the facebook information.</p>
+  <div class="fb-like" data-href="https://www.facebook.com/magiccoffeetruck" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+  <br />
+  <div
+    class="fb-like"
+    data-share="true"
+    data-width="450"
+    data-show-faces="true">
+  </div>
+  <div>
+    <p>FacePile</p>
+    <div class="fb-facepile" data-href="https://www.facebook.com/magiccoffeetruck" data-max-rows="50" data-colorscheme="light" data-size="medium" data-show-count="true"></div>
+  </div>
+</div>

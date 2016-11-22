@@ -1,0 +1,110 @@
+<form class="form-inline" id="quality-form" method="post" action="/success">
+    <div class="user-identification">
+        <h3>Thank you for taking the time to improve our website.</h3>
+
+        <!-- The e-mail address is being used a unique indentified so only one survey per address can be used.  The real name will be use in the administrative model.  This owould be a good place to allow the uses to register and also to choose to recieve a newsletter. -->
+
+        <br> <!--  Style these breakdowns -->
+        <!-- User identification -->    
+    
+        <div class="row">
+            <div class="col-sm-12 col-md-4 offset-md-2" style="margin:1em;">
+                <div class="form-group">
+                    <label for="realName">Name: </label>
+                    <input type="text" class="form-control" name="realName" id="realName" placeholder="Jane Doe" size="35">
+                </div>
+            </div> <!-- end class col2 -->
+            <div class="col-sm-12 col-md-4" style="margin:1em;">
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="jane.doe@example.com" size="35">
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end user identification section -->
+    <br>  <!--  Style these breakdowns -->
+<!--  Quality Section -->
+    <div id="quality-report">
+        <p>Please rank the website you just visited between the values of 1 (poor) and 5 (wonderful).</p>
+        <br>
+        <div id="quality-readability" class="row">
+            <div class="col-md-3">
+                <p data-toggle="tooltip" data-placement="top" title="By readability, is everything clear, is the text large enough and can you read it?">Readability</p>
+            </div>
+            <div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+                <label class="radio-inline">
+                    <input type="radio" name="read" id="readability1" value="1"> 1
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="read" id="readability2" value="2"> 2
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="read" id="readability3" value="3"> 3
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="read" id="readability4" value="4"> 4
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="read" id="readability5" value="5"> 5
+                </label>
+            </div> <!-- end radio class -->
+        </div> <!-- end quality-reability section -->
+
+        <div id="quality-usability" class="row">
+            <div class="col-md-3">
+                <p data-toggle="tooltip" data-placement="top" title="By usabity, does the website do what you need it to do?">Usability</p>
+            </div>
+            <div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+                <label class="radio-inline">
+                    <input type="radio" name="usage" id="usability1" value="1"> 1
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="usage" id="usability2" value="2"> 2
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="usage" id="usability3" value="3"> 3
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="usage" id="usability4" value="4"> 4
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="usage" id="usability5" value="5"> 5
+                </label>
+            </div> <!-- end radio class -->
+        </div> <!-- end quality section -->
+
+        <div id="quality-functionality" class="row">
+            <div class="col-md-3">
+                <p data-toggle="tooltip" data-placement="top" title="By functionality, we mean does the website operate as you expected it to?">Functionality</p>
+            </div>
+            <div class="col-md-offset-3 col-md-6" style="font-size: 1.4em;">
+                <label class="radio-inline">
+                    <input type="radio" name="funct" id="functionality1" value="1"> 1
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="funct" id="functionality2" value="2"> 2
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="funct" id="functionality3" value="3"> 3
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="funct" id="functionality4" value="4"> 4
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="funct" id="functionality5" value="5"> 5
+                </label>
+            </div> <!-- end radio class -->
+        </div> <!-- end quality-functionaility secion -->
+    </div> <!-- end quality section -->
+    <br>  <!--  Style these breakdowns -->
+
+    <div class="row">
+        <label for ="comments" id="comments-label">Please leave your comments here...</label>
+        <textarea rows="4" id="comments" name="commentText" class="form-control"></textarea>
+    </div>
+
+    <br>  <!--  Style these breakdowns -->
+    <br>  <!--  Style these breakdowns -->
+    <button type="reset" class="btn btn-primary">Clear Information</button>
+    <button id="button-submit" type="submit" class="btn btn-primary">Submit Information</button>
+</form>

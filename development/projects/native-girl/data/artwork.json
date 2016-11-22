@@ -1,0 +1,45 @@
+{
+    "catagory": [
+
+        {
+            "image": "img/sample-shaman.jpg",
+            "title": "image one",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/otter.jpg",
+            "title": "image two",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/raven.jpeg",
+            "title": "image three",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/raven-2.gif",
+            "title": "image four",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/salmon.jpg",
+            "title": "image five",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/two-raven.jpg",
+            "title": "image six",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/sample-shaman.jpg",
+            "title": "image seven",
+            "teaser": "this is a teaser line"
+        },
+        {
+            "image": "img/sample-shaman.jpg",
+            "title": "image eight",
+            "teaser": "this is a teaser line"
+        }
+    ]
+}

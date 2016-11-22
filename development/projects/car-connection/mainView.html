@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en" ng-app="">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ pageTitle }}</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+    </head>
+    <body ng-init="owners = [
+    {id: '1', name: 'Bob Smith', car: 'Tesla', color: 'Silver', year: '2014'},
+    {id: '2', name: 'Fred Jones', car: 'Mustang', color: 'Red', year: '1967'},
+    {id: '3', name: 'Sam Fakename', car: 'Porsche', color: 'Puke Green', year: '1991'},
+    {id: '4', name: 'Shirley Hamden', car: 'Lamborghini', color: 'Yellow', year: '2013'},
+    {id: '5', name: 'Janet Freisen', car: 'Truck', color: 'Rust', year: '1973'}
+    ]">
+    <header>
+        <nav>
+            <img src="img/car.png" alt="menu logo"></img><br />
+            <ul>
+                <li>home</li>
+                <li>find</li>
+                <li>about</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+        <h3>{{ headerTitle }}</h3>
+        <h4><i>{{ headerComments }}</i></h4>
+        
+        <div ng-view></div>
+
+        </section>
+    <script>
+        
+    </script>    
+    </body>
+</html>

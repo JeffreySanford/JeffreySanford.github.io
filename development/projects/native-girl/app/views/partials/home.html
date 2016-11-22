@@ -1,0 +1,15 @@
+<h2>{{ title }} Page</h2>
+<div class="mobile" style="width: 100%;"">
+	<div class="content-wrapper" style="margin: 0 auto;">
+		<div ng-repeat="paragraph in content">
+			<p style="font-size: 1.5em; text-align: left;">{{ paragraph }}</p>
+		</div>
+	</div> <!-- end content-wrapper -->	
+</div> <!-- end mobile container -->
+<div class="desktop" style="width: 100%;">
+	<div class="content-wrapper" style="margin: 0 auto;">
+		<div ng-repeat="paragraph in content">
+			<p style="font-size: 1.5em; text-align: justify;">{{ paragraph }}</p>
+		</div>
+	</div> <!-- end content-wrapper -->
+</div> <!-- end desktop wrapper -->

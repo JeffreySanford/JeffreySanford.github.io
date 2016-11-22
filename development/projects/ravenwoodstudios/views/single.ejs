@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include partials/page/head.ejs %>
+	</head>
+	<body class="<%= classname %>">
+		<div class="container">
+			<% include partials/page/header.ejs %>
+			<div class="content">
+				<h1><%= title %> Page</h1>
+			</div> <!-- content class end -->
+			<% include partials/page/dynamic-insert.ejs %>
+		</div><!-- container class end -->
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefaults.ejs %>
+		<script src="javascripts/javascript.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

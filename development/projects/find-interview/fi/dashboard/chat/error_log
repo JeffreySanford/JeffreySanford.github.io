@@ -1,0 +1,13 @@
+[13-Aug-2015 16:35:04 UTC] PHP Warning:  file_put_contents(../user_files//Videos/Profiles/5-alizubidy--2015201520152015_08_13_16_35_04.mp4): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/recorder/process_video.php on line 15
+[13-Aug-2015 16:36:49 UTC] PHP Warning:  file_put_contents(../user_files//Videos/Profiles/5-alizubidy--2015201520152015_08_13_16_36_49.mp4): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/recorder/process_video.php on line 15
+[13-Aug-2015 16:37:57 UTC] PHP Warning:  file_put_contents(../user_files//Videos/Profiles/5-alizubidy--2015201520152015_08_13_16_37_57.mp4): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/recorder/process_video.php on line 15
+[23-Aug-2015 16:27:55 UTC] PHP Warning:  include(./configs/config.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 16:27:55 UTC] PHP Warning:  include(./configs/config.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 16:27:55 UTC] PHP Warning:  include(): Failed opening './configs/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 17:16:02 UTC] PHP Warning:  include(./configs/config.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 17:16:02 UTC] PHP Warning:  include(./configs/config.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 17:16:02 UTC] PHP Warning:  include(): Failed opening './configs/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ahmedbash/public_html/fi/header.php on line 2
+[23-Aug-2015 17:17:11 UTC] PHP Fatal error:  Cannot redeclare class Logs in /home/ahmedbash/public_html/fi/includes/classes/logs_class.php on line 3
+[23-Aug-2015 17:17:50 UTC] PHP Warning:  include(./z_scripts/user_dashboard.js): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/dashboard/chat/footer.php on line 2
+[23-Aug-2015 17:17:50 UTC] PHP Warning:  include(./z_scripts/user_dashboard.js): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/dashboard/chat/footer.php on line 2
+[23-Aug-2015 17:17:50 UTC] PHP Warning:  include(): Failed opening './z_scripts/user_dashboard.js' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ahmedbash/public_html/fi/dashboard/chat/footer.php on line 2

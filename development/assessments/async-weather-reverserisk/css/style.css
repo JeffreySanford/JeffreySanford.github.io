@@ -1,0 +1,84 @@
+h2, h3, h4, h5 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0;
+}
+
+#forecastTable td {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0 .5em;
+}
+
+#dayTable tr td:first-child {
+    width: 100px;
+}
+#dayTable tr td:nth-child(12),#dayTable tr td:nth-child(13) {
+    width: 110px;
+}
+#dayTable table {
+    width: 100%;
+}
+
+#dayTable tr td, #dayTable th tr td  {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0 .2em;
+}
+
+#dayTable tbody tr:hover {
+    background-color: #FFFFE0;
+}
+
+#dayTable tbody:first-child tr:hover {
+    background-color: white;
+}
+
+#current-weather {
+    float: right; 
+    width: 250px; 
+    height: 70px;
+    padding: 0 0 20px 0;
+}
+
+#current-icon {
+    float: left; 
+    margin-top: -30px; 
+    width: 30%; 
+}
+
+#current-city {
+    text-align: right; 
+    font-size: 1em; 
+    margin: 0 0 0 0;
+}
+
+#current-temp {
+    text-align: right;
+    font-size: 1.5em; 
+    margin: 0 0 0 0;
+}
+
+#current-condition {
+    text-align: right;
+    margin: 0 0 0 0;
+}
+
+#last-updated {
+    float: right;
+    font-size: .7em;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*  Write media queries for mobile devices that hide the extranious data */

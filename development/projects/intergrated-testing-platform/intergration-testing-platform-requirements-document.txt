@@ -1,0 +1,60 @@
+Project Name:  	Integration testing platform
+Reportable:	Paul Morrison
+Author:		Jeffrey Sanford
+
+Description:  The sole purpose is to test that all the modules are working together correctly.
+
+Abstract:
+
+Methods:
+
+Using An Array and ASYNC XMLHttp Request:
+
+This worked to some degree to set up an array and have the webpage html returned to the present 
+window and be rendered in the current view.  The problem was that it was being rendered and not 
+actually served, so javascript and css file would not be automatically loaded.
+
+Using HTML Imports:
+Here's the idea:  An Introduction to HTML Imports (http://blog.teamtreehouse.com/introduction-html-imports)
+
+Using Polymer/WebComponents/HTML Imports:
+
+Instead of listing and using XMLHttp to request a HTML page, which does return a static text only version 
+of the html, use webcomponent/html-imports.  Theoreticaly, this should import the html file and then import 
+the linked stylesheets and javascript.  There is error handling using the onload and onerror events.
+
+Use Case:
+
+Main page loads
+  -- loads css
+  -- loads dom
+  -- loads javascript
+
+Main Javascript
+  -- defines the load array
+  -- defines the html area and javascript area
+  -- loops thought the load array and imports the html file
+  -- display the sucesful load of the html file along with filename
+  -- display the sucessul load of all javascript files *** and sections attached *** to the html file.
+
+Next step
+  -- Start testing methods that endure that a variable passed into one javascript module can be replicated 
+     through the entire site.  If the error occurs on page-two, for example, it should throw errors on page-three 
+     and four as well.
+
+
+
+REFERENCE:
+
+REF:  http://webcomponents.org/polyfills/html-imports/
+REF:  Build (npm install --save webcomponents.js); http://webcomponents.org/polyfills/
+("Our polyfills are intended to work in the latest versions of evergreen browsers."  IE10 acts batshit sometimes)
+
+COMMUNICATION:
+
+"What I'm imagining is that you have a set of URLs, and it loads each URL, and if any JavaScript errors are detected, it reports it somehow. Not sure if you can do that with Mocha, since it's got so much that I haven't had time to comb through the docs.
+So for you to build a simple version, I imagine create a few simple webpages that include JavaScript files. Than in one of the files, put something that causes the browser to throw a JS error, and try to get that error to report somewhere on a page or something."
+-PaulM
+
+"To create a testing system that will somehow loop through every view in our app, and report any errors that come back. I'm thinking there some modules in node.js that are designed to assist in this, so you could do some research on possible options if you're looking to get a head start."
+-PaulM 

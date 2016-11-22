@@ -1,0 +1,163 @@
+{
+   "designTypes": [
+      {
+         "title":"html5/css3",
+         "subtitle":"designs in html5",
+         "teaser":"These are some simple designs in HTML5",
+         "git":"github:JeffreySanford",
+         "url":"#/design/:html",
+         "imageURL": "img/html5css3-logo.png"
+      },
+      {
+         "title":"javascript",
+         "subtitle":"designs in javascript",
+         "teaser":"These are some simple designs focused on javascript operations in the browser.",
+         "git":"github:JeffreySanford",
+         "url":"#/design/:javascript",
+         "imageURL": "img/javascript-logo.png"
+      },
+      {
+         "title":"bootstrap",
+         "subtitle":"designs in boostrap",
+         "teaser":"These are some simple designs in bootstrap",
+         "git":"github:JeffreySanford",
+         "url":"#/design/:bootstrap",
+         "imageURL": "img/bootstrap-logo.png"
+      }
+   ],
+   "designProjects": [
+      {
+         "title":"HTML5 video/audio",
+         "subtitle":"Using the new HTML5 video and audio elements.",
+         "teaser":"These are some samples in HTML5",
+         "git":"https://github.com/JeffreySanford/html5-presentation",
+         "url":"http://html5-presentation.azurewebsites.net/",
+         "samples":":html",
+         "imageURL": "img/html5css3-logo.png"
+      },
+      {
+         "title":"Reddit",
+         "subtitle":"Displays Reddit aricles using ASYNC calls.",
+         "teaser":"These are some samples in HTML5",
+         "git":"https://github.com/JeffreySanford/html5-presentation",
+         "url":"http://mctdev.us/sandbox/reddit-bootstrap-flex/",
+         "samples":":html",
+         "imageURL": "img/html5css3-logo.png"
+      },
+      {
+         "title":"Tables",
+         "subtitle":"Table Modification - JQuery - Boostrap",
+         "teaser":"These are some samples in Bootstrap",
+         "git":"github:JeffreySanford",
+         "url":"http://mctdev.us/samples/jquery/table-modification/",
+         "samples":":bootstrap",
+         "imageURL": "img/bootstrap-logo.png"
+      },
+      {
+         "title":"Sort",
+         "subtitle":"CS Sort Algorithms",
+         "teaser":"These are some samples in Bootstrap",
+         "git":"github:JeffreySanford",
+         "url":"http://mctdev.us/sandbox/sort/",
+         "samples":":bootstrap",
+         "imageURL": "img/bootstrap-logo.png"
+      },
+      {
+         "title":"css sample 1",
+         "subtitle":"sample CSS3",
+         "teaser":"These are some samples in CSS3",
+         "git":"github:JeffreySanford",
+         "url":"#/design/sample-pages/css/1",
+         "samples":":css",
+         "imageURL": "img/html5css3-logo.png"
+      },
+      {
+         "title":"Layouts",
+         "subtitle":"Basic Layout using HTML5 and Jquery",
+         "teaser":"These are some samples in Jquery",
+         "git":"github:JeffreySanford",
+         "url":"http://mctdev.us/samples/jquery/basic/",
+         "samples":":javascript",
+         "imageURL": "img/html5css3-logo.png"
+      }
+   ],
+   "developmentTypes": [
+      {
+         "title":"expressJS",
+         "subtitle":"projects in the Express/NodeJS framework",
+         "teaser":"These are some simple designs focused on javascript operations in the browser.",
+         "imageURL": "img/expressjs-logo.png",
+         "url":"#/development/:express"
+      },
+      {
+         "title":"angularJS",
+         "subtitle":"Development in AngularJS",
+         "teaser":"These are some simple designs focused on javascript operations in the browser.",
+         "imageURL": "img/angularjs-logo.png",
+         "url":"#/development/:angular"
+      },
+      {
+         "title":"JavaScript",
+         "subtitle":"patterns in advanced Javascript",
+         "teaser":"These are some simple designs focused on javascript operations in the browser.",
+         "imageURL": "img/html5css3-logo.png",
+         "url":"#/development/:javascript"
+      }
+   ],
+   "developmentProjects": [
+      {
+         "title":"Artist Site",
+         "subtitle":"Mockup for an idea for an artist site.",
+         "teaser":"These are some samples develpment projects don in ExpressJS and Angular.",
+         "git":"https://github.com/JeffreySanford/ravenwoodstudios",
+         "url":"http://ravenwoodstudios.herokuapp.com/",
+         "samples":":express",
+         "imageURL": "img/expressjs-logo.png"
+      },
+      {
+         "title":"Survey Site",
+         "subtitle":"Simple restful ervice for collecting surveys.",
+         "teaser":"These are some samples develpment projects don in ExpressJS and Angular.",
+         "git":"https://github.com/JeffreySanford/sandbox-designs/tree/master/express/project-forms",
+         "url":"https://project-forms.herokuapp.com/",
+         "samples":":express",
+         "imageURL": "img/expressjs-logo.png"
+      },
+      {
+         "title":"Mockup",
+         "subtitle":"Angualar prototype for business idea.",
+         "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
+         "git":"github:JeffreySanford",
+         "url":"http://mctdev.us/sandbox/CarConnection/#/",
+         "samples":":angular",
+         "imageURL": "img/angularjs-logo.png"
+      },
+      {
+         "title":"Kitchen Table",
+         "subtitle":"Idea for a recipe collection site built in AngularJS.",
+         "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
+         "git":"github:JeffreySanford",
+         "url":"http://mctdev.us/development/AdSense/#/",
+         "samples":":angular",
+         "imageURL": "img/angularjs-logo.png"
+      },
+      {
+         "title":"Purchasing",
+         "subtitle":"Proof of concept for a e-commerence model.",
+         "teaser":"These are some samples develpment projects done in ExpressJS and Angular.",
+         "git":"https://github.com/JeffreySanford/subscription-project",
+         "url":"http://purchasing.azurewebsites.net",
+         "samples":":angular",
+         "imageURL": "img/angularjs-logo.png"
+      },
+      {
+         "title":"Weather",
+         "subtitle":"Weather in a certain city.",
+         "teaser":"Using restful services and external API's pull weather data abouta  remote city.",
+         "git":"https://github.com/JeffreySanford/",
+         "url":"http://mctdev.us/sandbox/ASYNC-Weather-London/",
+         "samples":":javascript",
+         "imageURL": "img/html5css3-logo.png"
+      }
+   ]
+}

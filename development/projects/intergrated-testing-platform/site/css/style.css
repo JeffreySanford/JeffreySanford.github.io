@@ -1,0 +1,35 @@
+#main-content {
+    border: 1px solid blue; 
+    padding: 20px;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 10em;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+.active {
+    color: blue;
+    background-color: whiteSmoke;
+}
+
+a:hover {
+    background-color: lightBlue;
+}
+
+li {
+    display: inline;
+}

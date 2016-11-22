@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Car Connection</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animations.css">
+    </head>
+    <body data-ng-app="carConn">
+        <header>
+            <nav>
+                <img src="img/car.png" alt="menu logo"><br />
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#/find">admin</a></li>
+                    <li><a href="#/sellers">seller</a></li>
+                    <li><a href="#/buyers">buyer</a></li>
+                    <li><a href="#/about">about</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="main-content" data-ng-view></div>
+        </section>
+        <script src="js/vendor/angular.js"></script>
+        <script src="js/vendor/angular-route.js"></script>
+        <script src="js/vendor/angular-animate.js"></script>
+        <script src="js/vendor/angular-resource.js"></script>
+        <script src="app.js"></script>
+        <script src="controllers/MainController.js"></script>
+    </body>
+</html>

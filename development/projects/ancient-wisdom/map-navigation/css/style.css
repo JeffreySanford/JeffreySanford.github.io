@@ -1,0 +1,7 @@
+body {
+    background: white;
+}
+#regions_div {
+    margin: 0 auto;
+    border: 1px solid green;
+}

@@ -1,0 +1,19 @@
+<table id="OwnerList" class="table-striped">
+    <tr><th>ID</th><th>name</th><th>year</th><th>color</th><th>car</th></tr>
+    <tr data-ng-repeat="owner in owners">
+        <td>{{ owner.id }}</li></td>
+        <td>{{ owner.name }}</td>
+        <td>{{ owner.year }}</td>
+        <td>{{ owner.color }}</td>
+        <td>{{ owner.car }}</td>
+    </tr>
+</table>
+
+<br />
+
+<div id="filteringSection">
+    <p>Location: <input type="text" ng-model="location" /></p>
+    <p>Within: <input id="rangeOfSearch" class="sliderWidth150" type="range" min="0" max="500" step="50" value="100" ng-model="rangeOfSearch" />
+    <b>{{ rangeOfSearch }} miles </b></p><br />
+    <p>Within {{ rangeOfSearch }} miles of {{ location }} we have the                         following records:</p>
+</div>

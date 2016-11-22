@@ -1,0 +1,30 @@
+<h1>{{title}}</h1>
+<p>{{page}}</p>
+<p>{{pageDescription}}</p>
+<p>Box layout Style</p>
+<div id="articles-box-style" ng-repeat="recipe in json.recipes">
+  <a href="#/recipes/{{recipe.id}}">
+    <img ng-src="{{ recipe.featuredImage }}" />
+    <p id="box-style-title">{{ recipe.title }}</p>
+    <p>{{ recipe.author }}</p>
+    <p class="teaser">{{ recipe.teaser }}</p>
+  </a>
+</div>
+
+<p class="clearfix">Something about recipes will show up here.</p>
+<p>Listing Layout Style</p>
+<div id="articles-listing" ng-repeat="recipe in json.recipes">
+  <a href="#/recipes/{{recipe.id}}">
+    <img ng-src="{{ recipe.featuredImage }}" />
+    <p id="title">{{recipe.title}}</p>
+    <p id="author"> by {{recipe.author}}</p>
+    <p class="teaser" style="float:left;">{{recipe.teaser}}</p>
+    <div class="clearfix"></div>
+  </a>
+</div>
+<div id="data-display">
+  <p>Data used:  JSON data file called recipesData.json with the array of recipes</p>
+  <div id="data-display-data" ng-repeat="recipe in json.recipes">
+    <p>{{recipe}}</p>
+  </div>
+</div>

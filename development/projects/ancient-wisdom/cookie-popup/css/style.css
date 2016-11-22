@@ -1,0 +1,15 @@
+#container {
+	background-color: whitesmoke;
+	width: 90%;
+	margin 0 auto;
+}
+
+footer {
+	bottom: 50px;
+}
+
+#targetContent {
+	margin: 50px 200px;
+	font-size: 3em;
+	color: blue;
+}

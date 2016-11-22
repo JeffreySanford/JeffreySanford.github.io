@@ -1,0 +1,111 @@
+Try this, and see if it works for you:
+
+<script type="text/javascript" onerror="throw('An error occurred')" src="http://connect.facebook.net/en_US/all.js"></script>
+
+Alternatively, if you have access to a proxy script to grab external content I would use it via an 
+xmlHttpRequest to grab the JS content. If it is successful, eval the content (yes, eval is evil, I know).
+
+
+Jasmine and HTMLreporter:
+
+Sharing you JavaScript Ninja secrets: Run your jasmine tests on jsFiddle
+https://opensas.wordpress.com/2013/06/23/sharing-you-javascript-ninja-secrets-run-your-jasmine-tests-on-jsfiddle/
+
+JSFiddle
+http://jsfiddle.net/opensas/3VuGs/
+
+Modularity:
+
+http://eloquentjavascript.net/1st_edition/chapter9.htm
+"
+
+Script Object Properties
+Property	Description
+async		Sets or returns whether a script should be executed asynchronously as soon as it is available
+charset		Sets or returns the value of the charset attribute of a script
+crossOrigin	Sets or returns the the CORS settings of a script
+defer		Sets or returns whether a script should be executed when the page has finished parsing
+*src		Sets or returns the value of the src attribute of a script
+text		Sets or returns the contents of all the text nodes that are children of a script
+type		Sets or returns the value of the type attribute of a script
+
+var x = document.scripts
+ onsole.log(x);
+
+
+Simple file check:
+
+var fs = require('fs');
+
+fs.exists(path, function(exists) {
+    if (exists) {
+        // Do something
+    }
+});
+
+
+
+Node Helper Functions:
+Syntax errors:  	https://www.npmjs.com/package/syntax-error
+
+
+
+In plain Javascript:
+try/catch		http://www.javascriptkit.com/javatutors/trycatch.shtml
+try/catch/onerror 	http://www.javascriptkit.com/javatutors/trycatch2.shtml
+
+Testing with jslint in node:
+http://blog.simplytestable.com/installing-jslint-for-command-line-use-on-ubuntu/
+
+http://www.redotheweb.com/2013/01/15/functional-testing-for-nodejs-using-mocha-and-zombie-js.html
+Functional Testing For Node.js Using Mocha and Zombie.js
+
+Project requirements:
+
+What I'm imagining is that you have a set of URLs, and it loads each URL, and if any JavaScript errors are 
+detected, it reports it somehow. Not sure if you can do that with Mocha, since it's got so much that I haven't 
+had time to comb through the docs.
+
+So for you to build a simple version, I imagine create a few simple webpages that include JavaScript files. 
+Than in one of the files, put something that causes the browser to throw a JS error, and try to get that error 
+to report somewhere on a page or something.
+
+
+
+Roy Osherove - "JS Unit Testing Good Practices and Horrible Mistakes"
+https://www.youtube.com/watch?v=iP0Vl-vU3XM
+
+Unit Testing Express Middleware / TDD with Express and Mocha
+https://www.youtube.com/watch?v=BwNMUVzo3vs
+
+
+Jasmine and Mocha both have test runners.
+
+Karma is a test runner under NodeJS that executes code on real browsers as well as phones and tablets.
+http://karma-runner.github.io/0.12/index.html
+https://www.youtube.com/watch?v=MVw8N3hTfCI
+
+npm install karma (-g)
+
+It supports testing agnostic supporting frameworks, "Describe your tests with Jasmine, Mocha, QUnit, or 
+write a simple adapter for any framework you like."
+
+
+Testing Frameworks:
+
+Jasmine:  http://jasmine.github.io/
+	- HTMLGoodies:  http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html
+
+	- video:  Derek Stobbe: (ng-Centric) Testing Angular using Karma and Jasmine  (https://www.youtube.com/watch?v=Mu9c6-thcVU)
+
+Mocha:  http://mochajs.org/
+
+
+
+Interesting article on differences, slanted toward jasmine:
+http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html
+"In conclusion, the Jasmine framework has everything built into it including assertions and mocking utilities (which are called spies). Mocha is just a test runner and does not include assertion and mocking utilities. There are several choices for assertions when using Mocha, and Chai seems to be very popular choice. Mocking in Mocha also requires another library, and Sinon.js seems to be the de-facto choice. Sinon can also be a great addition to your test harness if you are using Jasmine for its fake server implementation"
+
+
+Mocha favored (async function can be tested with done(), ):
+http://www.techtalkdc.com/which-javascript-test-library-should-you-use-qunit-vs-jasmine-vs-mocha/

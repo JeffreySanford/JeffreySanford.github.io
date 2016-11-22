@@ -1,0 +1,91 @@
+<% if (title === 'Landing') {
+	if (usersObject !== 'undefined') {
+		console.log("users object triggered.")
+	} else {
+		console.error("users not found.");
+	} %>
+	<div class="objects-insert">
+		<div class="row-centered">
+			<div class="row">
+				<ul>
+					<% for (key in usersObject) { %>
+						<% var url = '/user:' + usersObject[key].id; %>
+						<div class="col-lg-3 col-md-3 col-sm-4 text-center">
+							<li>
+								<a href= <%= url %>>
+									<img src="https://placehold.it/200x200">
+									<p class="text-center"><%= usersObject[key].name %></p>			
+								</a>
+							</li>
+						</div> <!--col class end -->
+					<% } %>
+				</ul>
+			</div> <!-- row class end -->
+		</div> <!-- row-centered class end -->
+	</div> <!--array-insert class end -->
+<% } else if (title === 'User') { 
+	if (usersObject !== 'undefined') {
+		console.log("user object triggered.");
+	} else {
+		console.error("users object not found.");
+	} %>
+	<p>Requested User is <%= item %></p>
+	<% for (key in usersObject) {
+		console.log(usersObject[key].id + " key triggered.")
+		console.log("item is currently " + item);
+		if (usersObject[key].id === item) { %>
+			<div style="width: 80%; margin: 0 auto;">
+				<img src="https://placehold.it/400x400" style="float: left; margin-right: .5em;">
+				<h2 style="text-align: left;">Artist Name: <%= usersObject[key].artistName %>
+				<br><br>
+				<p style="text-align: left; font-size: .8em;">Artist description: 
+				<!-- <%= usersObject[key].userDescription %> -->
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam repudiandae, minima voluptatibus numquam quos obcaecati consequatur eligendi fugit saepe vero iste beatae impedit quis voluptatem, eos placeat sapiente tenetur, eum.</p>
+				<div class="clearfix"></div>
+				<br><br>
+				<p>Artist image is not located at: <%= usersObject[key].artistImage %></p>
+			</div>
+		<% } %> <!-- End user loop -->
+	<% } %> <!-- End user function-->
+<% } else if (title === 'Products') { %>
+	<% if (productsObject !== 'undefined') {
+		console.log("products object trigged.")
+	} else {
+		console.error("productsObject not found.");
+	} %>
+	<div class="objects-insert">
+		<div class="row-centered">
+			<div class="row">
+				<ul>
+					<% for (key in productsObject) { %>
+						<% var url = '/products:' + productsObject[key].id; %>
+						<div id="product-box" class="col-lg-3 col-md-3 col-sm-4 text-center">
+							<li>
+								<a href= <%= url %>>
+									<img src="https://placehold.it/200x200">
+									<p class="text-center"><%= productsObject[key].productName %></p>
+								</a>
+							</li>
+						</div>
+					<% } %>
+				</ul>
+			</div> <!--row class end -->
+		</div> <!--row-center end -->
+	</div> <!--objects-insert class end -->
+<% } else if (title === 'Product') { 
+	console.log("product page trigged."); %>
+	<p>Requested Item is <%= item %></p>
+	<% for (key in productsObject) { %>
+		<% if (productsObject[key].id === item) { %>
+			<div style="width: 80%; margin: 0 auto;">
+				<img src="https://placehold.it/400x400" style="float: left; margin-right: .5em;">
+				<h2 style="text-align: left;">Product Name: <%= productsObject[key].productName %>
+				<br><br>
+				<p style="text-align: left; font-size: .8em;">Product Description: <%= productsObject[key].productDescription %></p>
+				<div class="clearfix"></div>
+				<br><br>
+				<p>Product image is not located at: <%= productsObject[key].productImage %></p>
+			</div>
+		<% } %>
+	<% } %> <!-- end product loop -->
+<% } %> <!-- end product function -->

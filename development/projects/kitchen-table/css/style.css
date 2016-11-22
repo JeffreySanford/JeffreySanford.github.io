@@ -1,0 +1,314 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: 'Noto Serif', serif;
+}
+
+h1 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+ul, menu, dir {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0;
+}
+
+#header {
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: .5em;
+}
+
+#header img {
+  float: left;
+  width: 150px;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#header h4 {
+  margin: 0;
+  padding:0;
+  font-style: italic;
+}
+
+#header #header-icons ul {
+  margin-top: -32px;
+  list-style:none;
+  float: right;
+}
+
+#header #header-icons li {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#header #header-icons li a {
+  text-decoration:none;
+}
+menu {
+  margin-right: -100px;
+}
+
+#header #nav {
+    margin-top: .5em;
+    width:500px;
+    float: right;
+}
+
+#header #nav ul {
+    list-style:none;
+    background-color:#64abfb;
+}
+
+#header #nav ul li {
+    display: inline-block;
+    line-height: 44px;
+}
+
+#header #nav ul li a {
+    margin: 10px;
+    color: #FFF;
+    padding: 4px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#header #nav ul li a:hover {
+    border-bottom: 3px #FFF solid;
+}
+
+#header #nav ul li .active {
+    border-bottom: 3px #FFF solid;
+}
+
+#left {
+  float: left;
+  width: 76%;
+  /* border: 1px solid blue; */
+  padding-left: 20px;
+}
+
+#left h1 {
+  font-size: 1.2em;
+}
+
+#left p {
+  font-size: .8em;
+}
+
+#right {
+  float: right;
+  width: 20%;
+  /* border: 1px solid green; */
+  margin-right: -26px;
+}
+
+#right img {
+  float:left;
+  width: 90px;
+  height: 100px;
+}
+
+#right p {
+  font-size: .6em;
+  padding: 0 1em;
+  text-align: left;
+}
+
+#footer {
+  clear: both;
+  width: 102.3%;
+  /* border: 1px solid red; */
+  height: 35px;
+  margin-top: 10px;
+}
+
+#footer #footer-social ul {
+  list-style:none;
+  float: left;
+  margin: -30px 0 0 10px;
+}
+
+#footer #footer-social li {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#footer #footer-social li a {
+  text-decoration:none;
+}
+
+#footer p {
+  font-size: .8em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+  margin: 0;
+}
+
+/* Specific article styling section */
+
+/*  Box style for article display */
+
+#articles-box-style {
+  float: left;
+  margin: 10px 20px 30px 0;
+  width: 350px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  font-size: .8em;
+}
+
+#articles-box-style img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 10px 20px 10px 10px;
+}
+
+#articles-box-style #box-style-title {
+  margin-top: 5px;
+}
+
+#articles-box-style a {
+  text-decoration: none;
+}
+
+#articles-box-style p {
+  margin: 0 20px;
+}
+
+#articles-box-style .teaser {
+  margin: 0 20px 20px;
+  font-style: italic;
+  color: green;
+}
+
+/* large display of article in a column */
+
+#articles-listing {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+}
+
+#articles-listing #title {
+  float:left;
+  margin-top: 5px;
+  color: black;
+  width: 40%;
+}
+
+#articles-listing #author{
+  float: right;
+  color: black;
+}
+
+#articles-listing #teaser {
+  float:left;
+  margin-top: 20px;
+  color: black;
+}
+
+#articles-listing a {
+  text-decoration: none;
+}
+
+#articles-listing img {
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+#articles-listing p {
+  font-size: .7em;
+  margin: 5px 0 0 20px;
+}
+
+#articles-listing .teaser {
+  font-style: italic;
+  color: green;
+}
+
+/* Recipe Articles */
+
+.recipeArticle h1 {
+  font-size: 1.2em;
+}
+
+.recipeArticle h2 {
+  font-size: 1em;
+}
+
+.recipeArticle h3 {
+  font-size: .9em;
+}
+
+.recipeArticle h4 {
+  font-size: .8em;
+}
+
+.recipeArticle h5 {
+  font-size: .7em;
+}
+
+.recipeArticle .author {
+  float: right;
+  margin: 0 2em 1em 0;
+}
+
+.recipeArticle p {
+  font-size: .7em;
+  line-height: 2em;
+  text-align: justify;
+  margin: 0 2em 20px;
+}
+
+.recipeArticle .credits {
+  font-size: .6em;
+  line-height: 1.5em;
+  margin-left: 3em;
+}
+
+.recipeArticle .description {
+  font-size: .6em;
+  font-style: italic;
+}
+
+.recipeArticle ul {
+  list-style-type: square;
+  margin: 0 1em 2em 4em;
+  line-height: 1.2em;
+  font-size: .8em;
+}
+
+.recipeArticle li {
+
+}
+
+/* Data Display region for testing purposes */
+
+#data-display {
+  font-size: .6em;
+  margin-bottom: 2em;
+}
+
+#data-display-data {
+  margin: 0 2em;
+}

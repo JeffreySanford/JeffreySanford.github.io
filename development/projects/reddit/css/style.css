@@ -1,0 +1,50 @@
+body {
+	background-color:  white;
+	width: 90%;
+	margin: 2em auto;
+	font-size: 1.2em;
+}
+
+.masthead {
+	border: 1px solid blue; 
+	margin-bottom: .5em; 
+	padding: 10px; 
+	background-color: whitesmoke;
+}
+
+.query-size{
+	float:right; 
+	text-align: right;
+}
+
+.card-style {
+	width: 100%;
+	background-color:  whitesmoke;
+	margin: 2% 0;
+}
+
+.lightBlue {
+	color: lightBlue;
+}
+
+.author {
+	font-size: .8em;
+}
+
+.comments {
+	font-size: .8em;
+}
+
+.flex-cards {
+	display: flex;
+}
+
+.flex-card {
+	justify-content: center;
+    margin: 10px;
+    min-width: 300px;
+}
+
+.shadow {
+	box-shadow: 3px 3px 5px #999999;
+3

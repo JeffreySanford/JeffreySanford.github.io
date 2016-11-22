@@ -1,0 +1,15 @@
+    .content-wrapper.ng-enter, .content-wrapper.ng-leave {
+      -webkit-transition: opacity ease-in-out 1000ms;
+      transition: opacity ease-in-out 1000ms;
+      position: absolute;
+      top: 5.15em;
+      right: 0;
+      bottom: 0;
+      left: 0; 
+    }
+    .content-wrapper.ng-enter, .content-wrapper.ng-leave.ng-leave-active {
+      opacity: 0;
+    }
+    .content-wrapper.ng-enter.ng-enter-active {
+      opacity: 1;
+    }

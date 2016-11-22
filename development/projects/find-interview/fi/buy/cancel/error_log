@@ -1,0 +1,3 @@
+[03-Aug-2015 23:12:43 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/buy/failed/index.php on line 27
+[03-Aug-2015 23:12:43 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ahmedbash/public_html/fi/buy/failed/index.php on line 27
+[03-Aug-2015 23:12:43 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ahmedbash/public_html/fi/buy/failed/index.php on line 27

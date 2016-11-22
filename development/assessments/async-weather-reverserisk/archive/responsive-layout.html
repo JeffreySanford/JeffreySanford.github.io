@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>7-Day Forecast</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!--  <style type="text/css"></style>  -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <div id="mainContent">
+      <h1>7-day Forecast</h1>
+      <select id="responsive-selector" onchange="OnSelectionChange (this)">
+        <option value="mobile" autofocus="true" class="mobile-layout">mobile layout</option>
+        <option value="web" class="web-layout">web layout</option>
+      </select>
+      <div id="current-weather">
+        <p>&nbsp;</p>
+      </div>
+      <div id="forecastTable"></div>
+      <div id="dayTable"></div>
+    </div>
+
+    <script src="js/responsive-table.js"></script>
+    <script src="js/current-weather.js"></script>
+    <!--  native only <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>  -->
+  </body>
+</html>

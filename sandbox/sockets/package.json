@@ -1,0 +1,22 @@
+{
+  "name": "sockets-sample",
+  "version": "1.0.0",
+  "description": "Simple sockets spin",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-express": "~1.2.1",
+    "grunt-open": "~0.2.3",
+    "grunt-parallel": "^0.4.1",
+    "matchdep": "~0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Sanford",
+  "license": "MIT"
+}
