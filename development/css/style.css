@@ -168,6 +168,13 @@ video {
 	margin: 0 auto 1.5em;
 }
 
+.project-buttons {
+	width: 100%;
+	display: relative;
+	bottom: 10px;
+  padding: 50px;
+}
+
 .project button {
 	width: 70px;
 	font-size: .8em;
@@ -184,14 +191,8 @@ video {
 	text-decoration: none;
 }
 
-.project-buttons {
-	width: 100%;
-	display: inline-block;
-	bottom: 10px;
-}
-
 .col-centered {
-    float: none;
+    float: left;;
     margin: 0 auto;
 }
 
