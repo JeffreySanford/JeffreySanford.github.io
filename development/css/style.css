@@ -104,16 +104,16 @@ video {
 
 .project-wrapper {
   margin-top: 0;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+	height:600px;
 }
 
 .project {
   padding: 10px;
   width: 340px;
-  height: 190px;
+  height: 200px;
   padding: 10px;
   background-color: #111;
   border: 2px solid #000;
@@ -153,7 +153,7 @@ video {
 .project .teaser {
 	font-size: .8em;
 	color: #FFF;
-	height:40px;
+	height:80px;
 	overflow:hidden;
 	margin: 1em 0 0 0;
 	text-align: right;
@@ -177,7 +177,7 @@ video {
 	border-radius: 3px;
 	color: black;
 	position: absolute;
-	bottom: -100px;
+	bottom: -80px;
 	right: 22px;
   background-color: teal;
 }
@@ -194,8 +194,7 @@ video {
 }
 
 #last-element {
-
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 footer {
@@ -205,11 +204,12 @@ footer {
   height: 30px; 
   text-align: center;
   background-color: #000;
-  margin: 10px auto 0;
+  margin: 20px auto 0;
 }
 
 footer p {
 	font-size: 1.2em;
 	padding: 5px;
 	color: #FFF;
+	opacity: 1;
 }
