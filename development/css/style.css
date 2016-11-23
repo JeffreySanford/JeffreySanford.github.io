@@ -3,7 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: auto;
+	overflow: hidden;
 }
 
 body {
@@ -101,14 +101,13 @@ video {
   margin-top: 60px;
 }
 
-
 .landing-wrapper {
   margin-top: 4.5em;
 }
 
 .project-wrapper {
   margin-top: 0;
-  overflow: hidden;
+  overflow: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -169,7 +168,7 @@ video {
 
 .project-buttons {
 	width: 100%;
-	position: relative;
+	position: inline-block;;
 	bottom: 10px;
   padding: 50px;
 }
@@ -181,7 +180,7 @@ video {
 	border-radius: 3px;
 	color: black;
 	margin:0 30px;
-  position: relative;
+  background-color: teal;
 }
 
 .project button:hover {
