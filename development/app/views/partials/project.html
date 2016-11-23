@@ -7,13 +7,13 @@
   	  <p class="title">{{ project.title }}</p>
 	    <p class="subtitle">{{ project.subtitle }}</p>
 	    <p class="teaser">{{ project.teaser }}</p>
-      <div class="project-button">
-        <span style="bacground-color: green;">
+	    <div class="row project-buttons">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-left">
           <a href='{{ project.git }}' target="_blank"><button>github</button></a>
-        </span>
-        <span style="bacground-color: yellow;">
+        </div><!-- ends project button -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-right">
           <a href='{{ project.url }}' target="_blank"><button>web</button></a>
-        </span>
+        </div><!-- ends project button -->
       </div><!-- ends the buttom row -->
     </div> <!-- ends boostrap well -->
   </div> <!-- ends angular repeat -->

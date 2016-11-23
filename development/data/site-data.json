@@ -38,7 +38,7 @@
       {
        "title":"Reddit",
        "subtitle":"Displays Reddit articles",
-       "teaser":"This collects articles from the business reddit section and displays them.",
+       "teaser":"RESTful data from the angular2 reddit section.",
        "git":"https://github.com/JeffreySanford/development/tree/master/assessments/reddit",
        "url":"../development/projects/reddit",
        "samples":":html",
@@ -126,7 +126,7 @@
       {
     	"title": "D3JS",
     	"subtitle": "Data Visualizations",
-    	"teaser": "The D3JS framework represents your data on the front-end with engaging animations, transitions and methods.",
+    	"teaser": "Represents your data on the front-end with engaging animations, transitions and methods.",
     	"url":  "../development/projects/D3JS",
     	"samples": ":angular",
         "git": "https://github.com/JeffreySanford/development/tree/master/projects/D3JS",

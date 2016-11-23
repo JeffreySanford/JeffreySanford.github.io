@@ -3,7 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 body {
@@ -156,6 +156,8 @@ video {
 .project .teaser {
 	font-size: .8em;
 	color: #FFF;
+	height:40px;
+	overflow:hidden;
 	margin: 1em 0 0 0;
 	text-align: right;
 }
@@ -168,18 +170,18 @@ video {
 
 .project-buttons {
 	width: 100%;
-	display: inline-block;;
-	bottom: 10px;
-  padding: 50px;
+	position: relative;
 }
 
 .project button {
 	width: 70px;
-	font-size: .8em;
+	font-size: .9em;
 	border: none;
 	border-radius: 3px;
 	color: black;
-	margin:0 30px;
+	position: absolute;
+	bottom: -100px;
+	right: 22px;
   background-color: teal;
 }
 
