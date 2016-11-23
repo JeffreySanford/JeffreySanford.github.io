@@ -182,10 +182,10 @@ video {
 	border-radius: 3px;
 	color: black;
 	margin:0 30px;
+  position: relative;
 }
 
 .project button:hover {
-	background-color: blue;
 	border: none;
 	color: white;
 	text-decoration: none;
