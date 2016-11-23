@@ -1,7 +1,7 @@
 <h2 style="clear: both; margin-top: 50px;">Projects Page</h2>
 <p class="description">These are development projects that are in various levels of development.  These all use javascript methods and various frameworks like AngularJS and ExpressJS, with the development code using the NodeJS framework.</p>
 <div class="project-wrapper">
-  <div ng-repeat="project in developmentProjects | filter:params.development_type" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+  <div ng-repeat="project in developmentProjects | filter:params.development_type" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
     <div class="well well-lg project individual-project">
       <img ng-src="{{ project.imageURL }}" alt="placeholder image">
 	    <p class="title">{{ project.title }}</p>
