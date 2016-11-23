@@ -3,7 +3,6 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: auto;
 }
 
 body {
@@ -36,7 +35,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 nav li {
@@ -78,7 +76,6 @@ nav li a:hover {
 	left: 0;
 	top: 0;
 	height: 200px;
-	overflow: hidden;
 	min-width: 300px;
 }
 
@@ -97,7 +94,7 @@ video {
   font-size: 1.2em; 
   color: white;
   width: 100%;
-  overflow: hidden;
+
   margin-top: 60px;
 }
 
@@ -107,7 +104,7 @@ video {
 
 .project-wrapper {
   margin-top: 0;
-  overflow: none;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
