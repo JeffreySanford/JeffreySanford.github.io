@@ -174,6 +174,7 @@ video {
 	border: none;
 	border-radius: 3px;
 	color: black;
+	margin:0 30px;
 }
 
 .project button:hover {
