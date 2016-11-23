@@ -3,7 +3,7 @@
 html, body {
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
-	overflow: scroll;
+	overflow: auto;
 }
 
 body {
