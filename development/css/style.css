@@ -159,7 +159,7 @@ video {
 	text-align: right;
 }
 
-.individual-project {
+/*.individual-project {
 	width: 300px;
 	height: 250px;
 	margin: 0 auto 1.5em;
@@ -168,7 +168,7 @@ video {
 .project-buttons {
 	width: 100%;
 	position: relative;
-}
+}*/
 
 .project button {
   width: 70px;
