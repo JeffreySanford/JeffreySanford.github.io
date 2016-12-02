@@ -188,10 +188,9 @@ video {
 }
 
 .col-centered {
-  float: left;;
+  float: none;;
   margin: 0 auto;
 }
-
 #last-element {
 	margin: 20px auto;
 }
