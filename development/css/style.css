@@ -176,7 +176,7 @@ video {
   border: none;
   border-radius: 3px;
   color: black;
-  position: absolute;
+  position: relative;
   right: 22px;
   background-color: teal;
 }
