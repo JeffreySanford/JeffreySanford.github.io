@@ -1,7 +1,7 @@
 <h2>Design Page</h2>
 <p class="description">These are design patterns and samples, from previous work in mockup, prototypes and proof of concepts.  I have broken them up into sub-sections to try to focus on the major methods that are being used in the designs.</p>
 <div class="project-wrapper">
-  <div ng-repeat="project in designProjects | filter:params.design_type" class="ol-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div ng-repeat="project in designProjects | filter:params.design_type" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
     <div class="well well-lg project individual-project">
       <img ng-src="{{ project.imageURL }}" alt="placeholder image">
 	    <p class="title">{{ project.title }}</p>
