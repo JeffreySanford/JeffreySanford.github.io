@@ -1,13 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic);
 
-html, body {
+html {
+  margin: 100px;
 	height: 100%;
 	font-family: 'Noto Sans', sans-serif;
 }
 
 body {
-	width: 95%;
-	margin: 1em auto;
 	background-color: #000;
 	height: 90%;
 }
@@ -133,6 +132,7 @@ video {
   padding:50px;
   height: 350px;
   background:#95DEE3; /* teal color called Island Paradise */
+  opacity: .9;
   color: #004B8D; /* dark blue color called Lapis Blue */
   border-radius: 50%;
   padding: 50px;
@@ -143,20 +143,6 @@ video {
 }
 .rotate:hover {
   transition: all 1s ease-in-out;
-}
-
-.project-highlight:hover img {
-  filter: invert(100%);
-  float: left;
-}
-.project-highlight:hover .teaser {
-  position: relative;
-  font-size: 1.1em;
-  float:left;
-  margin-bottom: 25px;
-}
-.project-highlight:hover button {
-  color: white;
 }
 
 .project img {
@@ -209,6 +195,35 @@ video {
   float: none;;
   margin: 0 auto;
 }
+.project-highlight:hover img {
+  filter: invert(100%);
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+  /*border-radius: 75px;*/
+}
+.project-highlight:hover .title {
+  font-size: 1.0em;
+	text-align: left;
+}
+.project-highlight:hover .subtitle {
+  font-size: .8em;
+	text-align: left;
+
+}
+.project-highlight:hover .teaser {
+  position: relative;
+  font-size: .8em;
+  text-align: left;
+  margin-bottom: 25px;
+} 
+
+.project-highlight:hover button {
+  color: white;
+}
+
 #last-element {
 	margin: 20px auto;
 }
