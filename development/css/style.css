@@ -102,12 +102,12 @@ video {
   margin-top: 4.5em;
 }
 
-.projects {
+.projects-center {
   margin: 0 auto;
 }
 
 .project-wrapper {
-  margin-top: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

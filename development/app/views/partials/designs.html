@@ -1,16 +1,14 @@
 <h2>{{ title }} Page</h2>
 <p class="description">These are design patterns and samples, mockups, prototypes and proof of concepts.</p>
   <div class="project-wrapper">
-    <div class="row">
-      <div ng-repeat="project in designTypes" class="ol-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <a href="{{ project.url }}" style="text-decoration: none;">
-          <div class="well well-lg project" style="margin-top: 3em;">
-	          <img ng-src="{{ project.imageURL }}" alt="placeholder image">
-	          <p class="title">{{ project.title }}</p>
-	          <p class="subtitle">{{ project.subtitle }}</p>
-	          <p class="teaser">{{ project.teaser }}</p>
-	        </div> <!-- ends boostrap well -->
-	      </a>
-      </div> <!-- ends angular repeat -->
-   </div> <!-- end boostrap row -->
+    <div ng-repeat="project in designTypes" class="col-centered col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <a href="{{ project.url }}" style="text-decoration: none;">
+        <div class="well well-lg project" style="margin-top: 3em;">
+          <img ng-src="{{ project.imageURL }}" alt="placeholder image">
+          <p class="title">{{ project.title }}</p>
+          <p class="subtitle">{{ project.subtitle }}</p>
+          <p class="teaser">{{ project.teaser }}</p>
+        </div> <!-- ends boostrap well -->
+      </a>
+    </div> <!-- ends angular repeat -->
 </div> <!-- end project-wrapper -->
