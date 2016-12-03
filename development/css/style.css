@@ -171,15 +171,15 @@ video {
 }*/
 
 .project button {
-  width: 100px;
+  /*width: 100px;*/
   font-size: .9em;
   border: none;
   border-radius: 3px;
   color: black;
   position: relative;
-  right: 22px;
-  background-color: lightBlue;
-  
+  /*right: 22px;*/
+  background-color: red;
+
   /*background-color: #CE3175;*/
 }
 
