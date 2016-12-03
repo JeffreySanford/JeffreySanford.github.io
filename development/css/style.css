@@ -178,7 +178,8 @@ video {
   color: black;
   position: relative;
   right: 22px;
-  background-color: #CE3175;
+  background-color: lightBlue;
+  /*background-color: #CE3175;*/
 }
 
 .project button:hover {
