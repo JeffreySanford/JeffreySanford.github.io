@@ -3,7 +3,6 @@
 html {
   margin-top: 25px;
 	height: 100%;
-
 }
 
 body {
@@ -11,14 +10,17 @@ body {
 	height: 90%;
   width: 100%;
   font-family: 'Noto Sans', sans-serif;
+  margin: 0 75px;
 }
 
 #masthead {
     height: 60px;
+    margin-left: -150px;
+    margin-top: -25px;
 }
 
 #masthead h1 {
-	margin: .1em 0 .1em .25em;
+	/*margin: .1em 0 .1em .25em;*/
 	color: #95DEE3; /* teal color called Island Paradise */
 	float: left;
 	font-size: 3.5em;
@@ -29,13 +31,14 @@ body {
 }
 
 #masthead p {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 nav li {
