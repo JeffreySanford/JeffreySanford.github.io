@@ -109,12 +109,22 @@ video {
 	height:600px;
   margin-top: 3em;
 }
+/* The starting CSS styles for the enter animation */
+.fade.ng-enter {
+  transition:5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-enter.ng-enter-active {
+  opacity:1;
+}
 
 .project {
   color: #FFF;
   padding: 10px;
   width: 340px;
-  height: 200px;
+  height: 220px;
   padding: 10px;
   background-color: #111;
   border: 2px solid #000;
@@ -206,6 +216,7 @@ video {
 .project-highlight:hover .title {
   font-size: 1.0em;
 	text-align: left;
+  margin-top: 50px;
 }
 .project-highlight:hover .subtitle {
   font-size: .8em;
