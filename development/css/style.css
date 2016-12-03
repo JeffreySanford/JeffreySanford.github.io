@@ -18,7 +18,7 @@ body {
 
 #masthead h1 {
 	margin: .1em 0 .1em .25em;
-	color: #00BFFF;
+	color: #95DEE3; /* teal color called Island Paradise */
 	float: left;
 	font-size: 3.5em;
 }
@@ -47,7 +47,7 @@ nav li {
 nav li a {
   font-size: 2.2em;
   display: block;
-  color: #00BFFF;
+  color: #95DEE3; /* teal color called Island Paradise */
   text-align: center;
   text-decoration: none;
   background-color: rgba(0, 0, 0, .6);
@@ -102,6 +102,10 @@ video {
   margin-top: 4.5em;
 }
 
+.projects {
+  margin: 0 auto;
+}
+
 .project-wrapper {
   margin-top: 0;
   display: flex;
@@ -111,6 +115,7 @@ video {
 }
 
 .project {
+  color: #FFF;
   padding: 10px;
   width: 340px;
   height: 200px;
@@ -119,15 +124,35 @@ video {
   border: 2px solid #000;
 }
 
-
 .project:hover {
   border: 2px solid blue;
+  transform: rotate(360deg);
+  width: 350px;
+  padding:50px;
+  height: 350px;
+  background:#95DEE3; /* teal color called Island Paradise */
+  color: #004B8D; /* dark blue color called Lapis Blue */
+  border-radius: 50%;
+  padding: 50px;
 }
-
-.project p {
-  color: #FFF;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+.project:hover img {
+  filter: invert(100%);
+  float: left;
+}
+.project:hover .teaser {
+  position: relative;
+  font-size: 1.1em;
+  float:left;
+  margin-bottom: 25px;
+}
+.project:hover button {
+  color: white;
+}
+.rotate {
+  transition: all 0.5s ease-in-out;
+}
+.rotate:hover {
+  transition: all 1s ease-in-out;
 }
 
 .project img {
@@ -140,51 +165,38 @@ video {
 
 .project .title {
 	font-size: 1.2em;
-	color: #FFF;
 	text-align: right;
 }
 
 .project .subtitle {
 	font-size: .9em;
-	color: #FFF;
 	text-align: right;
 }
 
 .project .teaser {
 	font-size: .8em;
-	color: #FFF;
 	height:80px;
 	overflow:hidden;
 	margin: 1em 0 0 0;
 	text-align: right;
 }
 
-/*.individual-project {
-	width: 300px;
-	height: 250px;
-	margin: 0 auto 1.5em;
+.project .button-row {
+  margin: -10px 20px;
 }
-
-.project-buttons {
-	width: 100%;
-	position: relative;
-}*/
-
 .project button {
-  /*width: 100px;*/
+  width: 70px;
   font-size: .9em;
   border: none;
   border-radius: 3px;
   color: black;
-  position: relative;
-  /*right: 22px;*/
-  background-color: red;
-
-  /*background-color: #CE3175;*/
+  background-color: #B76BA3; /*purple color called Bodacious */
+  opacity: .7;
 }
 
 .project button:hover {
 	border: none;
+  background-color: #B76BA3; /*purple color called Bodacious */
 	color: white;
 	text-decoration: none;
 }
