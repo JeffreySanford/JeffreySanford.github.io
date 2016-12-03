@@ -102,16 +102,13 @@ video {
   margin-top: 4.5em;
 }
 
-.projects-center {
-  margin: 0 auto;
-}
-
 .project-wrapper {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 	height:600px;
+  margin-top: 3em;
 }
 
 .project {
@@ -126,6 +123,11 @@ video {
 
 .project:hover {
   border: 2px solid blue;
+
+}
+
+.project-highlight:hover {
+  border: 2px solid blue;
   transform: rotate(360deg);
   width: 350px;
   padding:50px;
@@ -135,24 +137,26 @@ video {
   border-radius: 50%;
   padding: 50px;
 }
-.project:hover img {
-  filter: invert(100%);
-  float: left;
-}
-.project:hover .teaser {
-  position: relative;
-  font-size: 1.1em;
-  float:left;
-  margin-bottom: 25px;
-}
-.project:hover button {
-  color: white;
-}
+
 .rotate {
   transition: all 0.5s ease-in-out;
 }
 .rotate:hover {
   transition: all 1s ease-in-out;
+}
+
+.project-highlight:hover img {
+  filter: invert(100%);
+  float: left;
+}
+.project-highlight:hover .teaser {
+  position: relative;
+  font-size: 1.1em;
+  float:left;
+  margin-bottom: 25px;
+}
+.project-highlight:hover button {
+  color: white;
 }
 
 .project img {
