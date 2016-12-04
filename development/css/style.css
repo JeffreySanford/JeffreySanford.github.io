@@ -8,15 +8,14 @@ html {
 body {
 	background-color: #000;
 	height: 90%;
-  width: 100%;
+  width: 90%;
   font-family: 'Noto Sans', sans-serif;
-  margin: 0 75px;
 }
 
 #masthead {
     height: 60px;
-    margin-left: -150px;
-    margin-top: -25px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 #masthead h1 {
@@ -27,11 +26,11 @@ body {
 }
 
 #masthead h2 {
-	margin-top: 34px;
+	margin-top: 2.5em;
 }
 
 #masthead p {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 nav ul {
@@ -105,6 +104,8 @@ video {
 .portfolio-template h2 {
   font-size: 3em;
   color: #B76BA3; /*purple color called Bodacious */
+  margin: 25px 0 40px 0;
+
 }
 .portfolio-template p {
   font-size: 1.2em;
@@ -133,13 +134,6 @@ video {
 .project:hover {
   border: 2px solid blue;
 
-}
-
-.rotate {
-  transition: all 0.5s ease-in-out;
-}
-.rotate:hover {
-  transition: all 1s ease-in-out;
 }
 
 .project img {
@@ -192,30 +186,69 @@ video {
   margin: 0 auto;
 }
 
+/*
+#box {
+  position : relative;
+  width : 100px;
+  height : 100px;
+  background-color : gray;
+  border : 5px solid black;
+  -webkit-transition : border 500ms ease-out;
+  -moz-transition : border 500ms ease-out;
+  -o-transition : border 500ms ease-out;
+  transition : border 500ms ease-out;
+}
+
+#box:hover {
+   border : 10px solid red;   
+}
+*/
+
+.project-highlight {
+  position: relative;
+  -webkit-transition : border 1500ms ease-out;
+  -moz-transition : border 1500ms ease-out;
+  -o-transition : border 1500ms ease-out;
+  transition : border 1500ms ease-out;
+}
+
+
+.rotate {
+  transition: all 2s ease-in-out;
+  transition: box-shadow 300ms ease-in-out;
+}
+.rotate:hover {
+  transition: all 2s ease-in-out;
+  box-shadow: 0 0 75px blue;
+}
+
 .project-highlight:hover {
-  border: 2px solid blue;
   transform: rotate(360deg);
   width: 320px;
-  padding: 0;
   height: 320px;
   background:#95DEE3; /* teal color called Island Paradise */
   color: black; /* dark blue color called Lapis Blue */
-  opacity: .9;
+  opacity: .8;
   border-radius: 50%;
-  padding: 50px;
+  padding: 0;
+  
+  margin-top: -50px;
+  outline: none;
+  border-color: lightblue;
 }
+
 .project-highlight:hover img {
   filter: invert(100%);
   position: relative;
   float: left;
-  margin-right: 15px;
-  width: 100px;
-  height: 100px;
-  margin: 0 10px 0 -10px;
+  width: 30%;
+  height: 30%;
+  margin: 30px 0 0 40px;
   z-index: -1;
   opacity: .6;
 }
 .project-highlight:hover .title {
+  margin-top: 50px;
   font-size: 1.3em;
 	text-align: left;
   z-index: 1;
@@ -230,7 +263,7 @@ video {
   position: relative;
   font-size: 1.1em;
   text-align: left;
-  margin-bottom: 25px;
+  margin: 0 1em 1em 2em;
   z-index: 1;
 } 
 

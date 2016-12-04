@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    article {
+  width :80%;
+  margin-left: 150px;
+  } 
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+    body {
+
+    }
+    
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* portrait phones */
+  body {
+
+  }
+  #masthead {
+    /* non defined */
+
+  }
+  #masthead #video-container {
+    height: 30%;
+  }
+  #masthead ul {
+    /* non defined */
+
+  }
+  #masthead ul h1 {
+    font-size: 1.2em;
+    margin-top: -10px;
+  }
+
+  #masthead ul li a {
+    clear: both;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  article {
+  width :60%;
+  margin-left: 150px;
+  } /* end of portrait phones */
+}
