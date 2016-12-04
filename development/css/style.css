@@ -124,7 +124,7 @@ video {
   color: #FFF;
   padding: 10px;
   width: 320px;
-  height: 180px;
+  height: 220px;
   padding: 10px;
   background-color: #111;
   border: 2px solid #000;
@@ -161,14 +161,14 @@ video {
 }
 
 .project .teaser {
-	font-size: .8em;
+	font-size: 1.1em;
 	height: 80px;
 	margin: 1em 0 0 0;
 	text-align: right;
 }
 
 .project .button-row {
-  margin: -10px 20px;
+  margin: 10px 20px 0;
 }
 .project button {
   width: 70px;
@@ -196,15 +196,14 @@ video {
   border: 2px solid blue;
   transform: rotate(360deg);
   width: 320px;
-  padding: 50px;
+  padding: 0;
   height: 320px;
   background:#95DEE3; /* teal color called Island Paradise */
+  color: black; /* dark blue color called Lapis Blue */
   opacity: .9;
-  color: #004B8D; /* dark blue color called Lapis Blue */
   border-radius: 50%;
   padding: 50px;
 }
-
 .project-highlight:hover img {
   filter: invert(100%);
   position: relative;
@@ -212,25 +211,34 @@ video {
   margin-right: 15px;
   width: 100px;
   height: 100px;
+  margin: 0 10px 0 -10px;
+  z-index: -1;
+  opacity: .6;
 }
 .project-highlight:hover .title {
-  font-size: 1.2em;
+  font-size: 1.3em;
 	text-align: left;
+  z-index: 1;
+
 }
 .project-highlight:hover .subtitle {
-  font-size: 1em;
+  font-size: .8em;
 	text-align: left;
-
+  z-index: 1;
 }
 .project-highlight:hover .teaser {
   position: relative;
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: left;
   margin-bottom: 25px;
+  z-index: 1;
 } 
 
 .project-highlight:hover button {
   color: white;
+  position: relative;
+  bottom: -10px;
+  z-index: 1;
 }
 
 #last-element {
