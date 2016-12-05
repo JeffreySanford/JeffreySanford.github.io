@@ -214,8 +214,8 @@ video {
 
 
 .rotate {
-  transition: all 2s ease-in-out;
-  transition: box-shadow 300ms ease-in-out;
+
+  transition: box-shadow 2900ms ease-out;
   box-shadow: 0 0 75px black;
 }
 .rotate:hover {
