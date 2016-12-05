@@ -1,8 +1,7 @@
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
     article {
-  width :80%;
-  margin-left: 150px;
+  width : 100%;
   } 
 }
 
@@ -43,7 +42,7 @@
     padding: 0;
   }
   article {
-  width :60%;
-  margin-left: 150px;
+  width : 90%;
+  margin-left: 0;
   } /* end of portrait phones */
 }
