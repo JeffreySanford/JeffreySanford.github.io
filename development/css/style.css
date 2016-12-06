@@ -104,10 +104,11 @@ video {
   margin-top: 4.5em;
 }
 .portfolio-template {
-  padding-top: 50px;
+  margin: 50px;
+  padding: 50px;
+  width: 90%;
   color: white;
   font-family: 'Noto Sans', sans-serif;
-
 }
 .portfolio-template h2 {
   font-size: 3em;
