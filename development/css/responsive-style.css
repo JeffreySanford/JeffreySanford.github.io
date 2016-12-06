@@ -37,20 +37,27 @@ body {
 
   }
   #masthead ul h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-top: -10px;
     align-items: left;
   }
   #masthead ul li {
     float: right;
     clear: right;
+    margin-right: 2em;
   }
   #masthead ul li a {
-    font-size: 1.5em;
+    font-size: 2em;
 
   }
   article {
   width : 100%;
   margin-left: -50px;
+    font-size: .8em;
+
+  }
+  article p {
+    text-align: left;
+  }
   } /* end of portrait phones */
 }
