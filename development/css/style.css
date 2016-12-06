@@ -306,5 +306,5 @@ footer img {
   -webkit-text-fill-color: blue;
 }
 footer .social {
-  margin-top: 50px;
+  margin-top: -50px;
 }
