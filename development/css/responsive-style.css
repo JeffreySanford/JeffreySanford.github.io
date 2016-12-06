@@ -36,10 +36,11 @@ body {
     
 
   }
-  #masthead ul h1 {
+  #masthead h1 {
     font-size: 3em;
-    margin-top: -10px;
-    align-items: left;
+    margin-top: -20px;
+    margin-left: 1em;
+
   }
   #masthead ul li {
     float: right;

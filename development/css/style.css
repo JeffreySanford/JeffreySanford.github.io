@@ -23,6 +23,7 @@ body {
 	color: #95DEE3; /* teal color called Island Paradise */
 	float: left;
 	font-size: 3.5em;
+  margin-left: .5em;
 }
 
 #masthead h2 {
