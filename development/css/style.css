@@ -68,7 +68,15 @@ nav li a:hover {
 	margin-top: 15px;
 	transform: scale(1.3);
 }
+/* Profile */
+.profile-content {
+  font-size: 1.2em; 
+  text-align: justify;
 
+}
+.profile-content p {
+  margin-bottom: 1em;
+}
 /*video section */
 
 #video-container {
@@ -206,20 +214,19 @@ video {
 
 .project-highlight {
   position: relative;
-  -webkit-transition : border 1500ms ease-in-out;
-  -moz-transition : border 1500ms ease-in-out;
-  -o-transition : border 1500ms ease-in-out;
-  transition : border 1500ms ease-in-out;
+  -webkit-transition : border 300ms ease-in-out;
+  -moz-transition : border 300ms ease-in-out;
+  -o-transition : border 300ms ease-in-out;
+  transition : border 300ms ease-in-out;
 }
 
 
 .rotate {
-
-  transition: box-shadow 2900ms ease-out;
+  transition: all 1s ease-in-out;
   box-shadow: 0 0 75px black;
 }
 .rotate:hover {
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
   box-shadow: 0 0 75px blue;
 
 }
@@ -306,5 +313,5 @@ footer img {
   -webkit-text-fill-color: blue;
 }
 footer .social {
-  margin-top: -50px;
+  margin-top: -10px;
 }
