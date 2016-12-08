@@ -50,11 +50,10 @@ body {
 
   }
   article {
-  width : 100%;
-  margin-left: -100px;
-  margin-right: -50px;
-  font-size: .8em;
-
+    width : 100%;
+    margin-left: -100px;
+    margin-right: -50px;
+    font-size: .8em;
   }
   article p {
     text-align: left;
