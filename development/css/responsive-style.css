@@ -4,25 +4,22 @@ body {
     width: 95%;
   }
 }
+.portfolio-template {
+  margin: -1em 0 0 0;
+}
 
 @media only screen and (max-width: 767px) {
     /* phones */
-
-  body {
-
-  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   /* portrait phones */
   body {
     width: 100%;
-    margin: 0 0 0 1.4em;
+    margin: 0 0 0 4.5em;
     padding: 0;
   }
-  body {
 
-  }
   #masthead {
     /* non defined */
     clear: both;
@@ -39,13 +36,14 @@ body {
   #masthead h1 {
     font-size: 3em;
     margin-top: -20px;
-    margin-left: 1em;
+    margin-left: -1em;
+    float: left;
 
   }
   #masthead ul li {
     float: right;
     clear: right;
-    margin-right: 2em;
+    margin-right: 6em;
   }
   #masthead ul li a {
     font-size: 2em;
