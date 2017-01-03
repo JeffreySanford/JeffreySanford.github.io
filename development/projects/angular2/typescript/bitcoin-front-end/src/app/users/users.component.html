@@ -1,0 +1,22 @@
+<div class="users-style">
+  <i class="fa fa-clock-o"></i>
+  <p>User Section</p>
+  
+  <div class="user-style" style="height: 150px;" *ngFor="let user of users">
+    <h5>{{user.first_name}}&nbsp;{{user.last_name}}</h5>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+      <img src={{user.avatar}} />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 user-report">
+      <p>Email: {{user.email}}</p>
+      <p>Currency: {{user.currency}} ({{user.currency_code}})</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <ul style="list-style-type: none; clear: both;">
+        <li><a href=""><i class="fa fa-pencil">change</i></a></li><br />
+        <li><a href=""><i class="fa fa-pencil">something</i></a></li><br />
+        <li><a href=""><i class="fa fa-pencil">else</i></a></li><br />
+      </ul>
+    </div>
+  </div>
+</div>

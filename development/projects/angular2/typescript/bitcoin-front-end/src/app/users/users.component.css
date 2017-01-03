@@ -1,0 +1,66 @@
+.users-style {
+  font-size:1.5em;
+  background-color:green;
+  color: black;
+  height: 25.25em;
+}
+
+.users-style i {
+  font-size: 2.0em; 
+  color: lightGreen;
+  margin: .1em .5em .1em .25em;
+  float: left;
+}
+
+.users-style p {
+  padding: .5em 0 0 1em;
+  color: lightGreen
+}
+
+
+.user-style {
+  margin: .35em;
+  background-color: lightgreen;
+  color: purple;
+  font-size: .8em;
+  padding-top: .5em;
+  height: 25em;
+
+}
+
+u {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float:right;
+}
+
+.user-style h5 {
+  font-size: 1.5em;
+  color: purple;
+  margin: .5em 0 .25em .25em;
+
+}
+
+.user-style p {
+  font-size: 1.2em;
+  color: black;
+  margin: 0 0 0 0;
+}
+
+.user-style i {
+  color: darkGreen;
+  margin: 0 .5em 0 .25em;
+  font-size: 1em;
+}
+
+.user-report p {
+  clear: both;
+  margin: 0 0 0 .25em;
+  font-size: 1.0em;
+  line-height: 1em;
+}
+
+.card {
+
+}

@@ -1,0 +1,38 @@
+.footer-style {
+  background-color:lightgreen;
+  color: darkgreen; 
+  font-size:1.5em;
+  clear:both;
+  margin: .15em .5em .25em .4em;
+}
+
+.nav {
+  height: 2em;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 .5em;
+}
+.nav li {
+}
+ 
+.nav li a {
+  float: left;
+  margin: .3em .25em .5em;
+  text-decoration: none;
+  display: block;
+  transition: .3s background-color;
+}
+
+i {
+  color: darkgreen;
+  font-size: .8em;
+  opacity: .5;
+
+}
+i:hover {
+    color: black; 
+    opacity: 1;
+}

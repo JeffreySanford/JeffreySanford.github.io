@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+/* light purple #ae6df8
+/* light 
+
+#f8ad6d         light orange
+#b7f86d         light green
+#6db7f8         light blue
+#ae6df8         light purple
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  margin: .25em;
+}

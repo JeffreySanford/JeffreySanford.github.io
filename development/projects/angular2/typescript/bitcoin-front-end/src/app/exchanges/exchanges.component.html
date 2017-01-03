@@ -1,0 +1,30 @@
+<div class="exchanges-style">
+  <i class="fa fa-clock-o"></i>
+  <p>Exchanges Section</p>
+  <div class="exchange-style" *ngFor="let exchange of exchanges">
+    <h5>{{exchange.trade_name}}({{exchange.report_type}})</h5>
+
+    <div class="data-table">
+      <table>
+        <tr>
+          <td>high: {{exchange.data.high}}</td>
+          <td>low: {{exchange.data.low}}</td>
+          <td>avg: {{exchange.data.avg}}</td>
+          <td>last: {{exchange.data.last}}</td>
+        </tr>
+        <tr>
+          <td>vol: {{exchange.data.vol}}</td>
+          <td>vol_cur: {{exchange.data.vol_cur}}</td>
+          <td>buy: {{exchange.data.buy}}</td>
+          <td>sell: {{exchange.data.sell}}</td>
+        </tr>
+        <tr>
+          <td>updated: {{exchange.data.updated}}</td>
+          <td>server_time: {{exchange.data.server_time}}</td>
+        </tr>
+      </table>
+      <p>something from REST here</p>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+.exchanges-style {
+    font-size:1.5em;
+    background-color:green; 
+    color: lightgreen;
+    height: 25em;
+}
+
+.exchanges-style i {
+  font-size: 2.0em; 
+  color: lightGreen;
+  margin: .1em .5em .1em .25em;
+  float: left;
+}
+
+.exchanges-style p {
+  float: left;
+  color: lightgreen;
+  margin: .5em 0 0 .1em;
+}
+
+.exchange-style {
+  margin: .25em .25em .25em .25em;
+  clear: both;
+  height: 150px;
+  background-color:lightgreen;
+  color: black;
+}
+
+.exchange-style h5 {
+  font-size: 1.2em;
+  color: purple;
+  margin: 0 0 .25em .25em;
+  padding-top: .9em;
+}
+
+.exchange-style p {
+  padding: 0 0 0 .5em;
+  font-size: 1.2em;
+  float: left;
+  color: black;
+}
+
+.data-table {
+  font-size: .6em;
+  clear: both;
+  margin-left: 2em;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+}

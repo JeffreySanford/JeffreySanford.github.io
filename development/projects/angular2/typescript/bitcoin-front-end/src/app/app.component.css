@@ -1,0 +1,25 @@
+
+.users {
+  padding: 0;
+  width:48%;
+  margin: .5em .5em .5em .75em;
+  display: flex;
+  flex-flow: column;
+  height: 80%;
+}
+
+.exchanges {
+  margin: .5em .75em .5em .5em;
+  padding:0;
+  width:48%;
+  border: 2px solid green;
+  display: flex;
+  flex-flow: column;
+  height: 80%;
+  float:right;
+}
+
+.footer-style {
+  margin: 0 .5em 0 1em;
+
+}

@@ -1,0 +1,51 @@
+.header-style {
+  background-color:lightgreen;
+  color: darkgreen; 
+  font-size:1.3em;
+  clear:both;
+  padding: .25em 0;
+  margin: .5em .5em 0 .5em;
+}
+
+.header-style h1 {
+  color: black;
+  margin: .25em 0 0 .25em;
+}
+
+.header-style h4 {
+  color: darkgreen;
+  margin: .25em 0 0 .5em;
+  font-style: italic;
+}
+.nav {
+  height: 4em;
+  margin: 0 .5em 0 0;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: -2em 0 0 0;
+}
+
+.nav li {
+}
+ 
+.nav li a {
+  float: right;
+  margin:0 .5em 0;
+  text-decoration: none;
+  display: block;
+}
+
+i {
+  float: right;
+    color: darkgreen;
+    font-size: 1.1em;
+    margin-left: .5em;
+    transition: .3s background-color;
+}
+
+i:hover {
+  color: darkblue;
+}
